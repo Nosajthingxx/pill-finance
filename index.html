@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>pill.finance — skim-and-go market intelligence</title>
-<meta name="description" content="What happened, why it matters, what to watch. 19 assets across FX, commodities, indices, crypto and stocks. Two briefings a day. 10 minutes flat.">
+<meta name="description" content="What happened, why it matters, what to watch. 19 assets across FX, commodities, indices, crypto and stocks. Twice daily, Monday–Friday. 10 minutes flat.">
 <meta name="theme-color" content="#0A0E14">
 <meta property="og:title" content="pill.finance — skim-and-go market intelligence">
-<meta property="og:description" content="One click per asset. Past, why, watch. Done in 10 minutes.">
+<meta property="og:description" content="One click per asset. Past, why, watch. Twice daily, Monday–Friday.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pill.finance">
 <meta name="twitter:card" content="summary_large_image">
@@ -409,67 +409,61 @@
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
-  .briefing-list { list-style: none; }
-  .briefing-list li {
-    padding: 10px 0;
-    border-bottom: 1px dashed var(--border);
-    font-size: 13.5px;
+  .briefing-body {
+    font-size: 14px;
     color: var(--text);
-    line-height: 1.55;
-    display: flex;
-    gap: 10px;
+    line-height: 1.6;
   }
-  .briefing-list li:last-child { border-bottom: none; }
-  .briefing-list li .marker {
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--text-faint);
-    flex-shrink: 0;
-    padding-top: 3px;
-    min-width: 28px;
-  }
-  .briefing-list li .text strong {
-    color: var(--text);
-    font-weight: 600;
-  }
-  .briefing-list li .text em {
-    color: var(--lime);
-    font-style: normal;
+
+  /* Levels block on detail */
+  .levels-block {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px 22px;
+    margin-bottom: 32px;
     font-family: var(--mono);
     font-size: 12px;
+    color: var(--text-dim);
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
   }
+  .levels-block .group b { color: var(--text-faint); font-weight: 500; margin-right: 6px; text-transform: uppercase; letter-spacing: 0.8px; font-size: 10px; }
+  .levels-block .lvl { color: var(--text); margin-right: 8px; }
 
-  /* Watch list — calendar style */
-  .briefing-section.watch .briefing-list li .marker {
-    color: var(--lime);
-    font-weight: 600;
-    min-width: 60px;
+  /* Headlines list */
+  .headlines-block {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 18px 22px 20px;
+    margin-bottom: 32px;
   }
-
-  /* Related row */
-  .related-block {
-    border-top: 1px solid var(--border);
-    padding-top: 24px;
-    margin-top: 12px;
-  }
-  .related-label {
+  .headlines-label {
     font-family: var(--mono);
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--text-dim);
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
-  .related-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    overflow: hidden;
+  .headlines-list { list-style: none; }
+  .headlines-list li { padding: 6px 0; font-size: 13px; }
+  .headlines-list li a { color: var(--text); text-decoration: none; }
+  .headlines-list li a:hover { color: var(--lime); }
+  .headlines-list li .src { font-family: var(--mono); font-size: 10px; color: var(--text-faint); margin-left: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Loading + error states */
+  .loading, .error-state {
+    text-align: center;
+    padding: 80px 24px;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 13px;
   }
+  .error-state { color: var(--red); }
 
   /* Footer */
   footer.app {
@@ -492,19 +486,6 @@
   .footer-inner .right { color: var(--text-faint); }
   .footer-inner .lime { color: var(--lime); }
 
-  /* Mockup banner */
-  .mock-banner {
-    background: linear-gradient(90deg, rgba(190, 242, 100, 0.08), transparent);
-    border-bottom: 1px solid var(--border);
-    padding: 8px 24px;
-    text-align: center;
-    font-family: var(--mono);
-    font-size: 10.5px;
-    color: var(--text-dim);
-    letter-spacing: 0.5px;
-  }
-  .mock-banner b { color: var(--lime); }
-
   @media (max-width: 700px) {
     .detail-hero .ticker-big { font-size: 32px; }
     .detail-hero .price-big { font-size: 26px; }
@@ -516,15 +497,9 @@
 </head>
 <body>
 
-<div class="mock-banner">
-  <b>PREVIEW</b> &nbsp;·&nbsp; pill.finance v0 &nbsp;·&nbsp; sample briefings · full launch coming soon &nbsp;·&nbsp; click <b>EURUSD</b> in the nav to see a full briefing
-</div>
-
 <!-- Ticker tape -->
 <div class="ticker-tape">
-  <div class="ticker-track" id="tickerTrack">
-    <!-- doubled for seamless loop -->
-  </div>
+  <div class="ticker-track" id="tickerTrack"></div>
 </div>
 
 <!-- Header -->
@@ -532,17 +507,16 @@
   <div class="header-inner">
     <div style="display: flex; align-items: center; gap: 24px;">
       <div class="logo">pill<span class="dot">.</span>finance</div>
-      <div class="status-pill">
+      <div class="status-pill" id="statusPill">
         <span class="live-dot"></span>
         <span>LAST BRIEF</span>
-        <span class="label">08:00 UTC</span>
-        <span class="next">· next 16:00</span>
+        <span class="label" id="lastBriefLabel">—</span>
+        <span class="next" id="nextBriefLabel"></span>
       </div>
     </div>
     <nav class="app-nav">
-      <button class="active" onclick="show('home')">HOME</button>
-      <button onclick="show('detail')">EURUSD</button>
-      <button>METHOD</button>
+      <button class="active" id="navHome" onclick="show('home')">HOME</button>
+      <button id="navMethod">METHOD</button>
       <button class="pro-btn">PRO · $7</button>
     </nav>
   </div>
@@ -556,381 +530,250 @@
 <section class="view active" id="view-home">
 
   <div class="sub-hero">
-    <h1>// 19 ASSETS · 2 BRIEFINGS / DAY · 10 MIN READ</h1>
+    <h1>// 19 ASSETS · TWICE DAILY · MON–FRI · 10 MIN READ</h1>
     <p>Skim-and-go market intelligence.<br>What happened, why it matters, <span class="accent">what to watch.</span></p>
-    <div class="meta">
-      <span><span class="dot"></span>Refreshed 08:00 UTC · 2h ago</span>
-      <span><span class="dot"></span>Next refresh 16:00 UTC · in 6h</span>
-      <span><span class="dot"></span>All times UTC · prices indicative</span>
+    <div class="meta" id="heroMeta">
+      <span><span class="dot"></span><span id="heroLastUpdated">Loading…</span></span>
+      <span><span class="dot"></span><span id="heroNextRefresh">—</span></span>
+      <span><span class="dot"></span>All times TRT · prices indicative</span>
     </div>
   </div>
 
-  <!-- FX -->
-  <div class="category-block">
-    <div class="category-header">
-      <div class="left">
-        <span class="category-name">FX</span>
-        <span class="category-count">04 PAIRS</span>
-      </div>
-      <span class="category-meta">DXY 104.21 <span class="up">+0.18%</span></span>
-    </div>
-    <div class="asset-grid">
-      <div class="asset-card" onclick="show('detail')">
-        <div class="row1">
-          <span class="ticker">EURUSD</span>
-          <span class="read-arrow">→</span>
-        </div>
-        <span class="name">Euro / US Dollar</span>
-        <span class="price">1.0832</span>
-        <span class="change down">▼ -0.42% · -45 pips</span>
-        <div class="briefing-teaser">ECB minutes flag sticky services inflation; market priced out one 2026 cut.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">GBPUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Pound / US Dollar</span>
-        <span class="price">1.2654</span>
-        <span class="change down">▼ -0.21% · -27 pips</span>
-        <div class="briefing-teaser">BoE Bailey leaned dovish overnight; gilts caught a bid into the open.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">USDJPY</span><span class="read-arrow">→</span></div>
-        <span class="name">US Dollar / Yen</span>
-        <span class="price">154.82</span>
-        <span class="change up">▲ +0.34% · +52 pips</span>
-        <div class="briefing-teaser">MOF intervention chatter resurfaces above 155 — short-yen carry holding for now.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">AUDUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Aussie / US Dollar</span>
-        <span class="price">0.6589</span>
-        <span class="change up">▲ +0.12% · +8 pips</span>
-        <div class="briefing-teaser">Iron ore firmer in Asia; RBA on hold but tone reads neutral, not dovish.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Commodities -->
-  <div class="category-block">
-    <div class="category-header">
-      <div class="left">
-        <span class="category-name">COMMODITIES</span>
-        <span class="category-count">03 ASSETS</span>
-      </div>
-      <span class="category-meta">CRB 281.4 <span class="up">+0.34%</span></span>
-    </div>
-    <div class="asset-grid">
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">XAUUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Gold Spot</span>
-        <span class="price">2,341.20</span>
-        <span class="change up">▲ +0.78% · +$18.10</span>
-        <div class="briefing-teaser">Real yields softer; safe-haven bid as Mideast headlines re-escalate.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">XAGUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Silver Spot</span>
-        <span class="price">28.94</span>
-        <span class="change up">▲ +1.12% · +$0.32</span>
-        <div class="briefing-teaser">Gold/silver ratio compressing — silver outperforming on industrial demand.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">USOIL</span><span class="read-arrow">→</span></div>
-        <span class="name">WTI Crude</span>
-        <span class="price">78.42</span>
-        <span class="change down">▼ -0.65% · -$0.51</span>
-        <div class="briefing-teaser">OPEC+ delivery uncertainty; US crude builds heavier than expected.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Indices -->
-  <div class="category-block">
-    <div class="category-header">
-      <div class="left">
-        <span class="category-name">INDICES</span>
-        <span class="category-count">03 BENCHMARKS</span>
-      </div>
-      <span class="category-meta">VIX 14.82 <span class="down">-2.1%</span></span>
-    </div>
-    <div class="asset-grid">
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">US500</span><span class="read-arrow">→</span></div>
-        <span class="name">S&amp;P 500</span>
-        <span class="price">5,421.8</span>
-        <span class="change up">▲ +0.31% · +16.7</span>
-        <div class="briefing-teaser">Mega-caps lead; small caps lag on rate-cut repricing.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">NAS100</span><span class="read-arrow">→</span></div>
-        <span class="name">Nasdaq 100</span>
-        <span class="price">19,142</span>
-        <span class="change up">▲ +0.54% · +103</span>
-        <div class="briefing-teaser">NVDA-led tech bid; semis sub-index breaking out of 2-week range.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">US30</span><span class="read-arrow">→</span></div>
-        <span class="name">Dow Jones</span>
-        <span class="price">38,914</span>
-        <span class="change down">▼ -0.08% · -31</span>
-        <div class="briefing-teaser">Defensive rotation softens Dow; healthcare and staples bid.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Crypto -->
-  <div class="category-block">
-    <div class="category-header">
-      <div class="left">
-        <span class="category-name">CRYPTO</span>
-        <span class="category-count">02 ASSETS</span>
-      </div>
-      <span class="category-meta">BTC.D 53.4% <span class="down">-0.3%</span></span>
-    </div>
-    <div class="asset-grid">
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">BTC</span><span class="read-arrow">→</span></div>
-        <span class="name">Bitcoin</span>
-        <span class="price">68,420</span>
-        <span class="change up">▲ +1.84% · +$1,240</span>
-        <div class="briefing-teaser">Spot-ETF inflows resume; on-chain shows long-term holders accumulating.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">ETH</span><span class="read-arrow">→</span></div>
-        <span class="name">Ethereum</span>
-        <span class="price">3,512</span>
-        <span class="change up">▲ +2.31% · +$79</span>
-        <div class="briefing-teaser">L2 gas at multi-month low; staking ratio up 0.4pp on the week.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Stocks -->
-  <div class="category-block">
-    <div class="category-header">
-      <div class="left">
-        <span class="category-name">STOCKS</span>
-        <span class="category-count">07 MEGA-CAPS</span>
-      </div>
-      <span class="category-meta">MAG7 EQW <span class="up">+0.71%</span></span>
-    </div>
-    <div class="asset-grid">
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">NVDA</span><span class="read-arrow">→</span></div>
-        <span class="name">Nvidia</span>
-        <span class="price">128.41</span>
-        <span class="change up">▲ +1.94% · +$2.44</span>
-        <div class="briefing-teaser">Blackwell ramp commentary lifts buy-side targets; SOX leadership intact.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">TSLA</span><span class="read-arrow">→</span></div>
-        <span class="name">Tesla</span>
-        <span class="price">214.52</span>
-        <span class="change down">▼ -0.84% · -$1.81</span>
-        <div class="briefing-teaser">Q2 deliveries beat; margin guidance still the bear case anchor.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">AAPL</span><span class="read-arrow">→</span></div>
-        <span class="name">Apple</span>
-        <span class="price">214.10</span>
-        <span class="change up">▲ +0.42% · +$0.89</span>
-        <div class="briefing-teaser">iPhone 17 supply-chain whispers turn cautiously bullish; services cohort firm.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">MSFT</span><span class="read-arrow">→</span></div>
-        <span class="name">Microsoft</span>
-        <span class="price">441.82</span>
-        <span class="change up">▲ +0.62% · +$2.71</span>
-        <div class="briefing-teaser">Azure AI bookings narrative still the binding constraint on the bull case.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">META</span><span class="read-arrow">→</span></div>
-        <span class="name">Meta</span>
-        <span class="price">512.20</span>
-        <span class="change up">▲ +1.08% · +$5.48</span>
-        <div class="briefing-teaser">Reels monetization step-up cited; capex headline risk into print.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">GOOGL</span><span class="read-arrow">→</span></div>
-        <span class="name">Alphabet</span>
-        <span class="price">178.94</span>
-        <span class="change down">▼ -0.32% · -$0.57</span>
-        <div class="briefing-teaser">Search-share fears cooling; Cloud growth re-accel the bull thesis.</div>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">AMZN</span><span class="read-arrow">→</span></div>
-        <span class="name">Amazon</span>
-        <span class="price">189.32</span>
-        <span class="change up">▲ +0.51% · +$0.96</span>
-        <div class="briefing-teaser">AWS reaccel + retail margin expansion = the two-handed bull case.</div>
-      </div>
-    </div>
+  <div id="homeBody">
+    <div class="loading">Loading briefings…</div>
   </div>
 </section>
 
 <!-- ============================================== -->
-<!-- VIEW 2: ASSET DETAIL — EURUSD                   -->
+<!-- VIEW 2: ASSET DETAIL                            -->
 <!-- ============================================== -->
 <section class="view" id="view-detail">
-
-  <div class="detail-header">
-    <div class="detail-breadcrumb">
-      <a onclick="show('home')">← HOME</a> &nbsp;/&nbsp; FX &nbsp;/&nbsp; EURUSD
-    </div>
-    <div class="detail-hero">
-      <div class="left">
-        <div class="ticker-big">EURUSD</div>
-        <div class="name-big">Euro / US Dollar</div>
-      </div>
-      <div class="price-block">
-        <div class="price-big">1.08321</div>
-        <div class="change-big down">▼ -0.42% · -45 pips · session low</div>
-      </div>
-    </div>
-    <div class="detail-meta">
-      <span><b>Brief:</b> 01 May 2026 · 08:00 UTC</span>
-      <span><b>Window:</b> last 12h</span>
-      <span><b>Next refresh:</b> 16:00 UTC</span>
-      <span><b>5d range:</b> 1.0790 – 1.0918</span>
-      <span><b>1m chg:</b> <span class="up">+0.62%</span></span>
-    </div>
+  <div id="detailBody">
+    <div class="loading">Loading…</div>
   </div>
-
-  <div class="briefing-grid">
-
-    <!-- PAST -->
-    <div class="briefing-section past">
-      <div class="accent-bar"></div>
-      <div class="briefing-label">PAST</div>
-      <div class="briefing-sub">// what happened · last 12h</div>
-      <ul class="briefing-list">
-        <li>
-          <span class="marker">01</span>
-          <span class="text">ECB account of the April meeting flagged services inflation as <strong>"more persistent than expected"</strong>; OIS pulled one 2026 cut out of the curve, EUR softened immediately.</span>
-        </li>
-        <li>
-          <span class="marker">02</span>
-          <span class="text">DXY pushed through <strong>104.20</strong> as US 10y yields ground 4bps higher into Asia; EUR the funder of choice on the cross.</span>
-        </li>
-        <li>
-          <span class="marker">03</span>
-          <span class="text">German factory orders printed <strong>-1.4% MoM</strong> vs +0.5% expected — biggest miss in 7 months. Bund curve bull-flattened.</span>
-        </li>
-        <li>
-          <span class="marker">04</span>
-          <span class="text">Spot trades into <em>1.0820</em> support — the 38.2% retracement of the March-April rally and a level tested twice last week.</span>
-        </li>
-      </ul>
-    </div>
-
-    <!-- WHY -->
-    <div class="briefing-section why">
-      <div class="accent-bar"></div>
-      <div class="briefing-label">WHY</div>
-      <div class="briefing-sub">// why it matters · the read</div>
-      <ul class="briefing-list">
-        <li>
-          <span class="marker">→</span>
-          <span class="text">The <strong>ECB hawk / Fed dove</strong> trade is back on. Hawkish ECB tone clashes with a Fed that's likely to cut once more in 2026 — narrowing rate differential historically pressures EURUSD lower.</span>
-        </li>
-        <li>
-          <span class="marker">→</span>
-          <span class="text">German order miss reinforces the <strong>"weak EZ growth, sticky EZ inflation"</strong> stagflation read. Worse for EUR than pure dovish ECB — undermines the long-term bull case.</span>
-        </li>
-        <li>
-          <span class="marker">→</span>
-          <span class="text">Speculative positioning (CFTC) sits <strong>net long EUR</strong> for the 6th week — crowded book = asymmetric downside if 1.0790 cracks.</span>
-        </li>
-        <li>
-          <span class="marker">→</span>
-          <span class="text">Cross-asset: gold bid on real-yield drift, oil soft. Macro signal lines up with <strong>USD strength</strong>, not USD weakness.</span>
-        </li>
-      </ul>
-    </div>
-
-    <!-- WATCH -->
-    <div class="briefing-section watch">
-      <div class="accent-bar"></div>
-      <div class="briefing-label">WATCH</div>
-      <div class="briefing-sub">// what to watch next · 12-48h</div>
-      <ul class="briefing-list">
-        <li>
-          <span class="marker">12:30</span>
-          <span class="text"><strong>US ADP employment.</strong> Cons. 175K. Beat above 200K likely revives DXY bid and pressures EUR through 1.0790.</span>
-        </li>
-        <li>
-          <span class="marker">14:00</span>
-          <span class="text"><strong>EZ flash CPI (Apr).</strong> Cons. 2.4% YoY. Upside surprise = ECB hawk extension, EUR catches a bid; downside = clean trip toward 1.0750.</span>
-        </li>
-        <li>
-          <span class="marker">FRI</span>
-          <span class="text"><strong>US NFP.</strong> The macro pivot of the week. Cons. 185K / unrate 4.0%. Asymmetric — soft print revives Fed-cut bid, sharp EUR rally.</span>
-        </li>
-        <li>
-          <span class="marker">LVL</span>
-          <span class="text">Tactical levels: support <em>1.0790</em> &nbsp;·&nbsp; <em>1.0750</em> · resistance <em>1.0870</em> &nbsp;·&nbsp; <em>1.0918</em>.</span>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- Related -->
-  <div class="related-block">
-    <div class="related-label">RELATED · CROSS-ASSET CONTEXT</div>
-    <div class="related-grid">
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">DXY</span><span class="read-arrow">→</span></div>
-        <span class="name">Dollar Index (ref)</span>
-        <span class="price">104.21</span>
-        <span class="change up">▲ +0.18%</span>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">GBPUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Pound / US Dollar</span>
-        <span class="price">1.2654</span>
-        <span class="change down">▼ -0.21%</span>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">XAUUSD</span><span class="read-arrow">→</span></div>
-        <span class="name">Gold Spot</span>
-        <span class="price">2,341.20</span>
-        <span class="change up">▲ +0.78%</span>
-      </div>
-      <div class="asset-card">
-        <div class="row1"><span class="ticker">US500</span><span class="read-arrow">→</span></div>
-        <span class="name">S&amp;P 500</span>
-        <span class="price">5,421.8</span>
-        <span class="change up">▲ +0.31%</span>
-      </div>
-    </div>
-  </div>
-
 </section>
 
 </main>
 
 <footer class="app">
   <div class="footer-inner">
-    <div class="left">pill<span class="lime">.</span>finance · v0 · briefings refresh 08:00 / 16:00 UTC</div>
+    <div class="left">pill<span class="lime">.</span>finance · v0 · briefings refresh 06:30 / 19:00 TRT · Mon–Fri</div>
     <div class="right">indicative prices · not investment advice · © 2026</div>
   </div>
 </footer>
 
 <script>
-  // View toggle
-  function show(view) {
+  // ============= STATE =============
+  let BRIEFINGS = null;
+
+  // Category metadata: order + display labels
+  const CATEGORIES = [
+    { key: 'fx',          label: 'FX',          tickers: ['EURUSD','GBPUSD','USDJPY','AUDUSD'],          countLabel: '04 PAIRS' },
+    { key: 'commodities', label: 'COMMODITIES', tickers: ['XAUUSD','XAGUSD','USOIL'],                    countLabel: '03 ASSETS' },
+    { key: 'indices',     label: 'INDICES',     tickers: ['US500','NAS100','US30'],                      countLabel: '03 BENCHMARKS' },
+    { key: 'crypto',      label: 'CRYPTO',      tickers: ['BTC','ETH'],                                  countLabel: '02 ASSETS' },
+    { key: 'stocks',      label: 'STOCKS',      tickers: ['NVDA','TSLA','AAPL','MSFT','META','GOOGL','AMZN'], countLabel: '07 MEGA-CAPS' }
+  ];
+
+  // ============= UTILS =============
+  function escapeHtml(s) {
+    if (s == null) return '';
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function fmtChange(asset) {
+    if (asset.change_pct == null) return '—';
+    const sign = asset.change_pct >= 0 ? '+' : '';
+    const arrow = asset.change_pct >= 0 ? '▲' : '▼';
+    const dispChange = asset.change_display ? ' · ' + escapeHtml(asset.change_display) : '';
+    return arrow + ' ' + sign + asset.change_pct.toFixed(2) + '%' + dispChange;
+  }
+
+  function changeDir(asset) {
+    if (asset.change_pct == null) return '';
+    return asset.change_pct >= 0 ? 'up' : 'down';
+  }
+
+  function timeAgo(iso) {
+    if (!iso) return '—';
+    const now = Date.now();
+    const then = new Date(iso).getTime();
+    const diffMin = Math.floor((now - then) / 60000);
+    if (diffMin < 1) return 'just now';
+    if (diffMin < 60) return diffMin + 'm ago';
+    const hours = Math.floor(diffMin / 60);
+    if (hours < 24) return hours + 'h ago';
+    const days = Math.floor(hours / 24);
+    return days + 'd ago';
+  }
+
+  // ============= TICKER TAPE =============
+  function renderTickerTape() {
+    if (!BRIEFINGS) return;
+    const items = [];
+    for (const cat of CATEGORIES) {
+      for (const ticker of cat.tickers) {
+        const a = BRIEFINGS.assets[ticker];
+        if (!a) continue;
+        const dir = changeDir(a);
+        const ch = a.change_pct == null ? '—' : (a.change_pct >= 0 ? '+' : '') + a.change_pct.toFixed(2) + '%';
+        items.push(`<span class="ticker-item"><span class="sym">${escapeHtml(ticker)}</span><span class="px">${escapeHtml(a.price_display || '—')}</span><span class="ch ${dir}">${escapeHtml(ch)}</span></span>`);
+      }
+    }
+    const html = items.join('');
+    document.getElementById('tickerTrack').innerHTML = html + html; // doubled for seamless loop
+  }
+
+  // ============= STATUS PILL + HERO META =============
+  function renderHeroMeta() {
+    if (!BRIEFINGS) return;
+    const lastUpdatedAgo = timeAgo(BRIEFINGS.generated_at);
+    const trtLabel = BRIEFINGS.generated_at_trt || '—';
+    document.getElementById('lastBriefLabel').textContent = trtLabel.replace(/^\d{4}-\d{2}-\d{2} /, '');
+    document.getElementById('nextBriefLabel').textContent = BRIEFINGS.next_refresh_trt ? '· next ' + BRIEFINGS.next_refresh_trt.replace(/^\d{4}-\d{2}-\d{2} /, '').replace(' TRT', '') : '';
+    document.getElementById('heroLastUpdated').textContent = 'Refreshed ' + trtLabel + ' · ' + lastUpdatedAgo;
+    document.getElementById('heroNextRefresh').textContent = 'Next refresh ' + (BRIEFINGS.next_refresh_trt || '—');
+  }
+
+  // ============= HOME GRID =============
+  function renderHomeGrid() {
+    if (!BRIEFINGS) return;
+    const blocks = CATEGORIES.map(cat => {
+      const cards = cat.tickers.map(ticker => {
+        const a = BRIEFINGS.assets[ticker];
+        if (!a) return '';
+        const teaser = a.past && a.past !== '—' ? a.past : 'Awaiting first refresh.';
+        return `
+          <div class="asset-card" data-ticker="${escapeHtml(ticker)}" onclick="show('detail', '${escapeHtml(ticker)}')">
+            <div class="row1">
+              <span class="ticker">${escapeHtml(ticker)}</span>
+              <span class="read-arrow">→</span>
+            </div>
+            <span class="name">${escapeHtml(a.name)}</span>
+            <span class="price">${escapeHtml(a.price_display || '—')}</span>
+            <span class="change ${changeDir(a)}">${fmtChange(a)}</span>
+            <div class="briefing-teaser">${escapeHtml(teaser)}</div>
+          </div>`;
+      }).join('');
+      return `
+        <div class="category-block">
+          <div class="category-header">
+            <div class="left">
+              <span class="category-name">${escapeHtml(cat.label)}</span>
+              <span class="category-count">${escapeHtml(cat.countLabel)}</span>
+            </div>
+          </div>
+          <div class="asset-grid">${cards}</div>
+        </div>`;
+    }).join('');
+    document.getElementById('homeBody').innerHTML = blocks;
+  }
+
+  // ============= DETAIL VIEW =============
+  function renderDetail(ticker) {
+    if (!BRIEFINGS) return;
+    const a = BRIEFINGS.assets[ticker];
+    if (!a) {
+      document.getElementById('detailBody').innerHTML = `<div class="error-state">Asset "${escapeHtml(ticker)}" not found.</div>`;
+      return;
+    }
+    const cat = CATEGORIES.find(c => c.tickers.includes(ticker));
+    const catLabel = cat ? cat.label : '';
+
+    const supports = (a.key_levels && a.key_levels.support) || [];
+    const resistances = (a.key_levels && a.key_levels.resistance) || [];
+    const levelsHtml = (supports.length || resistances.length) ? `
+      <div class="levels-block">
+        <div class="group"><b>Support</b>${supports.map(l => `<span class="lvl">${escapeHtml(l)}</span>`).join('')}</div>
+        <div class="group"><b>Resistance</b>${resistances.map(l => `<span class="lvl">${escapeHtml(l)}</span>`).join('')}</div>
+      </div>` : '';
+
+    const headlinesHtml = (a.headlines && a.headlines.length) ? `
+      <div class="headlines-block">
+        <div class="headlines-label">Source headlines</div>
+        <ul class="headlines-list">
+          ${a.headlines.map(h => `<li><a href="${escapeHtml(h.url)}" target="_blank" rel="noopener">${escapeHtml(h.title)}</a><span class="src">${escapeHtml(h.source || '')}</span></li>`).join('')}
+        </ul>
+      </div>` : '';
+
+    document.getElementById('detailBody').innerHTML = `
+      <div class="detail-header">
+        <div class="detail-breadcrumb">
+          <a onclick="show('home')">← HOME</a> &nbsp;/&nbsp; ${escapeHtml(catLabel)} &nbsp;/&nbsp; ${escapeHtml(ticker)}
+        </div>
+        <div class="detail-hero">
+          <div class="left">
+            <div class="ticker-big">${escapeHtml(ticker)}</div>
+            <div class="name-big">${escapeHtml(a.name)}</div>
+          </div>
+          <div class="price-block">
+            <div class="price-big">${escapeHtml(a.price_display || '—')}</div>
+            <div class="change-big ${changeDir(a)}">${fmtChange(a)}</div>
+          </div>
+        </div>
+        <div class="detail-meta">
+          <span><b>Brief:</b> ${escapeHtml(BRIEFINGS.generated_at_trt || '—')}</span>
+          <span><b>Window:</b> last 12h</span>
+          <span><b>Next refresh:</b> ${escapeHtml(BRIEFINGS.next_refresh_trt || '—')}</span>
+          ${a.distance_52w_high_pct != null ? `<span><b>52w high:</b> ${a.distance_52w_high_pct.toFixed(1)}%</span>` : ''}
+          ${a.distance_52w_low_pct != null ? `<span><b>52w low:</b> +${a.distance_52w_low_pct.toFixed(1)}%</span>` : ''}
+        </div>
+      </div>
+
+      <div class="briefing-grid">
+        <div class="briefing-section past">
+          <div class="accent-bar"></div>
+          <div class="briefing-label">PAST</div>
+          <div class="briefing-sub">// what happened · last 12h</div>
+          <div class="briefing-body">${escapeHtml(a.past || '—')}</div>
+        </div>
+        <div class="briefing-section why">
+          <div class="accent-bar"></div>
+          <div class="briefing-label">WHY</div>
+          <div class="briefing-sub">// why it matters · the read</div>
+          <div class="briefing-body">${escapeHtml(a.why || '—')}</div>
+        </div>
+        <div class="briefing-section watch">
+          <div class="accent-bar"></div>
+          <div class="briefing-label">WATCH</div>
+          <div class="briefing-sub">// what to watch next · 12-48h</div>
+          <div class="briefing-body">${escapeHtml(a.watch || '—')}</div>
+        </div>
+      </div>
+
+      ${levelsHtml}
+      ${headlinesHtml}
+    `;
+  }
+
+  // ============= VIEW SWITCHING =============
+  function show(view, ticker) {
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
     document.getElementById('view-' + view).classList.add('active');
     document.querySelectorAll('nav.app-nav button').forEach(b => b.classList.remove('active'));
-    if (view === 'home') document.querySelectorAll('nav.app-nav button')[0].classList.add('active');
-    if (view === 'detail') document.querySelectorAll('nav.app-nav button')[1].classList.add('active');
+    if (view === 'home') document.getElementById('navHome').classList.add('active');
+    if (view === 'detail' && ticker) renderDetail(ticker);
     window.scrollTo(0, 0);
   }
+  window.show = show;
 
-  // Build ticker tape (doubled for seamless loop)
-  const tickerData = [
-    {s:'EURUSD', p:'1.0832', c:'-0.42%', d:'down'},
-    {s:'GBPUSD', p:'1.2654', c:'-0.21%', d:'down'},
-    {s:'USDJPY', p:'154.82', c:'+0.34%', d:'up'},
-    {s:'AUDUSD', p:'0.6589', c:'+0.12%', d:'up'},
-    {s:'XAUUSD', p:'2341
+  // ============= BOOTSTRAP =============
+  async function loadBriefings() {
+    try {
+      const res = await fetch('/data/briefings.json?t=' + Date.now()); // cache-bust
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      BRIEFINGS = await res.json();
+      renderTickerTape();
+      renderHeroMeta();
+      renderHomeGrid();
+    } catch (err) {
+      document.getElementById('homeBody').innerHTML = `<div class="error-state">Failed to load briefings: ${escapeHtml(err.message)}</div>`;
+      console.error('Load failed:', err);
+    }
+  }
+
+  loadBriefings();
+</script>
+
+</body>
+</html>
