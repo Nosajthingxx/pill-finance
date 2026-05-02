@@ -1,0 +1,757 @@
+{
+  "generated_at": "2026-05-02T21:41:22Z",
+  "generated_at_trt": "2026-05-03 00:41 TRT",
+  "run_type": "am_full",
+  "next_refresh_trt": "2026-05-04 06:30 TRT",
+  "market_status": "closed",
+  "macro_context": {
+    "dxy": 98.21,
+    "us10y_yield": 4.378,
+    "vix": 16.99,
+    "btc_dominance_pct": 58.4,
+    "headline": "S&P 500 and Nasdaq 100 closed Friday at fresh records on Apple's blockbuster Q2 print, while WTI tumbled 3% on US-Iran de-escalation; ISM prices paid hit a four-year high, keeping the inflation tail alive into Monday's reopen."
+  },
+  "assets": {
+    "EURUSD": {
+      "ticker": "EURUSD",
+      "name": "Euro / US Dollar",
+      "category": "fx",
+      "price": 1.1723,
+      "price_display": "1.1723",
+      "change_pct": 0.33,
+      "change_abs": 0.0039,
+      "change_display": "+39 pips",
+      "key_levels": {
+        "support": [
+          1.167,
+          1.162
+        ],
+        "resistance": [
+          1.175,
+          1.182
+        ]
+      },
+      "distance_52w_high_pct": -2.5,
+      "distance_52w_low_pct": 5.6,
+      "past": "EUR/USD ground higher to 1.1723 (+0.33%) into the weekly close as DXY slipped to 98.21. Light data, fading Iran risk premium and a weaker dollar bid did the work, not Eurozone strength.",
+      "why": "The driver is dollar fatigue, not euro conviction. Hedge funds are short USD into US-Iran de-escalation, and Fed Chair nominee Warsh testimony is reviving dovish-Fed bets — euro is the passenger of that trade.",
+      "watch": "Mon EZ HCOB Services PMI and ISM Services in NY same day. 1.1750 caps; a daily close above opens 1.1820. Loss of 1.1670 invites mean-reversion to 1.1620.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "ECB, Bank of England Set to Hold Rates Unchanged Today",
+          "url": "https://finance.yahoo.com/economy/policy/articles/ecb-bank-england-set-hold-102435857.html",
+          "source": "FX Empire"
+        },
+        {
+          "title": "Eni Raises Share Buyback Plan to $3.3B",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/eni-raises-share-buyback-plan-163229029.html",
+          "source": "Rigzone.com"
+        }
+      ]
+    },
+    "GBPUSD": {
+      "ticker": "GBPUSD",
+      "name": "Pound / US Dollar",
+      "category": "fx",
+      "price": 1.3575,
+      "price_display": "1.3575",
+      "change_pct": 0.64,
+      "change_abs": 0.0086,
+      "change_display": "+86 pips",
+      "key_levels": {
+        "support": [
+          1.35,
+          1.342
+        ],
+        "resistance": [
+          1.362,
+          1.37
+        ]
+      },
+      "distance_52w_high_pct": -2.0,
+      "distance_52w_low_pct": 4.3,
+      "past": "Cable cleared 1.35 and printed 1.3575 (+0.64%), the strongest weekly close in weeks. The move is dollar-driven — sterling specifics (BoE on hold, sluggish PMIs) had nothing to do with it.",
+      "why": "Hedge funds remain heavily short USD per CFTC and Barchart positioning, with Iran de-escalation removing the safe-haven bid. Sterling rides that wave even though UK fundamentals are unremarkable.",
+      "watch": "Mon UK final services PMI (consensus 52.0). 1.3620 is the next resistance pivot; below 1.3500 the rally needs reassessing. BoE Bailey speaks Tuesday — any walk-back of cuts is GBP-supportive.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Hedge Funds Are Shorting the U.S. Dollar So Make This 1 Trade Now",
+          "url": "https://www.barchart.com/story/news/1322793/hedge-funds-are-shorting-the-u-s-dollar-so-make-this-1-trade-now",
+          "source": "Barchart"
+        },
+        {
+          "title": "FTSE 100 today: UK stocks gain, pound above $1.35 amid U.S.-Iran talks hopes",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-uk-shares-080408438.html",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    "USDJPY": {
+      "ticker": "USDJPY",
+      "name": "US Dollar / Japanese Yen",
+      "category": "fx",
+      "price": 157.033,
+      "price_display": "157.03",
+      "change_pct": -1.97,
+      "change_abs": -3.151,
+      "change_display": "-315 pips",
+      "key_levels": {
+        "support": [
+          156.0,
+          154.0
+        ],
+        "resistance": [
+          158.5,
+          160.0
+        ]
+      },
+      "distance_52w_high_pct": -2.3,
+      "distance_52w_low_pct": 10.5,
+      "past": "USDJPY collapsed -1.97% to 157.03 — the largest single-session yen rally in months, more than 310 pips. Risk-on dollar weakness met fresh BOJ-tightening chatter and stop-loss flow under 159.",
+      "why": "The pair was overbought into Iran de-escalation and a softer DXY. With ISM prices paid at a four-year high yet front-end Fed cuts only 8% priced for June, real-yield differentials are doing the carry less work.",
+      "watch": "Tokyo cash open Sunday night TRT. 156.00 is the structural pivot; a daily close below opens 154 fast. 158.50 caps any bounce. BOJ Ueda speaks midweek — any hawkish nudge accelerates the move.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Why a Plunging Dollar Is Missing Out on the Relief Rally",
+          "url": "https://www.barrons.com/articles/dollar-fall-relief-rally-trump-iran-3d0870c3?siteid=yhoof2&yptr=yahoo",
+          "source": "Barrons.com"
+        },
+        {
+          "title": "How Markets Reacted to Trump's Iran Post, in Charts",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-23-2026/card/how-markets-reacted-to-trump-s-iran-post-in-charts-Lva9FhNAQBi47Zz4jG4B?siteid=yhoof2&yptr=yahoo",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    "AUDUSD": {
+      "ticker": "AUDUSD",
+      "name": "Aussie Dollar / US Dollar",
+      "category": "fx",
+      "price": 0.7208,
+      "price_display": "0.7208",
+      "change_pct": 0.1,
+      "change_abs": 0.0007,
+      "change_display": "+7 pips",
+      "key_levels": {
+        "support": [
+          0.715,
+          0.708
+        ],
+        "resistance": [
+          0.722,
+          0.73
+        ]
+      },
+      "distance_52w_high_pct": -0.3,
+      "distance_52w_low_pct": 13.1,
+      "past": "AUD/USD pinned at 0.7208 (+0.10%), parked at the upper edge of its 52-week range (high 0.72). The pair is a coiled spring — every dip is bought, but it can't break the ceiling.",
+      "why": "The bull case is building: weak USD, firmer iron ore, rising appetite for risk currencies. Barchart flagged AUD as a 'next trade' twice this fortnight. The blocker is the RBA's reluctance to lean hawkish.",
+      "watch": "RBA decision Tuesday — consensus is hold, but any hawkish surprise breaks 0.7220 and triggers stops to 0.7300. Below 0.7150 the breakout thesis fails. Iron ore inventory data Wednesday is the cross-check.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Why is the Australian Dollar Rallying?",
+          "url": "https://www.barchart.com/story/news/1628243/why-is-the-australian-dollar-rallying",
+          "source": "Barchart"
+        },
+        {
+          "title": "The Next Trade You Should Make Comes from the Land Down Under",
+          "url": "https://www.barchart.com/story/news/1500718/the-next-trade-you-should-make-comes-from-the-land-down-under",
+          "source": "Barchart"
+        }
+      ]
+    },
+    "XAUUSD": {
+      "ticker": "XAUUSD",
+      "name": "Gold (XAU/USD)",
+      "category": "commodities",
+      "price": 4629.9,
+      "price_display": "4,629.90",
+      "change_pct": 0.33,
+      "change_abs": 15.2,
+      "change_display": "+$15.20",
+      "key_levels": {
+        "support": [
+          4550,
+          4480
+        ],
+        "resistance": [
+          4700,
+          4800
+        ]
+      },
+      "distance_52w_high_pct": -17.1,
+      "distance_52w_low_pct": 48.2,
+      "past": "Gold added +0.33% to $4,629.90, holding within striking distance of the $5,586 cycle high. Friday's tape was quiet but the structure remains a buy-the-dip regime — every retracement under $4,600 is absorbed.",
+      "why": "ISM prices paid printed 84.6 — a four-year high — even as the Fed is essentially on hold. That is the textbook stagflation backdrop for gold. Add a softer DXY and central-bank buying that hasn't slowed.",
+      "watch": "Monday's ISM Services prices index is the pivot — another hot print and gold pops $4,700. NFP Friday is the bigger event. $4,550 must hold; below opens an air pocket to $4,480.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Why Agnico Eagle Mines (AEM) Is Down 8.3% After Record Q1 Profit and Bold Finland Expansion – And What's Next",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-agnico-eagle-mines-aem-191710727.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "title": "Reddit Turns Human Chatter Into Wall Street Gold With Blowout Q1",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-turns-human-chatter-wall-173106864.html",
+          "source": "Benzinga"
+        }
+      ]
+    },
+    "XAGUSD": {
+      "ticker": "XAGUSD",
+      "name": "Silver (XAG/USD)",
+      "category": "commodities",
+      "price": 75.95,
+      "price_display": "75.95",
+      "change_pct": 3.29,
+      "change_abs": 2.42,
+      "change_display": "+$2.42",
+      "key_levels": {
+        "support": [
+          73.0,
+          70.0
+        ],
+        "resistance": [
+          78.0,
+          82.0
+        ]
+      },
+      "distance_52w_high_pct": -37.4,
+      "distance_52w_low_pct": 138.0,
+      "past": "Silver ripped +3.29% to $75.95, decisively outperforming gold. The 52-week range ($31.91 – $121.30) tells the story — silver is mid-cycle, not late-cycle, with room above and a cushion below.",
+      "why": "Silver is doing both jobs at once: monetary metal bid (gold-correlated) and industrial bid (solar, AI grid build-out). When that dual driver fires together, silver beta to gold spikes — which is what Friday showed.",
+      "watch": "Reclaim of $78 confirms continuation toward $82. A pullback to $73 is the gut-check level for new longs. Watch the gold/silver ratio — sub-60 is bullish silver, currently ~61.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Check Your Wallet—Here's What's Actually Worth Money in Your Spare Change",
+          "url": "https://www.investopedia.com/check-your-wallet-here-s-what-s-actually-worth-money-in-your-spare-change-11959845",
+          "source": "Investopedia"
+        },
+        {
+          "title": "Wheaton Precious Metals Expands Royalty Portfolio With Spanish Mountain Gold Deal",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/wheaton-precious-metals-expands-royalty-011446482.html",
+          "source": "Simply Wall St."
+        }
+      ]
+    },
+    "USOIL": {
+      "ticker": "USOIL",
+      "name": "WTI Crude Oil",
+      "category": "commodities",
+      "price": 101.94,
+      "price_display": "101.94",
+      "change_pct": -2.98,
+      "change_abs": -3.13,
+      "change_display": "-$3.13",
+      "key_levels": {
+        "support": [
+          98.0,
+          95.0
+        ],
+        "resistance": [
+          105.0,
+          110.0
+        ]
+      },
+      "distance_52w_high_pct": -14.7,
+      "distance_52w_low_pct": 85.4,
+      "past": "WTI dropped -2.98% to $101.94 — the standout single-day move of the week. The trigger was reporting that US-Iran de-escalation talks have advanced, slicing the geopolitical risk premium out of the strip.",
+      "why": "Oil had been carrying $8–$12 of war premium. With the ceasefire holding and shipping lanes reopening, that premium has nowhere to live. OPEC+ supply remains the swing factor, but for now the path of least resistance is lower.",
+      "watch": "OPEC+ JMMC commentary this week is the binary event. Sustained closes below $98 open $95 next; reclaim of $105 says the de-escalation is priced and supply tightness wins again. EIA inventories Wednesday.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Higher gas prices are eating into Americans' tax refunds",
+          "url": "https://finance.yahoo.com/economy/article/higher-gas-prices-are-eating-into-americans-tax-refunds-133026983.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "ExxonMobil Q1 Earnings Call Highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/exxonmobil-q1-earnings-call-highlights-2026-05-02/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "source": "MarketBeat"
+        }
+      ]
+    },
+    "US500": {
+      "ticker": "US500",
+      "name": "S&P 500",
+      "category": "indices",
+      "price": 7230.12,
+      "price_display": "7,230.1",
+      "change_pct": 0.29,
+      "change_abs": 21.11,
+      "change_display": "+$21.11",
+      "key_levels": {
+        "support": [
+          7150,
+          7050
+        ],
+        "resistance": [
+          7300,
+          7400
+        ]
+      },
+      "distance_52w_high_pct": -0.6,
+      "distance_52w_low_pct": 29.6,
+      "past": "S&P 500 added +0.29% to a record close of 7,230.12, capping the best month since 2020. Apple-led mega-cap earnings did the heavy lifting — breadth was decent, not stellar, with the Dow lagging.",
+      "why": "The bull case is still earnings, not multiples — Q1 beat rates and forward guides have run hot. But Goldman's strategy desk flagged the move past 7,100 as 'froth' and ISM prices paid hit a four-year high — the inflation tail is wagging.",
+      "watch": "ISM Services Tuesday and NFP Friday are the binary catalysts. 7,300 is the round-number target; loss of 7,150 says the froth call has teeth. NVDA earnings later in the month is the real test.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Jerome Powell's Fed years were an everything rally: Chart of the Day",
+          "url": "https://finance.yahoo.com/markets/article/jerome-powells-fed-years-were-an-everything-rally-chart-of-the-day-130000116.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Goldman Sachs says the S&P 500's run past 7,100 is 'froth' — a previous time Wall Street said that, a crash followed",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-says-p-500s-194500078.html",
+          "source": "Moneywise"
+        }
+      ]
+    },
+    "NAS100": {
+      "ticker": "NAS100",
+      "name": "Nasdaq 100",
+      "category": "indices",
+      "price": 27710.36,
+      "price_display": "27,710.4",
+      "change_pct": 0.94,
+      "change_abs": 258.24,
+      "change_display": "+$258.24",
+      "key_levels": {
+        "support": [
+          27300,
+          26800
+        ],
+        "resistance": [
+          28000,
+          28500
+        ]
+      },
+      "distance_52w_high_pct": -0.3,
+      "distance_52w_low_pct": 41.3,
+      "past": "Nasdaq 100 added +0.94% to a record 27,710 — outpacing the S&P as Apple's blockbuster guide and AMZN's PT hike to $310 lifted the megacaps. Hyperscaler capex commentary stayed bullish through earnings.",
+      "why": "AI capex is still accelerating, not slowing — the Nvidia/hyperscaler feedback loop is intact. Apple's services growth and iPhone strength added a second leg to the trade. Memory cost risk ('RAMageddon') is the new bear thesis worth tracking.",
+      "watch": "28,000 is the next magnet on a clean break of Friday's high. Below 27,300 says the rotation back into broader market is real. NVDA earnings cycle remains the dominant single-stock catalyst.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "S&P 500 and Nasdaq 100 Post Record Highs on Solid Earnings",
+          "url": "https://www.barchart.com/story/news/1655773/s-p-500-and-nasdaq-100-post-record-highs-on-solid-earnings",
+          "source": "Barchart"
+        },
+        {
+          "title": "Why the S&P 500 and Nasdaq Hit Record Highs While the Dow Fell Today",
+          "url": "https://www.fool.com/investing/2026/05/01/why-sp-500-and-nasdaq-hit-highs-but-dow-fell/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "US30": {
+      "ticker": "US30",
+      "name": "Dow Jones Industrial Average",
+      "category": "indices",
+      "price": 49499.27,
+      "price_display": "49,499.3",
+      "change_pct": -0.31,
+      "change_abs": -152.87,
+      "change_display": "-$152.87",
+      "key_levels": {
+        "support": [
+          49000,
+          48500
+        ],
+        "resistance": [
+          50000,
+          50500
+        ]
+      },
+      "distance_52w_high_pct": -2.0,
+      "distance_52w_low_pct": 21.4,
+      "past": "Dow lagged on the day at 49,499 (-0.31%), the only major US index that didn't make a fresh high. Industrials and old-economy components couldn't keep up with the Apple/AAPL/AMZN-led tech surge.",
+      "why": "The Dow's price-weighted construction and tech under-allocation mean it underperforms when leadership concentrates in megacap tech. Today is one of those days — until rotation broadens into industrials and financials, the Dow is the laggard.",
+      "watch": "50,000 is the round-number resistance and a media event when it prints. ISM Services Tuesday is the data that matters most for cyclicals. 49,000 is the must-hold; below opens 48,500.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Dow Jones Futures: Stock Market Hits High After Bullish Pause; Apple, Broadcom In Buy Zones",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-apple-broadcom-buy-zones/?src=A00220&yptr=yahoo",
+          "source": "Investor's Business Daily"
+        },
+        {
+          "title": "President Donald Trump Is the Catalyst Behind This $7 Trillion Investment That's Fueled Wall Street's Bull Market (Hint: It's Not AI)",
+          "url": "https://www.fool.com/investing/2026/05/02/donald-trump-7-trillion-investment-wall-st-bull-ai/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "BTC": {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "category": "crypto",
+      "price": 78573.25,
+      "price_display": "78,573",
+      "change_pct": 0.5,
+      "change_abs": 394.25,
+      "change_display": "+$394.25",
+      "key_levels": {
+        "support": [
+          76000,
+          72000
+        ],
+        "resistance": [
+          80000,
+          85000
+        ]
+      },
+      "distance_52w_high_pct": -37.7,
+      "distance_52w_low_pct": 30.8,
+      "past": "Bitcoin added +0.50% to $78,573, holding above $78k as the equity rally widened. Still, BTC is roughly 38% off the $126,198 cycle high and dominance is climbing — alts are bleeding.",
+      "why": "The 'Great Rotation' narrative is reviving on equity record-highs and a softer dollar. ETF flows have stabilized but not turned net-positive. Bitmine's 5M-ETH treasury accumulation is a structural alt-side absorption story.",
+      "watch": "$80,000 reclaim opens $85k fast. Loss of $76,000 puts $72k in play and breaks the bottoming structure. Spot ETF daily flows are the leading indicator — three consecutive net-positive days = breakout.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Is \"The Great Rotation\" Back to Crypto Going to Happen Soon?",
+          "url": "https://www.fool.com/investing/2026/05/02/is-the-great-rotation-back-to-crypto-happening/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Applied Digital Corporation (APLD) Delivers Robust Revenue Growth as Net Loss Shrinks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-corporation-apld-delivers-182931167.html",
+          "source": "Insider Monkey"
+        }
+      ]
+    },
+    "ETH": {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "category": "crypto",
+      "price": 2317.2,
+      "price_display": "2,317",
+      "change_pct": 0.96,
+      "change_abs": 22.11,
+      "change_display": "+$22.11",
+      "key_levels": {
+        "support": [
+          2200,
+          2050
+        ],
+        "resistance": [
+          2450,
+          2600
+        ]
+      },
+      "distance_52w_high_pct": -53.2,
+      "distance_52w_low_pct": 32.5,
+      "past": "ETH added +0.96% to $2,317, tracking BTC's stabilization but still 53% below its $4,953 cycle high. The dispersion vs BTC is the story — Bitcoin is consolidating, Ethereum is grinding.",
+      "why": "Bitmine's treasury holds over 5 million ETH (4%+ of total supply) — a massive supply absorber that should be bullish. Yet price refuses to lead. The market wants a clear catalyst beyond accumulation.",
+      "watch": "Reclaim of $2,450 is the first 'risk-on' confirmation. $2,200 must hold or $2,050 opens. ETH/BTC ratio is the cleaner read — sub-0.030 says alts stay weak even if BTC bounces.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Is \"The Great Rotation\" Back to Crypto Going to Happen Soon?",
+          "url": "https://www.fool.com/investing/2026/05/02/is-the-great-rotation-back-to-crypto-happening/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Bitmine’s 5 Million ETH Treasury Puts Valuation And Risk In Focus",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-5-million-eth-treasury-101156692.html",
+          "source": "Simply Wall St."
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "category": "stocks",
+      "price": 198.45,
+      "price_display": "198.45",
+      "change_pct": -0.56,
+      "change_abs": -1.12,
+      "change_display": "-$1.12",
+      "key_levels": {
+        "support": [
+          195.0,
+          188.0
+        ],
+        "resistance": [
+          205.0,
+          215.0
+        ]
+      },
+      "distance_52w_high_pct": -8.5,
+      "distance_52w_low_pct": 79.1,
+      "past": "NVDA dipped -0.56% to $198.45 even as the Nasdaq notched a record. Reports out of earnings season explicitly flagged Nvidia as 'the winner' from hyperscaler capex commentary, but the stock paused.",
+      "why": "The cooling on a record-tape day is healthy — sentiment is full, positioning is heavy and the $200 round number is sticky. Hyperscaler capex commentary remains supportive, China export controls are the live overhang.",
+      "watch": "Reclaim of $200 with volume is needed for trend continuation toward $205 then the 52-week high $216.83. Below $195 invites profit-taking to $188. Any China export-control headline is a live binary risk.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Major Hyperscalers Just Reported Earnings. Nvidia Was The Winner",
+          "url": "https://www.fool.com/investing/2026/05/02/major-hyperscalers-just-reported-earnings-nvidia-w/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Why Apple Stock Climbed This Week",
+          "url": "https://www.fool.com/investing/2026/05/02/why-apple-stock-is-up/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "category": "stocks",
+      "price": 390.82,
+      "price_display": "390.82",
+      "change_pct": 2.41,
+      "change_abs": 9.19,
+      "change_display": "+$9.19",
+      "key_levels": {
+        "support": [
+          380.0,
+          365.0
+        ],
+        "resistance": [
+          400.0,
+          415.0
+        ]
+      },
+      "distance_52w_high_pct": -21.7,
+      "distance_52w_low_pct": 44.2,
+      "past": "Tesla added +2.41% to $390.82 — outperforming the broader Nasdaq. Musk's xAI/Nvidia-flavored announcement and his OpenAI courtroom testimony kept the stock front-and-center for narrative-driven flow.",
+      "why": "The bull case rests on robotaxi rollout converting from headline to revenue, plus Musk's continued narrative dominance which keeps multiple compression at bay. Weak EV demand in core markets remains the bear lens.",
+      "watch": "$400 is the round-number resistance and a confirmed daily close above triggers a chase to $415. Below $380 invites a flush to $365. Robotaxi delivery cadence each week is the running real-time tell.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Billionaire Charlie Munger Called Elon Musk Talented, Unusual, And Peculiar— 'I Don't Buy Him And I Don't Sell Him Short'",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-charlie-munger-called-elon-203108297.html",
+          "source": "Benzinga"
+        },
+        {
+          "title": "Elon Musk Just Announced Fanastic News to Nvidia Stock Investors",
+          "url": "https://www.fool.com/investing/2026/05/02/elon-musk-just-announced-fanastic-news-to-nvidia-s/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "category": "stocks",
+      "price": 280.14,
+      "price_display": "280.14",
+      "change_pct": 3.24,
+      "change_abs": 8.79,
+      "change_display": "+$8.79",
+      "key_levels": {
+        "support": [
+          275.0,
+          268.0
+        ],
+        "resistance": [
+          285.0,
+          295.0
+        ]
+      },
+      "distance_52w_high_pct": -2.9,
+      "distance_52w_low_pct": 45.0,
+      "past": "Apple +3.24% to $280.14, the dominant single-stock move of the week. Q2 revenue of $111.18B beat the $109.66B consensus, and the Q3 guide of 14–17% revenue growth crushed the 9.1% expected.",
+      "why": "This is the strongest March-quarter ever, with iPhone double-digit growth and Services momentum intact. The bear lens is 'RAMageddon' — global memory cost spike is a real Mac-margin headwind into H2.",
+      "watch": "$285 is a clean break level into $290–$295 air. $275 must hold or the post-earnings gap is at risk. Memory pricing data (DRAM/NAND spot prices) is the leading indicator for the margin debate.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Why Apple Stock Climbed This Week",
+          "url": "https://www.fool.com/investing/2026/05/02/why-apple-stock-is-up/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Apple’s Record Quarter Meets “RAMageddon” Risks For Mac Margins And Supply",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-record-quarter-meets-ramageddon-191755049.html",
+          "source": "Simply Wall St."
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "category": "stocks",
+      "price": 414.44,
+      "price_display": "414.44",
+      "change_pct": 1.63,
+      "change_abs": 6.66,
+      "change_display": "+$6.66",
+      "key_levels": {
+        "support": [
+          410.0,
+          400.0
+        ],
+        "resistance": [
+          420.0,
+          432.0
+        ]
+      },
+      "distance_52w_high_pct": -25.4,
+      "distance_52w_low_pct": 16.3,
+      "past": "MSFT added +1.63% to $414.44 in line with the megacap rally. Notably, the stock sits well below its $555 52-week high — there is real underperformance vs peers despite the AI-darling label.",
+      "why": "Sell-side has trimmed fair-value targets (Simply Wall St to $562 from $580) on OpenAI structural uncertainty and Azure-growth dispersion. Tom Steyer disclosure adds a sentiment tailwind, not a fundamental one.",
+      "watch": "$420 is the next pivot for a momentum trade; $432 above clears the way to retest $480. Below $410 the underperformance narrative reasserts. Azure growth color and OpenAI commentary are the tells next quarter.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Major Hyperscalers Just Reported Earnings. Nvidia Was The Winner",
+          "url": "https://www.fool.com/investing/2026/05/02/major-hyperscalers-just-reported-earnings-nvidia-w/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "How The Microsoft (MSFT) Investment Story Is Shifting With AI Spending And OpenAI Uncertainty",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-investment-story-shifting-171340502.html",
+          "source": "Simply Wall St."
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "category": "stocks",
+      "price": 608.75,
+      "price_display": "608.75",
+      "change_pct": -0.52,
+      "change_abs": -3.16,
+      "change_display": "-$3.16",
+      "key_levels": {
+        "support": [
+          600.0,
+          580.0
+        ],
+        "resistance": [
+          625.0,
+          650.0
+        ]
+      },
+      "distance_52w_high_pct": -23.5,
+      "distance_52w_low_pct": 17.0,
+      "past": "META slipped -0.52% to $608.75, the only megacap in the red on a record-tape day. The post-earnings hangover continues — analysts flagged a 'real problem' beneath the headline-friendly print.",
+      "why": "The issue is not capex sticker-shock — it is ad-revenue dependency at a moment when capex is climbing fast and Reality Labs losses still don't bend down. The setup is fundamentally less clean than peers'.",
+      "watch": "$600 round-number support is critical. A close below opens $580 quickly. Reclaim of $625 says the post-earnings move was overdone. Watch ad-rev breakdown and Reality Labs guidance from sell-side notes.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Missed Advanced Micro Devices' Big Move? Here's Why It's Still a Buy",
+          "url": "https://www.fool.com/investing/2026/05/02/missed-amd-big-move-why-stock-still-buy/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Here's the Real Problem With Meta's Latest Earnings Report",
+          "url": "https://www.fool.com/investing/2026/05/02/heres-the-real-problem-with-metas-latest-earnings/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "category": "stocks",
+      "price": 385.69,
+      "price_display": "385.69",
+      "change_pct": 0.23,
+      "change_abs": 0.89,
+      "change_display": "+$0.89",
+      "key_levels": {
+        "support": [
+          380.0,
+          370.0
+        ],
+        "resistance": [
+          387.0,
+          395.0
+        ]
+      },
+      "distance_52w_high_pct": -0.3,
+      "distance_52w_low_pct": 160.9,
+      "past": "GOOGL traded near-flat at $385.69 (+0.23%), pinned just under the 52-week high of $386.76. The setup is textbook coil — repeated tests of resistance with shallow pullbacks.",
+      "why": "The competitive moat just widened — Ask.com's shutdown removes a niche search competitor and validates Google's dominance. Cloud growth remains the bull-case lever; antitrust is the live tail-risk.",
+      "watch": "A daily close above $387 is the breakout trigger into $395 and beyond. Loss of $380 says the coil is fading. DOJ antitrust headlines are the asymmetric downside catalyst — keep an eye on the docket.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Farewell, Jeeves: Ask.com shuts down",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/farewell-jeeves-ask-com-shuts-211128581.html",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Major Hyperscalers Just Reported Earnings. Nvidia Was The Winner",
+          "url": "https://www.fool.com/investing/2026/05/02/major-hyperscalers-just-reported-earnings-nvidia-w/",
+          "source": "Motley Fool"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "category": "stocks",
+      "price": 268.26,
+      "price_display": "268.26",
+      "change_pct": 1.21,
+      "change_abs": 3.2,
+      "change_display": "+$3.20",
+      "key_levels": {
+        "support": [
+          263.0,
+          255.0
+        ],
+        "resistance": [
+          275.0,
+          285.0
+        ]
+      },
+      "distance_52w_high_pct": -2.1,
+      "distance_52w_low_pct": 45.9,
+      "past": "AMZN added +1.21% to $268.26 post-earnings, with Bank of America raising its price target to $310 from $298 and reiterating Buy. Retail strength plus AWS color drove the upgrade cycle.",
+      "why": "AWS reacceleration into AI workloads remains the central thesis. Retail margins are firming and Prime continues to compound. The bear lens is purely valuation — at 30x next-year, there's little cushion.",
+      "watch": "$275 cleared opens a path to $285 fast. Below $263 the post-earnings pop is at risk. AWS sequential growth rate next quarter is the make-or-break datapoint — anything above 21% annualized is bullish.",
+      "narrative_last_updated": "2026-05-02T21:41:22Z",
+      "material_change": true,
+      "headlines": [
+        {
+          "title": "Bank of America revamps Amazon stock target after earnings",
+          "url": "https://www.thestreet.com/investing/stocks/bank-of-america-revamps-amazon-stock-target-after-earnings",
+          "source": "TheStreet"
+        },
+        {
+          "title": "Major Hyperscalers Just Reported Earnings. Nvidia Was The Winner",
+          "url": "https://www.fool.com/investing/2026/05/02/major-hyperscalers-just-reported-earnings-nvidia-w/",
+          "source": "Motley Fool"
+        }
+      ]
+    }
+  }
+}
