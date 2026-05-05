@@ -1,26 +1,25 @@
 {
-  "generated_at": "2026-05-04T06:40:46Z",
-  "generated_at_trt": "2026-05-04 06:40 TRT",
-  "run_type": "am_full",
-  "next_refresh_trt": "2026-05-04 19:00 TRT",
+  "generated_at": "2026-05-05T07:53:16Z",
+  "generated_at_trt": "2026-05-05 10:53 TRT",
+  "run_type": "pm_hybrid",
+  "next_refresh_trt": "2026-05-06 06:30 TRT",
   "market_status": "open",
   "macro_context": {
-    "dxy": 98.097,
-    "us10y_yield": 4.378,
-    "vix": 16.99,
-    "btc_dominance_pct": 58.51,
-    "headline": "Iran tensions sustain oil above $100 while markets focus on Friday's US April payrolls (consensus 50K), with Apple's record quarter lifting tech indices to all-time highs."
+    "dxy": 98.43,
+    "us10y_yield": 4.45,
+    "vix": 17.88,
+    "headline": "Quiet Monday session with US markets closed; gold holds above $4,500 as oil pulls back on Hormuz de-escalation signals."
   },
   "assets": {
     "EURUSD": {
       "ticker": "EURUSD",
       "name": "Euro / US Dollar",
       "category": "fx",
-      "price": 1.1737,
-      "price_display": "1.1737",
-      "change_pct": 0.07,
-      "change_abs": 0.0008,
-      "change_display": "+8 pips",
+      "price": 1.169454,
+      "price_display": "1.1695",
+      "change_pct": -0.27,
+      "change_abs": -0.003209,
+      "change_display": "-32 pips",
       "key_levels": {
         "support": [
           1.1648,
@@ -37,7 +36,7 @@
       "why": "The weak-dollar thesis is the week's dominant trade; if payrolls confirm the slowdown, Fed rate-cut bets accelerate and EUR/USD extends toward 1.19.",
       "watch": "Tuesday US ISM Services and Wednesday ADP are the first checkpoints \u2014 a sub-50K payrolls print Friday is the binary catalyst for a EUR/USD breakout above 1.18.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "ECB, Bank of England Set to Hold Rates Unchanged Today",
@@ -60,11 +59,11 @@
       "ticker": "GBPUSD",
       "name": "British Pound / US Dollar",
       "category": "fx",
-      "price": 1.3592,
-      "price_display": "1.3592",
-      "change_pct": -0.08,
-      "change_abs": -0.00104,
-      "change_display": "-10 pips",
+      "price": 1.353858,
+      "price_display": "1.3539",
+      "change_pct": -0.32,
+      "change_abs": -0.004284,
+      "change_display": "-43 pips",
       "key_levels": {
         "support": [
           1.3476,
@@ -81,7 +80,7 @@
       "why": "The pound lags the broader dollar-weakness move because sticky UK services inflation keeps the BoE cautious; the rate differential to EUR narrows slowly.",
       "watch": "Thursday BoE rate decision \u2014 any signal of a June cut sends GBP below 1.35; a hold or hawkish tone targets a run back to 1.37.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Hedge Funds Are Shorting the U.S. Dollar So Make This 1 Trade Now",
@@ -104,11 +103,11 @@
       "ticker": "USDJPY",
       "name": "US Dollar / Japanese Yen",
       "category": "fx",
-      "price": 156.84,
-      "price_display": "156.84",
-      "change_pct": -0.09,
-      "change_abs": -0.14,
-      "change_display": "-14 pips",
+      "price": 157.195999,
+      "price_display": "157.20",
+      "change_pct": 0.22,
+      "change_abs": 0.350006,
+      "change_display": "+35 pips",
       "key_levels": {
         "support": [
           154.68,
@@ -125,7 +124,7 @@
       "why": "The BOJ rate-hike path is slow but real; the narrowing US-Japan rate differential is a structural yen tailwind, currently masking any break below 156.",
       "watch": "Friday US payrolls \u2014 a sub-50K print breaks 156 support and targets 154.80; a beat re-loads the carry trade and pushes USD/JPY back toward 158.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Why a Plunging Dollar Is Missing Out on the Relief Rally",
@@ -148,11 +147,11 @@
       "ticker": "AUDUSD",
       "name": "Australian Dollar / US Dollar",
       "category": "fx",
-      "price": 0.7207,
-      "price_display": "0.7207",
-      "change_pct": 0.08,
-      "change_abs": 0.00059,
-      "change_display": "+6 pips",
+      "price": 0.715666,
+      "price_display": "0.7157",
+      "change_pct": -0.78,
+      "change_abs": -0.005627,
+      "change_display": "-56 pips",
       "key_levels": {
         "support": [
           0.7121,
@@ -169,7 +168,7 @@
       "why": "Markets price roughly 50% probability of an RBA 25bp cut; a hold would be a sharp AUD positive, a cut would validate the bears who see 0.70 ahead.",
       "watch": "RBA decision Tuesday approximately 04:30 TRT \u2014 cut targets 0.7120, hold squeezes shorts toward 0.7280. Binary event; sizing matters.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Why is the Australian Dollar Rallying?",
@@ -192,11 +191,11 @@
       "ticker": "XAUUSD",
       "name": "Gold",
       "category": "commodities",
-      "price": 4601.3,
-      "price_display": "4,601.30",
-      "change_pct": -0.62,
-      "change_abs": -28.6,
-      "change_display": "$-28.60",
+      "price": 4565.100098,
+      "price_display": "4,565.10",
+      "change_pct": 1.01,
+      "change_abs": 45.600098,
+      "change_display": "+45.60",
       "key_levels": {
         "support": [
           4532.0,
@@ -213,7 +212,7 @@
       "why": "Gold needs either a payrolls miss (accelerating Fed cut bets) or a fresh geopolitical escalation to make the next leg higher; pure haven demand is cooling for now.",
       "watch": "Friday US payrolls \u2014 a sub-50K miss revives $4,700 as the next target; a hawkish surprise (yields up, dollar up) opens the $4,450-$4,500 support band.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Markets on alert as Trump vows \u2018Project Freedom\u2019 for Hormuz, setting up potential showdown after renewed attacks on ships",
@@ -236,11 +235,11 @@
       "ticker": "XAGUSD",
       "name": "Silver",
       "category": "commodities",
-      "price": 75.36,
-      "price_display": "75.36",
-      "change_pct": -0.77,
-      "change_abs": -0.59,
-      "change_display": "$-0.59",
+      "price": 74.105003,
+      "price_display": "74.11",
+      "change_pct": 1.41,
+      "change_abs": 1.033005,
+      "change_display": "+1.03",
       "key_levels": {
         "support": [
           73.18,
@@ -257,7 +256,7 @@
       "why": "China's mainland markets close May 1-5 for Labor Day, removing a key physical buyer from the market; silver's industrial demand proxy suffers most.",
       "watch": "Wednesday China services PMI (markets reopen May 6) \u2014 a strong print above 52 tightens the gold/silver ratio and revives $77-$78 targets.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "American West secures A$10m placement to accelerate West Desert drilling and fund growth projects",
@@ -280,11 +279,11 @@
       "ticker": "USOIL",
       "name": "US Oil (WTI)",
       "category": "commodities",
-      "price": 101.62,
-      "price_display": "101.62",
-      "change_pct": -0.31,
-      "change_abs": -0.32,
-      "change_display": "$-0.32",
+      "price": 103.559998,
+      "price_display": "103.56",
+      "change_pct": -2.69,
+      "change_abs": -2.860001,
+      "change_display": "-2.86",
       "key_levels": {
         "support": [
           94.91,
@@ -301,7 +300,7 @@
       "why": "OPEC+ shows no appetite to accelerate output hikes; the $100+ floor is structural until either Iran tensions fully defuse or global demand data weakens sharply.",
       "watch": "Wednesday EIA crude inventory report \u2014 a draw above 2M barrels re-tests $105; a build above 3M barrels would put $98 support in play.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Higher gas prices are eating into Americans' tax refunds",
@@ -324,11 +323,11 @@
       "ticker": "US500",
       "name": "S&P 500",
       "category": "indices",
-      "price": 7230.1,
-      "price_display": "7,230.1",
-      "change_pct": 0.29,
-      "change_abs": 21.1,
-      "change_display": "+$21.11",
+      "price": 7200.75,
+      "price_display": "7,200.8",
+      "change_pct": -0.41,
+      "change_abs": -29.370117,
+      "change_display": "-29.37",
       "key_levels": {
         "support": [
           7163.0,
@@ -345,7 +344,7 @@
       "why": "Mega-cap earnings delivered, compressing the equity risk premium; the AI infrastructure cycle is self-reinforcing and the breadth of beats reduces single-name risk.",
       "watch": "Friday April payrolls (consensus 50K vs 178K prior) \u2014 a weak print accelerates Fed cut bets and is bullish; a beat above 100K risks a 2-3% pullback on hawkish re-pricing.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Jobs day, semiconductor earnings, and stock market momentum: What to watch this week",
@@ -368,11 +367,11 @@
       "ticker": "NAS100",
       "name": "Nasdaq 100",
       "category": "indices",
-      "price": 27710.4,
-      "price_display": "27,710.4",
-      "change_pct": 0.94,
-      "change_abs": 258.2,
-      "change_display": "+$258.24",
+      "price": 27651.820312,
+      "price_display": "27,651.8",
+      "change_pct": -0.21,
+      "change_abs": -58.539062,
+      "change_display": "-58.54",
       "key_levels": {
         "support": [
           27343.0,
@@ -389,7 +388,7 @@
       "why": "MSFT, GOOGL, and AMZN all showed accelerating cloud growth driven by AI workloads, validating the infrastructure investment thesis that has taken the Nasdaq to records.",
       "watch": "NVDA's late-May earnings is the next major Nasdaq catalyst; between now and then, Friday payrolls is the key macro risk \u2014 a strong print risks sector rotation out of tech.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Stock Futures Are Rising, Oil Falls Ahead of Jobs Week",
@@ -412,11 +411,11 @@
       "ticker": "US30",
       "name": "Dow Jones Industrial Average",
       "category": "indices",
-      "price": 49499.3,
-      "price_display": "49,499.3",
-      "change_pct": -0.31,
-      "change_abs": -152.9,
-      "change_display": "$-152.87",
+      "price": 48941.898438,
+      "price_display": "48,941.9",
+      "change_pct": -1.13,
+      "change_abs": -557.371094,
+      "change_display": "-557.37",
       "key_levels": {
         "support": [
           48973.0,
@@ -433,7 +432,7 @@
       "why": "Value-to-growth rotation continues when hyperscaler earnings dominate \u2014 the Dow underperforms Nasdaq in AI-driven sessions, a pattern persisting for several quarters.",
       "watch": "50,000 is the psychological resistance; a payrolls miss on Friday boosts rate-cut bets, potentially rotating money back into financials and closing the Nasdaq/Dow gap.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Jobs day, semiconductor earnings, and stock market momentum: What to watch this week",
@@ -456,11 +455,11 @@
       "ticker": "BTC",
       "name": "Bitcoin",
       "category": "crypto",
-      "price": 79703.0,
-      "price_display": "79,703",
-      "change_pct": 1.48,
-      "change_abs": 1164.0,
-      "change_display": "+$1,164",
+      "price": 80922.96875,
+      "price_display": "80,923",
+      "change_pct": 1.37,
+      "change_abs": 1095.0625,
+      "change_display": "+1,095",
       "key_levels": {
         "support": [
           77790.0,
@@ -477,7 +476,7 @@
       "why": "BTC still trails its $97K January peak by ~18%; the rotation narrative requires sustained equity stability and a risk-on macro backdrop \u2014 both currently present but fragile.",
       "watch": "$80,000 is key resistance; a daily close above it targets $85K. Friday's payrolls miss (risk-on) accelerates the move; a beat (yields up) fades BTC toward $77K.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Bitcoin Tops $80,000, Reaching Three-Month High as Stocks Rise",
@@ -500,11 +499,11 @@
       "ticker": "ETH",
       "name": "Ethereum",
       "category": "crypto",
-      "price": 2362.0,
-      "price_display": "2,362",
-      "change_pct": 1.73,
-      "change_abs": 40.0,
-      "change_display": "+$40.26",
+      "price": 2382.840088,
+      "price_display": "2,383",
+      "change_pct": 1.55,
+      "change_abs": 36.443115,
+      "change_display": "+36",
       "key_levels": {
         "support": [
           2291.0,
@@ -521,7 +520,7 @@
       "why": "The ETH dominance death cross suggests potential rotation from BTC into ETH; Ethereum's growing L2 ecosystem and staking yield are improving the relative fundamental case.",
       "watch": "$2,400 is the first resistance level; a breakout targets $2,600 and would signal a genuine altcoin rotation cycle beginning. Watch BTC dominance \u2014 if it drops below 57%, ETH accelerates.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Tired of Being Burned by Crypto? Cardano Targets Long\u2011Term Stability Over Meme Cycles.",
@@ -544,11 +543,11 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "category": "stocks",
-      "price": 198.45,
-      "price_display": "198.45",
-      "change_pct": -0.56,
-      "change_abs": -1.12,
-      "change_display": "$-1.12",
+      "price": 198.479996,
+      "price_display": "198.48",
+      "change_pct": 0.02,
+      "change_abs": 0.029999,
+      "change_display": "+0.03",
       "key_levels": {
         "support": [
           192.04,
@@ -565,7 +564,7 @@
       "why": "Hyperscaler capex beats are bullish for NVDA's forward pipeline but the market already expects it; the stock needs its own earnings to re-rate above $200 sustainably.",
       "watch": "$200 is the resistance that matters; clearing it on volume targets $215. Late May earnings are the binary catalyst \u2014 any pre-announcement or export restriction news is the short-term risk.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Interactive Brokers Is Winning From Market Volatility. Can It Keep Going?",
@@ -588,11 +587,11 @@
       "ticker": "TSLA",
       "name": "Tesla",
       "category": "stocks",
-      "price": 390.82,
-      "price_display": "390.82",
-      "change_pct": 2.41,
-      "change_abs": 9.19,
-      "change_display": "+$9.19",
+      "price": 392.51001,
+      "price_display": "392.51",
+      "change_pct": 0.43,
+      "change_abs": 1.690002,
+      "change_display": "+1.69",
       "key_levels": {
         "support": [
           375.5,
@@ -609,7 +608,7 @@
       "why": "TSLA trades more like an AI/autonomy platform than a car company now; Musk's FDI narrative and institutional attention keep the stock elevated well above traditional auto valuations.",
       "watch": "$400 is the next round-number resistance \u2014 a break above marks the highest level since late 2024 and invites momentum buying. Musk headlines remain the dominant near-term risk factor.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "5 things we learned during S&P 500 earnings madness",
@@ -632,11 +631,11 @@
       "ticker": "AAPL",
       "name": "Apple",
       "category": "stocks",
-      "price": 280.14,
-      "price_display": "280.14",
-      "change_pct": 3.24,
-      "change_abs": 8.79,
-      "change_display": "+$8.79",
+      "price": 276.829987,
+      "price_display": "276.83",
+      "change_pct": -1.18,
+      "change_abs": -3.310028,
+      "change_display": "-3.31",
       "key_levels": {
         "support": [
           273.37,
@@ -653,7 +652,7 @@
       "why": "Apple's services business (App Store, payments, streaming) is now the real growth engine: high-margin, recurring, and globally scaling \u2014 it's becoming a quality compounder, not just a hardware company.",
       "watch": "$285 is the next resistance and gap-fill target; tariff or India supply chain headline is the key risk to fade this move. Short-term support sits at $273.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "Dow Jones Futures: Trump Says U.S. To 'Guide' Ships Through Hormuz",
@@ -676,11 +675,11 @@
       "ticker": "MSFT",
       "name": "Microsoft",
       "category": "stocks",
-      "price": 414.44,
-      "price_display": "414.44",
-      "change_pct": 1.63,
-      "change_abs": 6.66,
-      "change_display": "+$6.66",
+      "price": 413.619995,
+      "price_display": "413.62",
+      "change_pct": -0.2,
+      "change_abs": -0.820007,
+      "change_display": "-0.82",
       "key_levels": {
         "support": [
           402.08,
@@ -697,7 +696,7 @@
       "why": "Azure beat estimates again; the feedback loop is self-reinforcing: more AI demand drives more Azure revenue, which funds more R&D, which attracts more enterprise customers.",
       "watch": "$420 is the next price target cluster; key risk is a macro shock (payrolls beat, geopolitics) triggering broad tech rotation. Support at $408 on any pullback.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "'It's a boom': Wall Street sees more market gains as strong earnings fuel the AI trade",
@@ -720,11 +719,11 @@
       "ticker": "META",
       "name": "Meta Platforms",
       "category": "stocks",
-      "price": 608.75,
-      "price_display": "608.75",
-      "change_pct": -0.52,
-      "change_abs": -3.16,
-      "change_display": "$-3.16",
+      "price": 610.409973,
+      "price_display": "610.41",
+      "change_pct": 0.27,
+      "change_abs": 1.659973,
+      "change_display": "+1.66",
       "key_levels": {
         "support": [
           588.86,
@@ -741,7 +740,7 @@
       "why": "The advertising flywheel is intact with AI-targeted ad precision improving, but concentration risk is elevated \u2014 META and one peer drive the entire Communication Services ETF.",
       "watch": "$600 is key support; a hold confirms the post-earnings dip as a buy opportunity. A close below $600 targets $575 and would signal institutional de-risking of the position.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "This Major Tech Stock Could Be the Biggest Loser From AI",
@@ -764,11 +763,11 @@
       "ticker": "GOOGL",
       "name": "Alphabet (Google)",
       "category": "stocks",
-      "price": 385.69,
-      "price_display": "385.69",
-      "change_pct": 0.23,
-      "change_abs": 0.89,
-      "change_display": "+$0.89",
+      "price": 383.25,
+      "price_display": "383.25",
+      "change_pct": -0.63,
+      "change_abs": -2.440002,
+      "change_display": "-2.44",
       "key_levels": {
         "support": [
           375.8,
@@ -785,7 +784,7 @@
       "why": "Near-term fundamentals are strong with cloud and ads accelerating, but the structural risk \u2014 AI chatbots eroding Google Search share \u2014 is the valuation ceiling that keeps the stock range-bound.",
       "watch": "$390 is the next resistance; AI search disruption headlines (ChatGPT search share data, regulatory) are the primary risk. Support at $376.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "This Major Tech Stock Could Be the Biggest Loser From AI",
@@ -808,11 +807,11 @@
       "ticker": "AMZN",
       "name": "Amazon",
       "category": "stocks",
-      "price": 268.26,
-      "price_display": "268.26",
-      "change_pct": 1.21,
-      "change_abs": 3.2,
-      "change_display": "+$3.20",
+      "price": 272.049988,
+      "price_display": "272.05",
+      "change_pct": 1.41,
+      "change_abs": 3.789978,
+      "change_display": "+3.79",
       "key_levels": {
         "support": [
           260.7,
@@ -829,7 +828,7 @@
       "why": "AWS is re-accelerating on AI workload demand; combined with expanding retail margins, this is arguably the strongest near-term fundamental story in mega-cap tech.",
       "watch": "$275 is the next price target cluster from street analysts; FTC or EU regulatory news is the key downside risk. AWS growth rate deceleration (reported in next quarter) would be the structural warning.",
       "narrative_last_updated": "2026-05-04T06:40:46Z",
-      "material_change": true,
+      "material_change": false,
       "headlines": [
         {
           "title": "This Major Tech Stock Could Be the Biggest Loser From AI",
