@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-05-05T16:21:25Z",
-  "generated_at_trt": "2026-05-05 19:21 TRT",
-  "run_type": "pm_hybrid",
-  "next_refresh_trt": "2026-05-06 06:30 TRT",
+  "generated_at": "2026-05-06T06:56:27Z",
+  "generated_at_trt": "2026-05-06 09:56 TRT",
+  "run_type": "am_full",
+  "next_refresh_trt": "2026-05-06 19:00 TRT",
   "market_status": "open",
   "macro_context": {
-    "dxy": 98.36,
-    "us10y_yield": 4.41,
-    "vix": 17.51,
-    "btc_dominance_pct": 58.77,
-    "headline": "Risk-on returns: oil slides on Hormuz de-escalation, soft-landing data combo lifts equities, bitcoin breaks $80K \u2014 defensive havens unwind."
+    "dxy": 98.09,
+    "us10y_yield": 4.42,
+    "vix": 17.38,
+    "btc_dominance_pct": 58.69,
+    "headline": "Iran-truce optimism plus an Asian AI rally are lifting equities to records while a softer dollar and 4.42% 10Y leave gold/silver bid as the stagflation hedge."
   },
   "assets": {
     "EURUSD": {
       "ticker": "EURUSD",
       "name": "Euro / US Dollar",
       "category": "fx",
-      "price": 1.170412,
-      "price_display": "1.1704",
-      "change_pct": -0.19,
-      "change_abs": -0.0023,
-      "change_display": "-23 pips",
+      "price": 1.173571,
+      "price_display": "1.1736",
+      "change_pct": 0.374,
+      "change_abs": 0.004377,
+      "change_display": "+44 pips",
       "key_levels": {
         "support": [
-          1.1578,
-          1.1461
+          1.1705,
+          1.1644
         ],
         "resistance": [
-          1.1811,
-          1.1928
+          1.1766,
+          1.1828
         ]
       },
-      "distance_52w_high_pct": -2.66,
-      "distance_52w_low_pct": 5.68,
-      "past": "EUR/USD slipped 30 pips to 1.1695 as oil-driven inflation fears pushed rate-cut expectations further out \u2014 Eurozone CPI hit 3% on the energy spike.",
-      "why": "ECB is trapped: spiking energy costs feed headline inflation but crush growth. Markets now price zero cuts before September, making the euro a carry victim.",
-      "watch": "EZ services PMI final at 11:00 TRT \u2014 any downward revision below 50 reopens recession talk and could crack 1.1650 support.",
-      "narrative_last_updated": "2026-05-05T07:55:31Z",
-      "material_change": false,
+      "distance_52w_high_pct": -2.39,
+      "distance_52w_low_pct": 5.33,
+      "past": "EUR/USD pushed to 1.1736 as DXY broke 98.10 on Trump-Iran de-escalation talk. Risk-on sapped safe-dollar bid; euro caught the residual.",
+      "why": "The dollar is selling on geopolitics, not yields \u2014 US10Y still 4.42%. That's a fragile rally for EUR until ECB delivers something hawkish on its own.",
+      "watch": "ECB speakers across Europe today; any pushback on June cut pricing extends the move. 1.1790 caps; loss of 1.1700 hands it back to dollar bears next session.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
+      "material_change": true,
       "headlines": [
         {
           "title": "Oil Shock + Hawkish Fed = Major EUR/USD Downside? Don't Miss These Trading Opportunities",
-          "url": "https://www.barchart.com/story/news/1683408/oil-shock-hawkish-fed-major-eur-usd-downside-don-t-miss-these-trading-opportunities",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/oil-shock-hawkish-fed-major-123002411.html",
           "source": "Barchart"
         },
         {
           "title": "Eurozone inflation hits 3% as oil prices spike and economic growth slows",
-          "url": "https://www.euronews.com/2026/04/30/eurozone-inflation-hits-3-as-oil-prices-spike-and-economic-growth-slows?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral",
+          "url": "https://finance.yahoo.com/economy/policy/articles/eurozone-inflation-hits-3-oil-100620310.html",
           "source": "Euronews"
         },
         {
@@ -60,37 +60,37 @@
       "ticker": "GBPUSD",
       "name": "British Pound / US Dollar",
       "category": "fx",
-      "price": 1.356558,
-      "price_display": "1.3566",
-      "change_pct": -0.12,
-      "change_abs": -0.0016,
-      "change_display": "-16 pips",
+      "price": 1.358788,
+      "price_display": "1.3588",
+      "change_pct": 0.417,
+      "change_abs": 0.005645,
+      "change_display": "+56 pips",
       "key_levels": {
         "support": [
-          1.3405,
-          1.3269
+          1.3548,
+          1.3468
         ],
         "resistance": [
-          1.3676,
-          1.3811
+          1.3628,
+          1.3708
         ]
       },
-      "distance_52w_high_pct": -2.03,
-      "distance_52w_low_pct": 4.25,
-      "past": "Cable shed 40 pips to 1.3540 tracking broad risk-off; gilt yields rose on BoE rate-hold expectations as UK fuel costs jumped.",
-      "why": "BoE faces the same energy-inflation bind as the ECB, but UK services inflation was already stickier \u2014 markets see no cut until Q4.",
-      "watch": "UK services PMI at 11:30 TRT. Below 52 signals demand cracking under energy costs; above keeps BoE hawkish and cable range-bound.",
-      "narrative_last_updated": "2026-05-05T07:55:31Z",
-      "material_change": false,
+      "distance_52w_high_pct": -1.87,
+      "distance_52w_low_pct": 4.43,
+      "past": "Cable cleared 1.3580 to 1.3588 on the broad dollar slide. Sterling shrugged off the BoE-on-hold narrative as risk-on did the lifting.",
+      "why": "GBP is trading like a high-beta euro right now \u2014 the Iran-truce risk bid is doing the work. Without UK-specific catalysts, this is a borrowed rally.",
+      "watch": "Watch the UK gilt curve; if 10Y gilts catch a bid alongside Treasuries, BoE cut odds rise and cable stalls. 1.3650 resistance, 1.3520 the give-back level.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
+      "material_change": true,
       "headlines": [
         {
           "title": "The British Pound Is a Buy Now Over the U.S. Dollar as Iran War Continues",
-          "url": "https://www.barchart.com/story/news/1686547/the-british-pound-is-a-buy-now-over-the-u-s-dollar-as-iran-war-continues",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/british-pound-buy-now-over-144414551.html",
           "source": "Barchart"
         },
         {
           "title": "Hedge Funds Are Shorting the U.S. Dollar So Make This 1 Trade Now",
-          "url": "https://www.barchart.com/story/news/1322793/hedge-funds-are-shorting-the-u-s-dollar-so-make-this-1-trade-now",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/hedge-funds-shorting-u-dollar-151923481.html",
           "source": "Barchart"
         },
         {
@@ -104,28 +104,28 @@
       "ticker": "USDJPY",
       "name": "US Dollar / Japanese Yen",
       "category": "fx",
-      "price": 157.714996,
-      "price_display": "157.71",
-      "change_pct": 0.55,
-      "change_abs": 0.869,
-      "change_display": "+87 pips",
+      "price": 156.371002,
+      "price_display": "156.37",
+      "change_pct": -0.524,
+      "change_abs": -0.822998,
+      "change_display": "-82 pips",
       "key_levels": {
         "support": [
-          155.628,
-          154.056
+          155.57,
+          153.97
         ],
         "resistance": [
-          158.772,
-          160.344
+          157.17,
+          158.77
         ]
       },
-      "distance_52w_high_pct": -1.86,
-      "distance_52w_low_pct": 10.96,
-      "past": "USD/JPY pushed to 157.20 as US yields rose on oil-driven inflation fears, widening the rate gap despite yen's safe-haven appeal.",
-      "why": "The BoJ is trapped at ultra-low rates while Fed cuts recede. Verbal intervention risk rises every day above 155 but no action yet.",
-      "watch": "Japan holiday today thins liquidity. Any headline escalation in the Strait could trigger an intervention-like flush below 155.",
-      "narrative_last_updated": "2026-05-05T07:55:31Z",
-      "material_change": false,
+      "distance_52w_high_pct": -2.7,
+      "distance_52w_low_pct": 10.02,
+      "past": "USD/JPY dropped to 156.37 as the dollar weakened broadly. Yen got a relief bid even with US10Y still elevated near 4.42%.",
+      "why": "The pair is decoupling from yields short-term \u2014 risk-on usually hurts yen, but Iran de-escalation lifted JPY on safe-haven unwind from oil-importer angle.",
+      "watch": "Tokyo CPI Friday is the next yen-mover. Below 154 opens 152; back above 158 means oil-shock fears returning and Iran optimism fading.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
+      "material_change": true,
       "headlines": [
         {
           "title": "Why a Plunging Dollar Is Missing Out on the Relief Rally",
@@ -148,115 +148,115 @@
       "ticker": "AUDUSD",
       "name": "Australian Dollar / US Dollar",
       "category": "fx",
-      "price": 0.719269,
-      "price_display": "0.7193",
-      "change_pct": -0.28,
-      "change_abs": -0.002,
-      "change_display": "-20 pips",
+      "price": 0.724953,
+      "price_display": "0.7250",
+      "change_pct": 1.145,
+      "change_abs": 0.008205,
+      "change_display": "+82 pips",
       "key_levels": {
         "support": [
-          0.7085,
-          0.7014
+          0.7219,
+          0.7158
         ],
         "resistance": [
-          0.7228,
-          0.73
+          0.728,
+          0.7341
         ]
       },
-      "distance_52w_high_pct": -0.48,
-      "distance_52w_low_pct": 13.05,
-      "past": "AUD/USD dropped 56 pips to 0.7157 \u2014 the sharpest daily fall in two weeks \u2014 as iron ore slid on China demand fears and risk-off weighed.",
-      "why": "Australia is a net energy importer despite coal exports; higher oil costs squeeze the current account. China stimulus hopes are the only bid left.",
-      "watch": "RBA rate decision tomorrow at 06:30 TRT. Consensus hold, but any hawkish tilt on inflation could bounce AUD back above 0.72.",
-      "narrative_last_updated": "2026-05-05T07:55:31Z",
-      "material_change": false,
+      "distance_52w_high_pct": -0.04,
+      "distance_52w_low_pct": 13.74,
+      "past": "AUD/USD ripped to 0.7250 (+1.14%) \u2014 Asian risk rally plus weak dollar plus Samsung's $1T milestone fed the Aussie bid through 0.7240.",
+      "why": "AUD is the cleanest expression of the Iran-truce + AI-rally trade. China stimulus chatter is icing, but the move is global risk-on, not local fundamentals.",
+      "watch": "RBA minutes due; if any hawkish dissent surfaces, 0.7300 prints. China PMI later in the week is the bigger test \u2014 soft print kills this rally fast.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
+      "material_change": true,
       "headlines": [
         {
+          "title": "Dollar softens as Middle East ceasefire holds",
+          "url": "https://finance.yahoo.com/news/yen-steady-dollar-firms-middle-011132956.html",
+          "source": "Reuters"
+        },
+        {
           "title": "Why is the Australian Dollar Rallying?",
-          "url": "https://www.barchart.com/story/news/1628243/why-is-the-australian-dollar-rallying",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/why-australian-dollar-rallying-190003487.html",
           "source": "Barchart"
         },
         {
           "title": "The Next Trade You Should Make Comes from the Land Down Under",
-          "url": "https://www.barchart.com/story/news/1500718/the-next-trade-you-should-make-comes-from-the-land-down-under",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/next-trade-comes-land-down-135525120.html",
           "source": "Barchart"
-        },
-        {
-          "title": "Dollar subdued as markets eye ceasefire talks; yen pressured by BOJ delay",
-          "url": "https://finance.yahoo.com/news/dollar-subdued-markets-eye-ceasefire-013631071.html",
-          "source": "Reuters"
         }
       ]
     },
     "XAUUSD": {
       "ticker": "XAUUSD",
-      "name": "Gold / US Dollar",
+      "name": "Gold",
       "category": "commodities",
-      "price": 4574.299805,
-      "price_display": "4,574.30",
-      "change_pct": 1.21,
-      "change_abs": 54.7998,
-      "change_display": "+$54.80",
+      "price": 4671.899902,
+      "price_display": "4,671.90",
+      "change_pct": 2.548,
+      "change_abs": 116.100098,
+      "change_display": "+$116.10",
       "key_levels": {
         "support": [
-          4519.65,
-          4473.99
+          4631.0,
+          4549.0
         ],
         "resistance": [
-          4610.95,
-          4656.61
+          4713.0,
+          4795.0
         ]
       },
-      "distance_52w_high_pct": -18.12,
-      "distance_52w_low_pct": 46.38,
-      "past": "Gold reclaimed $4,574.30 (+$54.80) \u2014 bouncing off its lowest open in over a month \u2014 as Hormuz attack chatter and persistent central-bank demand re-anchored the bid.",
-      "why": "The geopolitical premium isn't going away cleanly: any Strait-of-Hormuz disruption threatens energy supply, and gold remains the only hedge that works against both inflation and tail risk.",
-      "watch": "Asian session tomorrow \u2014 fresh Iran/UAE incident reignites the bid; clean session opens path to $4,610. Sub-$4,520 risks a washout to $4,475.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -16.37,
+      "distance_52w_low_pct": 49.5,
+      "past": "Gold ripped +$116.10 to 4,671.90 despite the risk-on tape. Stagflation pricing \u2014 Fed inflation gauge at 3.5% \u2014 beats geopolitics.",
+      "why": "Gold + risk assets up + dollar down + 10Y at 4.42% is the textbook stagflation trade. Real yields are sliding even as nominals stay sticky.",
+      "watch": "Watch US PCE and Fedspeak this week. A hot print extends the move toward 4,800; cooling inflation finally caps gold and rotates flows back into equities.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Gold price outlook: Could $6,000 happen this year?",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-outlook-could-6000-happen-this-year-150000233.html",
+          "title": "Amex Gold vs. Chase Sapphire Preferred: Two of the best travel cards for everyday rewards",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/comparison/amex-gold-vs-chase-sapphire-preferred-203052141.html",
+          "source": "Yahoo Personal Finance"
+        },
+        {
+          "title": "Bitcoin and ethereum prices today, Tuesday, May 5, 2026: Bitcoin reaches over $81,000, hitting a high last seen in January",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-may-5-2026-bitcoin-reaches-over-81000-hitting-a-high-last-seen-in-january-113951442.html",
           "source": "Yahoo Personal Finance"
         },
         {
           "title": "Gold and silver prices today, Tuesday, May 5: Lowest open for gold in over a month following attacks near Hormuz",
           "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-tuesday-may-5-lowest-open-for-gold-in-over-a-month-following-attacks-near-hormuz-110020334.html",
           "source": "Yahoo Personal Finance"
-        },
-        {
-          "title": "OceanaGold Brewer Results Highlight Copper Upside And Valuation Discount",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/oceanagold-brewer-results-highlight-copper-160842193.html",
-          "source": "Simply Wall St."
         }
       ]
     },
     "XAGUSD": {
       "ticker": "XAGUSD",
-      "name": "Silver / US Dollar",
+      "name": "Silver",
       "category": "commodities",
-      "price": 73.809998,
-      "price_display": "73.81",
-      "change_pct": 1.01,
-      "change_abs": 0.738,
-      "change_display": "+$0.74",
+      "price": 76.220001,
+      "price_display": "76.22",
+      "change_pct": 4.257,
+      "change_abs": 3.112,
+      "change_display": "+$3.11",
       "key_levels": {
         "support": [
-          73.37,
-          72.63
+          74.95,
+          72.41
         ],
         "resistance": [
-          74.86,
-          75.6
+          77.49,
+          80.03
         ]
       },
-      "distance_52w_high_pct": -39.15,
-      "distance_52w_low_pct": 131.3,
-      "past": "Silver firmed to $73.81 (+$0.74), tracking gold's recovery as the geopolitical bid held into NY hours despite a softer-dollar tape.",
-      "why": "Silver's monetary leg is doing the work today: with gold reclaiming highs and Hormuz risk simmering, the precious-metals bid trumps any industrial-demand softness.",
-      "watch": "If XAU breaks to $4,610, silver overshoots toward $75. Industrial PMI prints Thursday set the longer-cycle tone \u2014 watch the gold/silver ratio for the leadership signal.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -37.16,
+      "distance_52w_low_pct": 138.86,
+      "past": "Silver detonated +4.26% to 76.22 \u2014 gold's leverage cousin caught the stagflation bid plus an industrial demand kicker from the AI capex cycle.",
+      "why": "Silver moves are amplified by the gold-silver ratio compression \u2014 and physical tightness chatter at LBMA is real, not just a meme.",
+      "watch": "If gold breaks 4,750, silver targets 80. The ratio sub-60 would mark a regime shift. Watch dealer premiums on coins as the leading tell.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
@@ -270,9 +270,9 @@
           "source": "Yahoo Personal Finance"
         },
         {
-          "title": "TD Sees Higher Oil Prices Lifting Canada's Export Values in Q2",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/td-sees-higher-oil-prices-160019067.html",
-          "source": "MT Newswires"
+          "title": "Silver Standard Resources Q1 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/silver-standard-resources-q1-earnings-030910993.html",
+          "source": "MarketBeat"
         }
       ]
     },
@@ -280,43 +280,43 @@
       "ticker": "USOIL",
       "name": "WTI Crude Oil",
       "category": "commodities",
-      "price": 102.089996,
-      "price_display": "102.09",
-      "change_pct": -4.07,
-      "change_abs": -4.33,
-      "change_display": "-$4.33",
+      "price": 101.080002,
+      "price_display": "101.08",
+      "change_pct": -1.164,
+      "change_abs": -1.189995,
+      "change_display": "$-1.19",
       "key_levels": {
         "support": [
-          102.43,
-          101.39
+          97.62,
+          90.71
         ],
         "resistance": [
-          104.49,
-          105.53
+          104.54,
+          111.45
         ]
       },
-      "distance_52w_high_pct": -14.56,
-      "distance_52w_low_pct": 85.69,
-      "past": "Crude slipped to $102.09 (-$4.33) as Hormuz escalation risk faded intraday and traders booked profits on the AM spike \u2014 transport names rallied on the relief.",
-      "why": "The geopolitical premium decays fast without follow-through headlines \u2014 and OPEC+ supply cushions are now visible enough that pure fear-trades unwind in hours, not days.",
-      "watch": "EIA inventories Wednesday \u2014 a build north of 2M barrels confirms the unwind toward $100. Any fresh Strait incident overnight snaps it back above $104.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -15.4,
+      "distance_52w_low_pct": 83.85,
+      "past": "WTI fell to 101.08 (-1.16%) as Trump telegraphed Iran-deal progress. The Hormuz risk premium that built last week is unwinding fast.",
+      "why": "Crude is a pure geopolitics trade right now \u2014 fundamentals (US inventories, OPEC compliance) are sidelined while the tape reacts headline-by-headline.",
+      "watch": "Any concrete US-Iran framework drops oil to 95; a reversal on Iranian counter-statement and 105 prints. EIA inventories Wednesday matter only at the margin.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
+        {
+          "title": "Rally rolls on despite Iran tensions and economic divide",
+          "url": "https://finance.yahoo.com/video/rally-rolls-on-despite-iran-tensions-and-economic-divide-205355759.html",
+          "source": "Yahoo Finance Video"
+        },
         {
           "title": "Gold price outlook: Could $6,000 happen this year?",
           "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-outlook-could-6000-happen-this-year-150000233.html",
           "source": "Yahoo Personal Finance"
         },
         {
-          "title": "Retail trading activity fell in April as investors diversified: Schwab",
-          "url": "https://finance.yahoo.com/video/retail-trading-activity-fell-in-april-as-investors-diversified-schwab-210709628.html",
-          "source": "Yahoo Finance Video"
-        },
-        {
-          "title": "Why the transport sector is seeing a sea of red",
-          "url": "https://finance.yahoo.com/video/why-the-transport-sector-is-seeing-a-sea-of-red-204043592.html",
-          "source": "Yahoo Finance Video"
+          "title": "Gold and silver prices today, Tuesday, May 5: Lowest open for gold in over a month following attacks near Hormuz",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-tuesday-may-5-lowest-open-for-gold-in-over-a-month-following-attacks-near-hormuz-110020334.html",
+          "source": "Yahoo Personal Finance"
         }
       ]
     },
@@ -324,43 +324,43 @@
       "ticker": "US500",
       "name": "S&P 500",
       "category": "indices",
-      "price": 7259.060059,
-      "price_display": "7,259.1",
-      "change_pct": 0.81,
-      "change_abs": 58.3101,
-      "change_display": "+58.3",
+      "price": 7259.220215,
+      "price_display": "7,259.2",
+      "change_pct": 0.812,
+      "change_abs": 58.470215,
+      "change_display": "+$58.47",
       "key_levels": {
         "support": [
-          7128.74,
-          7056.73
+          7226.0,
+          7158.0
         ],
         "resistance": [
-          7272.76,
-          7344.77
+          7293.0,
+          7360.0
         ]
       },
       "distance_52w_high_pct": -0.19,
       "distance_52w_low_pct": 30.13,
-      "past": "S&P 500 climbed to 7,259.1 (+58.3) as oil slid and a wave of solid earnings \u2014 including better-than-feared guidance \u2014 drove a broad rotation back into risk.",
-      "why": "The bid is mechanical: lower oil eases the inflation tax, soft jobs/housing data revive Fed-cut hopes, and Q1 beats keep the EPS revision trend positive.",
-      "watch": "AMD earnings tonight set the AI capex tone for tomorrow's open. CPI Thursday is the bigger gate \u2014 a 0.2% MoM core print unlocks the next leg toward 7,300.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "past": "S&P 500 closed at 7,259.2 (+0.81%) \u2014 a fresh record, less than 0.2% from its 52w high. AAPL did the heavy lifting, +2.66%.",
+      "why": "This is a melt-up driven by Iran-truce optimism and a renewed AI bid out of Asia. Market breadth has improved but is still tech-heavy.",
+      "watch": "PCE Friday is the binary risk. Hot print = volatility back above VIX 20 and a 2% pullback baseline; in-line and 7,300 breaks easily next session.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Stock market today: S&P 500, Nasdaq, Dow rise as oil slides, wave of solid earnings rolls in",
-          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-sp-500-nasdaq-dow-rise-as-oil-slides-wave-of-solid-earnings-rolls-in-233125523.html",
+          "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as tech earnings continue to impress",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html",
           "source": "Yahoo Finance"
         },
         {
-          "title": "Flaharty Takes a Fresh Stake in Cloud Computing With $19.1M SKYY Position",
-          "url": "https://www.fool.com/coverage/filings/2026/05/05/flaharty-takes-a-fresh-stake-in-cloud-computing-with-usd19-1m-skyy-position/",
-          "source": "Motley Fool"
+          "title": "Dow transports are nearing a bear market after erasing their entire April breakout: Chart of the Day",
+          "url": "https://finance.yahoo.com/markets/article/dow-transports-are-nearing-a-bear-market-after-erasing-their-entire-april-breakout-chart-of-the-day-100000655.html",
+          "source": "Yahoo Finance"
         },
         {
-          "title": "Long-Term S&P 500 Holding or Greater Liquidity? VOO vs. SPY",
-          "url": "https://www.fool.com/coverage/etfs/2026/05/05/long-term-s-and-p-500-holding-or-greater-liquidity-voo-vs-spy/",
-          "source": "Motley Fool"
+          "title": "Resilience amid ruins: Why markets are hitting record highs despite the Iran war",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/resilience-amid-ruins-why-markets-050039572.html",
+          "source": "Euronews"
         }
       ]
     },
@@ -368,87 +368,87 @@
       "ticker": "NAS100",
       "name": "Nasdaq 100",
       "category": "indices",
-      "price": 28022.972656,
-      "price_display": "28,023.0",
-      "change_pct": 1.34,
-      "change_abs": 371.1523,
-      "change_display": "+371.2",
+      "price": 28015.060547,
+      "price_display": "28,015.1",
+      "change_pct": 1.314,
+      "change_abs": 363.240234,
+      "change_display": "+$363.24",
       "key_levels": {
         "support": [
-          27375.3,
-          27098.78
+          27835.0,
+          27476.0
         ],
         "resistance": [
-          27928.34,
-          28204.86
+          28195.0,
+          28555.0
         ]
       },
-      "distance_52w_high_pct": 0.72,
-      "distance_52w_low_pct": 42.93,
-      "past": "Nasdaq 100 led the tape to 28,023.0 (+371.2) on a soft-landing data combo \u2014 jobs/housing beat \u2014 that resurrected the AI-trade and dragged megacaps higher.",
-      "why": "Memory tightness (Micron +12%, SanDisk +10%) is reigniting the parabolic AI capex thesis just as cloud capex commentary stays elevated into tomorrow's AMD print.",
-      "watch": "AMD after the close \u2014 datacenter beat reignites NVDA/AVGO; miss puts the AI-led rally on probation. Yields back above 4.45% would cap any extension.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -0.18,
+      "distance_52w_low_pct": 42.9,
+      "past": "Nasdaq 100 reached 28,015.1 (+1.31%), record territory. Asian AI bid carried over \u2014 Samsung's $1T cap re-energized chip and platform names.",
+      "why": "The AI capex cycle just got reinforced \u2014 Asian cap leaders accelerating means hyperscaler infra spend re-rates upward. NVDA -1% is noise inside that.",
+      "watch": "AMD prints today \u2014 strong guide spreads to NVDA and ARM names; weak guide is the first credible bear catalyst since the rally started in February.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Risk Assets Climb as US Jobs, Housing Data Beat Estimates",
-          "url": "https://beincrypto.com/risk-assets-us-data-soft-landing/",
-          "source": "BeInCrypto"
+          "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as tech earnings continue to impress",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html",
+          "source": "Yahoo Finance"
         },
         {
-          "title": "2 Nasdaq 100 Stocks with Competitive Advantages and 1 We Question",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-nasdaq-100-stocks-competitive-094855120.html",
-          "source": "StockStory"
+          "title": "Shopify\u2019s slowing growth raises red flags for investors",
+          "url": "https://finance.yahoo.com/video/shopifys-slowing-growth-raises-red-flags-for-investors-161421676.html",
+          "source": "Yahoo Finance Video"
         },
         {
-          "title": "U.S.-Iran Ceasefire Under Pressure; AMD Earnings in Focus: Dow Jones, S&P, Nasdaq, Wall Street Futures",
-          "url": "https://investorshub.advfn.com/market-news/article/27685/u-s-iran-ceasefire-under-pressure-amd-earnings-in-focus-dow-jones-sp-nasdaq-wall-street-futures",
-          "source": "InvestorsHub"
+          "title": "S&P 500 and Nasdaq 100 Post Record Highs on Tech Strength",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-100-post-203704465.html",
+          "source": "Barchart"
         }
       ]
     },
     "US30": {
       "ticker": "US30",
-      "name": "Dow Jones 30",
+      "name": "Dow Jones",
       "category": "indices",
-      "price": 49219.078125,
-      "price_display": "49,219.1",
-      "change_pct": 0.57,
-      "change_abs": 277.1797,
-      "change_display": "+277.2",
+      "price": 49298.25,
+      "price_display": "49,298.2",
+      "change_pct": 0.728,
+      "change_abs": 356.351562,
+      "change_display": "+$356.35",
       "key_levels": {
         "support": [
-          48452.48,
-          47963.06
+          49029.0,
+          48489.0
         ],
         "resistance": [
-          49431.32,
-          49920.74
+          49568.0,
+          50107.0
         ]
       },
-      "distance_52w_high_pct": -2.56,
-      "distance_52w_low_pct": 20.76,
-      "past": "Dow added ground to 49,219.1 (+277.2) as cyclicals and industrials caught a bid on falling oil and broadly upbeat Q1 reports across transports and capital goods.",
-      "why": "Rotation out of pure-AI into broader earnings beneficiaries \u2014 the Cramer 'AI-spend-isn't-a-bubble' framing is being read as permission to chase the laggards.",
-      "watch": "Industrial earnings tomorrow morning \u2014 if the breadth holds, Dow extends to 49,500. Any single big miss on AI-supply-chain names knocks 300 points off fast.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -2.4,
+      "distance_52w_low_pct": 20.95,
+      "past": "Dow added 0.73% to 49,298.2. Industrial and financial names participated as Treasury yields stayed stable and risk-on lifted cyclicals.",
+      "why": "Dow lagging Nasdaq again \u2014 the rotation isn't happening, AI-leadership is the only game. That's a narrow-market signal, not a healthy broadening.",
+      "watch": "If yields back up over 4.50% on the next CPI surprise, Dow gives back fastest because rate-sensitive value names dominate it. Watch 49,000 as the line.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Stock market today: S&P 500, Nasdaq, Dow rise as oil slides, wave of solid earnings rolls in",
-          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-sp-500-nasdaq-dow-rise-as-oil-slides-wave-of-solid-earnings-rolls-in-233125523.html",
+          "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as tech earnings continue to impress",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html",
           "source": "Yahoo Finance"
         },
         {
-          "title": "Stocks gain as investors take heart from upbeat earnings, dip in oil",
-          "url": "https://finance.yahoo.com/news/shares-slide-oil-prices-elevated-013856491.html",
-          "source": "Reuters"
+          "title": "Stock market today: S&P 500, Nasdaq notch fresh records as tech leads markets higher, oil falls",
+          "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-sp-500-nasdaq-notch-fresh-records-as-tech-leads-markets-higher-oil-falls-233125994.html",
+          "source": "Yahoo Finance"
         },
         {
-          "title": "BWX Technologies Beats Earnings Estimates. The Stock Is Down.",
-          "url": "https://www.barrons.com/articles/bwx-technologies-earnings-stock-price-e8d2c8bd?siteid=yhoof2&yptr=yahoo",
-          "source": "Barrons.com"
+          "title": "Dow Jones Futures Rise; Trump Hits Hormuz Pause; AMD, Lumentum, Arista Lead AI Earnings Movers",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-hormuz-pause-amd-lumentum-arista-earnings/?src=A00220&yptr=yahoo",
+          "source": "Investor's Business Daily"
         }
       ]
     },
@@ -456,27 +456,27 @@
       "ticker": "BTC",
       "name": "Bitcoin",
       "category": "crypto",
-      "price": 80937.359375,
-      "price_display": "80,937",
-      "change_pct": 1.39,
-      "change_abs": 1109.4531,
-      "change_display": "+$1,109",
+      "price": 80927.054688,
+      "price_display": "80,927",
+      "change_pct": 1.377,
+      "change_abs": 1099.148438,
+      "change_display": "+$1,099",
       "key_levels": {
         "support": [
-          80113.96,
-          79304.72
+          80000.0,
+          78000.0
         ],
         "resistance": [
-          81732.42,
-          82541.65
+          81900.0,
+          83800.0
         ]
       },
       "distance_52w_high_pct": -35.87,
-      "distance_52w_low_pct": 34.73,
-      "past": "Bitcoin punched through $80K to $80,937 (+$1,109) \u2014 its highest level since January \u2014 triggering a short squeeze and a $4.2B Bullish-driven sentiment lift.",
-      "why": "Risk-on flow from soft-landing data plus Coinbase's AI pivot story restored the 'crypto-as-tech-beta' narrative; on-chain longs leveraged into the breakout.",
-      "watch": "$83,400 is the next short-trigger level per analyst flows. Failure to hold $80K through Asia opens a flush back to $77K \u2014 leverage is stacked.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_low_pct": 34.71,
+      "past": "Bitcoin pushed back over 80,000 to 80,927 (+1.38%). Risk-on tape plus continued ETF inflows did the work; 82,000 is the next obvious target.",
+      "why": "BTC dominance at 58.7% \u2014 alts aren't catching up yet despite ETH's bid. That tells you this is institutional bid, not retail euphoria \u2014 for now.",
+      "watch": "If ETF flows print +$300M today, the 82K break comes intraday. A reversal under 79,500 with the tape strong elsewhere is the divergence tell.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
@@ -485,14 +485,14 @@
           "source": "Yahoo Personal Finance"
         },
         {
-          "title": "Coinbase Slashes Workforce For AI Pivot; Bullish Rallies On $4.2 Billion Buyout",
-          "url": "https://www.investors.com/news/coinbase-stock-layoffs-14-workforce-ai-shift-bullish-rally-4-2-billion-acquisition-equiniti-tokenization-blsh/?src=A00220&yptr=yahoo",
-          "source": "Investor's Business Daily"
+          "title": "Why Bitcoin\u2019s 20% Price Rally Reads Bearish Underneath",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-20-price-rally-055801012.html",
+          "source": "BeInCrypto"
         },
         {
-          "title": "HIVE Digital bets its Bitcoin infrastructure can power the AI boom",
-          "url": "https://www.proactiveinvestors.com/companies/news/1091746/hive-digital-bets-its-bitcoin-infrastructure-can-power-the-ai-boom-1091746.html",
-          "source": "Proactive"
+          "title": "Coinbase CEO makes critical move before earnings",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-ceo-makes-critical-move-052101559.html",
+          "source": "TheStreet"
         }
       ]
     },
@@ -500,27 +500,27 @@
       "ticker": "ETH",
       "name": "Ethereum",
       "category": "crypto",
-      "price": 2376.98999,
-      "price_display": "2,377",
-      "change_pct": 1.3,
-      "change_abs": 30.593,
-      "change_display": "+$31",
+      "price": 2361.182617,
+      "price_display": "2,361",
+      "change_pct": 0.63,
+      "change_abs": 14.785645,
+      "change_display": "+$15",
       "key_levels": {
         "support": [
-          2358.99,
-          2335.16
+          2300.0,
+          2300.0
         ],
         "resistance": [
-          2406.65,
-          2430.48
+          2400.0,
+          2500.0
         ]
       },
-      "distance_52w_high_pct": -52.02,
-      "distance_52w_low_pct": 35.94,
-      "past": "ETH followed Bitcoin higher to $2,377 (+$31), but the relative bid was muted \u2014 flows concentrated in BTC and ETH/BTC ratio compressed further into the session close.",
-      "why": "Without an ETH-specific catalyst \u2014 staking, ETF inflow, L2 narrative \u2014 capital chases the highest-beta crypto liquidity, which today is BTC.",
-      "watch": "ETH/BTC ratio at 0.029 is the line \u2014 bounce reignites alt-season; a fresh break opens $2,250. Watch staking-yield headlines for a domestic catalyst.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -50.43,
+      "distance_52w_low_pct": 35.03,
+      "past": "ETH up to 2,361 (+0.63%) \u2014 lagging BTC's bid as the dominance ratio creeps higher. The L2 fee narrative remains stuck at low-throughput levels.",
+      "why": "ETH is in a structural rut versus BTC until Pectra impact translates to user activity, not just specs. Spot ETF flows are moderate, not surging.",
+      "watch": "Watch the ETH/BTC cross \u2014 break below 0.029 means rotation continues and 2,200 prints. Reclaim 0.032 and ETH catches up to 2,500 fast.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
@@ -529,14 +529,14 @@
           "source": "Yahoo Personal Finance"
         },
         {
-          "title": "Bitcoin Price Analysis: BTC Just Broke $81,000 and Triggered a Short Squeeze \u2014 Is $83,400 the Next Target?",
-          "url": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-analysis-86k/",
-          "source": "99bitcoins"
+          "title": "Kelp Blames LayerZero for $292 Million Hack, Plans Switch to Chainlink",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/kelp-blames-layerzero-292-million-223156936.html",
+          "source": "decrypt"
         },
         {
-          "title": "Exclusive: AmericanFortress raises $8M to build quantum-proof blockchain security",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/exclusive-americanfortress-raises-8m-build-125252623.html",
-          "source": "Investing.com"
+          "title": "How Solana Exchange Drift Plans to Repay Users After $295 Million Crypto Hack",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/solana-exchange-drift-plans-repay-212523404.html",
+          "source": "decrypt"
         }
       ]
     },
@@ -544,43 +544,43 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "category": "stocks",
-      "price": 197.820007,
-      "price_display": "197.82",
-      "change_pct": -0.33,
-      "change_abs": -0.66,
-      "change_display": "-$0.66",
+      "price": 196.5,
+      "price_display": "196.50",
+      "change_pct": -0.998,
+      "change_abs": -1.979996,
+      "change_display": "$-1.98",
       "key_levels": {
         "support": [
-          196.5,
-          194.51
+          193.32,
+          186.96
         ],
         "resistance": [
-          200.46,
-          202.45
+          199.68,
+          206.04
         ]
       },
-      "distance_52w_high_pct": -8.76,
-      "distance_52w_low_pct": 78.54,
-      "past": "NVDA closed near $197.82 (-$0.66) \u2014 flat as AMD earnings positioning dominated the tape, with memory winners (Micron +12%) absorbing AI-trade flow.",
-      "why": "The chip leadership baton rotated intraday \u2014 investors crowded into supply-tight memory names rather than chasing NVDA into the AMD print risk-event.",
-      "watch": "AMD datacenter revenue + guide tonight sets NVDA's tape tomorrow. A clean MI300/350 beat reignites $200; a miss invites a test of $194 support.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -9.38,
+      "distance_52w_low_pct": 77.31,
+      "past": "NVDA slipped 1.00% to 196.50 despite the broad tech rally. Profit-taking ahead of AMD earnings, plus the 'no longer just NVDA' narrative gaining traction.",
+      "why": "NVDA isn't broken \u2014 it's de-rating relative to the basket as ASIC alternatives (AVGO, AMD MI400, hyperscaler in-house) start to take share at the margin.",
+      "watch": "AMD print tonight is the proxy. AMD beat = NVDA bid resumes; AMD miss reframes the chip trade and NVDA holds 195 as a floor for one more session.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Firefly CEO on path to profitability, Nvidia partnership",
-          "url": "https://finance.yahoo.com/video/firefly-ceo-on-path-to-profitability-nvidia-partnership-144924449.html",
+          "title": "AMD Q1 earnings: What the chipmaker's growth could mean for Nvidia",
+          "url": "https://finance.yahoo.com/video/amd-q1-earnings-what-the-chipmakers-growth-could-mean-for-nvidia-204203602.html",
           "source": "Yahoo Finance Video"
         },
         {
-          "title": "PepsiCo vs Coca-Cola: A Decade-Long Fight for Dominance",
-          "url": "https://247wallst.com/investing/2026/05/05/pepsico-vs-coca-cola-a-decade-long-fight-for-dominance/",
-          "source": "24/7 Wall St."
+          "title": "The chip trade is no longer just about Nvidia",
+          "url": "https://finance.yahoo.com/markets/article/the-chip-trade-is-no-longer-just-about-nvidia-175900816.html",
+          "source": "Yahoo Finance"
         },
         {
-          "title": "Micron Rockets 12%, SanDisk Leaps 10% as Tight Memory Supply Fuels Parabolic AI Trade",
-          "url": "https://247wallst.com/investing/2026/05/05/micron-rockets-12-sandisk-leaps-10-as-tight-memory-supply-fuels-parabolic-ai-trade/",
-          "source": "24/7 Wall St."
+          "title": "AMD earnings on deck: Why we might see a stock sell-off",
+          "url": "https://finance.yahoo.com/video/amd-earnings-deck-why-might-141730992.html",
+          "source": "Yahoo Finance Video"
         }
       ]
     },
@@ -588,43 +588,43 @@
       "ticker": "TSLA",
       "name": "Tesla",
       "category": "stocks",
-      "price": 391.73999,
-      "price_display": "391.74",
-      "change_pct": -0.2,
-      "change_abs": -0.77,
-      "change_display": "-$0.77",
+      "price": 389.369995,
+      "price_display": "389.37",
+      "change_pct": -0.8,
+      "change_abs": -3.140015,
+      "change_display": "$-3.14",
       "key_levels": {
         "support": [
-          388.58,
-          384.66
+          382.58,
+          369.0
         ],
         "resistance": [
-          396.44,
-          400.36
+          396.16,
+          409.74
         ]
       },
-      "distance_52w_high_pct": -21.46,
-      "distance_52w_low_pct": 44.56,
-      "past": "TSLA traded around $391.74 (-$0.77) on quiet flow \u2014 Musk's retirement-savings comment moved headlines but not the stock; MAGS-basket weakness was the bigger drag.",
-      "why": "TSLA is still pinned by the EV-demand vs robotaxi-promise tug-of-war; without a fresh data point, it trades the basket beta, not the story.",
-      "watch": "Texas AI-buildout and FSD updates this week \u2014 any data beat resets the AI-narrative leg. China May delivery reads after midweek are the harder gate.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -21.94,
+      "distance_52w_low_pct": 43.68,
+      "past": "TSLA closed at 389.37 (-0.80%). EU FSD regulatory pushback offset robotaxi optimism; chart still 22% off the 52w high.",
+      "why": "TSLA's narrative whip continues \u2014 robotaxi vs regulator, energy vs auto-margin compression. Without a delivery surprise, it's a sideways grind.",
+      "watch": "Q2 deliveries data points start trickling out; any monthly run-rate beat versus consensus and 410 reclaims. Lose 380 and the chart targets 360.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Sen. Ted Cruz discusses Texas' vital role in AI buildout",
-          "url": "https://finance.yahoo.com/video/sen-ted-cruz-discusses-texas-110000822.html",
+          "title": "Tesla's 'fundamental approach' to robotaxis gives it an edge over Waymo",
+          "url": "https://finance.yahoo.com/video/teslas-fundamental-approach-to-robotaxis-gives-it-an-edge-over-waymo-195353167.html",
           "source": "Yahoo Finance Video"
         },
         {
-          "title": "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
-          "url": "https://finance.yahoo.com/economy/article/elon-musk-says-saving-for-retirement-wont-matter-im-not-banking-on-it-100000427.html",
-          "source": "Yahoo Finance"
+          "title": "Tesla FSD hits major speedbump with EU regulators",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-fsd-hits-major-speedbump-023300733.html",
+          "source": "TheStreet"
         },
         {
-          "title": "MAGS Is Up 181% Since Launch, but 2026 Reveals Its Hidden Weakness",
-          "url": "https://247wallst.com/investing/2026/05/05/mags-is-up-181-since-launch-but-2026-reveals-its-hidden-weakness/",
-          "source": "24/7 Wall St."
+          "title": "Exclusive-Rivian mulls making its own lidar sensors, possibly in partnership with Chinese firms",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/exclusive-rivian-mulls-making-own-001144199.html",
+          "source": "Reuters"
         }
       ]
     },
@@ -632,43 +632,43 @@
       "ticker": "AAPL",
       "name": "Apple",
       "category": "stocks",
-      "price": 281.51001,
-      "price_display": "281.51",
-      "change_pct": 1.69,
-      "change_abs": 4.68,
-      "change_display": "+$4.68",
+      "price": 284.179993,
+      "price_display": "284.18",
+      "change_pct": 2.655,
+      "change_abs": 7.350006,
+      "change_display": "+$7.35",
       "key_levels": {
         "support": [
-          274.06,
-          271.29
+          280.78,
+          273.99
         ],
         "resistance": [
-          279.6,
-          282.37
+          287.58,
+          294.37
         ]
       },
-      "distance_52w_high_pct": -2.38,
-      "distance_52w_low_pct": 46.3,
-      "past": "AAPL ground higher to $281.51 (+$4.68) on the Intel chipmaking-talks report \u2014 markets price both production hedge optionality and a Cramer-endorsed AI pull.",
-      "why": "An Apple/Intel foundry move would be a structural shock for TSMC; even partial diversification reduces AAPL's geopolitical risk premium and supports the multiple.",
-      "watch": "Look for any Apple, Intel, or TSMC official comment overnight. Confirmation rerates AAPL toward $290; denial knocks it back to $278 fast.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -1.54,
+      "distance_52w_low_pct": 47.05,
+      "past": "AAPL surged 2.66% to 284.18 \u2014 back near 52w highs, single-handedly driving the S&P record close. Apple Intelligence rollout chatter resurfaced.",
+      "why": "AAPL is the safe-haven AI proxy \u2014 buyback yield + services growth + AI optionality without NVDA-level multiple risk. Macro de-risking flows here first.",
+      "watch": "WWDC scheduling/leaks are the next catalyst. A clear on-device-AI roadmap reclaims 290; without it, AAPL drifts back to 275 as the bid fades.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Intel stock hits all-time high on Apple chipmaking report",
-          "url": "https://qz.com/intel-stock-all-time-high-apple-chipmaking-talks-050526",
-          "source": "Quartz"
+          "title": "Micron stock is surging, hitting a new intraday record high. Why?",
+          "url": "https://finance.yahoo.com/video/micron-stock-is-surging-hitting-a-new-intraday-record-high-why-195211594.html",
+          "source": "Yahoo Finance Video"
         },
         {
-          "title": "Top Midday Stories: PayPal Q2 EPS Guide Undershoots Expectations, Plans 20% Workforce Cut; Palantir Shares Fall Despite Strong Earnings, Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-paypal-q2-155342640.html",
-          "source": "MT Newswires"
+          "title": "Arm Reports Earnings as It Shifts Its Business Model",
+          "url": "https://www.barrons.com/articles/arm-earnings-stock-price-044c9e87?siteid=yhoof2&yptr=yahoo",
+          "source": "Barrons.com"
         },
         {
-          "title": "Apple Hammers The Competition",
-          "url": "https://247wallst.com/investing/2026/05/05/apple-hammers-the-competition/",
-          "source": "24/7 Wall St."
+          "title": "Intel Joined Elon Musk's Terafab. Will This Catalyst Cement the Stock's Turnaround?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-joined-elon-musks-terafab-223700232.html",
+          "source": "Motley Fool"
         }
       ]
     },
@@ -676,43 +676,43 @@
       "ticker": "MSFT",
       "name": "Microsoft",
       "category": "stocks",
-      "price": 409.36499,
-      "price_display": "409.36",
-      "change_pct": -1.03,
-      "change_abs": -4.255,
-      "change_display": "-$4.26",
+      "price": 411.380005,
+      "price_display": "411.38",
+      "change_pct": -0.542,
+      "change_abs": -2.23999,
+      "change_display": "$-2.24",
       "key_levels": {
         "support": [
-          409.48,
-          405.35
+          405.69,
+          394.3
         ],
         "resistance": [
-          417.76,
-          421.89
+          417.07,
+          428.46
         ]
       },
-      "distance_52w_high_pct": -25.87,
-      "distance_52w_low_pct": 14.9,
-      "past": "MSFT eased to $409.36 (-$4.26) as the Cramer pressure-list framing weighed and Anthropic's enterprise-financial push reminded investors of competitive AI distribution.",
-      "why": "Capex-heavy AI investments are getting scrutinized harder than capex-light wins (Apple, Alphabet) \u2014 Azure growth has to carry the weight alone now.",
-      "watch": "Azure growth commentary at any partner event tomorrow \u2014 anything north of 30% reaccelerates the bid; sub-28% confirms the rotation thesis.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -25.94,
+      "distance_52w_low_pct": 15.47,
+      "past": "MSFT slipped 0.54% to 411.38 \u2014 pause day after recent strength. Azure AI guidance comments from execs at conferences kept the longer-term thesis intact.",
+      "why": "MSFT is the cleanest hyperscaler AI play but the stock is range-bound until Azure growth re-accelerates above 30%. Compute supply is still the bottleneck.",
+      "watch": "Next datapoint is Build conference (later in the month) for AI tools cadence. Hold 405 = base case extends; below 400 invites profit-taking to 390.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Anthropic continues enterprise push with new financial services software",
-          "url": "https://finance.yahoo.com/sectors/technology/article/anthropic-continues-enterprise-push-with-new-financial-services-software-150000330.html",
-          "source": "Yahoo Finance"
+          "title": "eToro CEO talks Coinbase layoffs & AI's labor force impact",
+          "url": "https://finance.yahoo.com/video/etoro-ceo-talks-coinbase-layoffs-210924310.html",
+          "source": "Yahoo Finance Video"
         },
         {
-          "title": "Top Midday Stories: PayPal Q2 EPS Guide Undershoots Expectations, Plans 20% Workforce Cut; Palantir Shares Fall Despite Strong Earnings, Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-paypal-q2-155342640.html",
-          "source": "MT Newswires"
+          "title": "Microsoft Finds Just 13% of Firms Reward AI-Driven Workplace Reinvention",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-finds-just-13-firms-044659301.html",
+          "source": "BeInCrypto"
         },
         {
-          "title": "Jim Cramer Says AI Spending Is No Bubble As Alphabet, Amazon, Apple Surge, While Microsoft And Meta Face Pressure",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/jim-cramer-says-ai-spending-153134017.html",
-          "source": "Benzinga"
+          "title": "Magnificent Seven, Markets, and Mailbag with CEO Tom Gardner",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-markets-mailbag-ceo-022435628.html",
+          "source": "Motley Fool"
         }
       ]
     },
@@ -720,27 +720,27 @@
       "ticker": "META",
       "name": "Meta Platforms",
       "category": "stocks",
-      "price": 600.530029,
-      "price_display": "600.53",
-      "change_pct": -1.62,
-      "change_abs": -9.8799,
-      "change_display": "-$9.88",
+      "price": 604.960022,
+      "price_display": "604.96",
+      "change_pct": -0.893,
+      "change_abs": -5.449951,
+      "change_display": "$-5.45",
       "key_levels": {
         "support": [
-          604.31,
-          598.2
+          595.82,
+          577.54
         ],
         "resistance": [
-          616.51,
-          622.62
+          614.1,
+          632.38
         ]
       },
-      "distance_52w_high_pct": -24.4,
-      "distance_52w_low_pct": 15.43,
-      "past": "META slid to $600.53 (-$9.88) on layoff headlines and JOLTS data showing rising layoffs \u2014 Cramer flagged META alongside MSFT as 'under pressure' from AI-spend math.",
-      "why": "The market is increasingly pricing META's Reality Labs spend against Apple-style capital efficiency \u2014 without a Reels monetization beat, the discount widens.",
-      "watch": "Ad-spend channel checks Wednesday and Friday's BLS jobs report. A weak hiring print actually helps \u2014 eases wage cost overhang and reopens the cut path.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -24.02,
+      "distance_52w_low_pct": 16.28,
+      "past": "META eased 0.89% to 604.96. Capex digestion plus regulatory chatter weighed; 24% off the 52w high keeps the stock in correction mode.",
+      "why": "META's spend cycle is the tension \u2014 Reality Labs losses, AI capex ramp, but ad pricing data still solid. Market is voting with caution near-term.",
+      "watch": "EU Digital Markets Act enforcement updates and ad-rev runrate from agency checks are the watch items. Reclaim 615 = trend repair; below 595 = 580 next.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
@@ -749,14 +749,14 @@
           "source": "Yahoo Finance"
         },
         {
-          "title": "Job openings remained flat in March as layoffs ticked up",
-          "url": "https://finance.yahoo.com/economy/article/job-openings-remained-flat-in-march-as-layoffs-ticked-up-141154030.html",
-          "source": "Yahoo Finance"
+          "title": "Magnificent Seven, Markets, and Mailbag with CEO Tom Gardner",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-markets-mailbag-ceo-022435628.html",
+          "source": "Motley Fool"
         },
         {
-          "title": "Jim Cramer Says AI Spending Is No Bubble As Alphabet, Amazon, Apple Surge, While Microsoft And Meta Face Pressure",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/jim-cramer-says-ai-spending-153134017.html",
-          "source": "Benzinga"
+          "title": "Meta\u2019s Texas AI Build And Space Solar Deal Reshape Investment View",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-texas-ai-build-space-010930878.html",
+          "source": "Simply Wall St."
         }
       ]
     },
@@ -764,42 +764,42 @@
       "ticker": "GOOGL",
       "name": "Alphabet",
       "category": "stocks",
-      "price": 388.049988,
-      "price_display": "388.05",
-      "change_pct": 1.25,
-      "change_abs": 4.8,
-      "change_display": "+$4.80",
+      "price": 388.429993,
+      "price_display": "388.43",
+      "change_pct": 1.352,
+      "change_abs": 5.179993,
+      "change_display": "+$5.18",
       "key_levels": {
         "support": [
-          379.42,
-          375.58
+          383.54,
+          373.75
         ],
         "resistance": [
-          387.08,
-          390.92
+          393.32,
+          403.11
         ]
       },
-      "distance_52w_high_pct": 0.17,
-      "distance_52w_low_pct": 163.39,
-      "past": "Alphabet advanced to $388.05 (+$4.80) as Cramer's bull-list tag and a fresh '$500 by 2027' analyst path piece supported the bid through broader AI-rotation chop.",
-      "why": "GOOGL is the consensus AI-winner-without-the-capex-hangover story right now \u2014 Search resilience plus Cloud revenue beats is the cleanest setup in megacap.",
-      "watch": "Uber/DoorDash earnings noise tomorrow tests the broader ad-spend read. YouTube channel checks late this week are the bigger sentiment gate.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -1.12,
+      "distance_52w_low_pct": 162.74,
+      "past": "Alphabet rose 1.35% to 388.43. Cloud growth and Gemini distribution metrics underpin the bid; near 52w highs again.",
+      "why": "GOOGL is winning the AI-search defense \u2014 the worst-case 'ChatGPT eats Google' thesis isn't materializing in usage data, and Cloud is taking share.",
+      "watch": "Watch search volume and YouTube ad pricing for the next leg. Reclaim 392 = uptrend resumes to 400; lose 382 and rotation worry resurfaces.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Alphabet Stock: I See a Path to $500 by 2027",
-          "url": "https://247wallst.com/investing/2026/05/05/alphabet-stock-i-see-a-path-to-500-by-2027/",
-          "source": "24/7 Wall St."
+          "title": "Tech stocks today: Intel pops, Semiconductor earnings in focus, Musk-Altman court battle continues",
+          "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-semiconductor-earnings-ai-boom-musk-altman-fight-100000447.html",
+          "source": "Yahoo Finance"
         },
         {
-          "title": "Top Midday Stories: PayPal Q2 EPS Guide Undershoots Expectations, Plans 20% Workforce Cut; Palantir Shares Fall Despite Strong Earnings, Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-paypal-q2-155342640.html",
-          "source": "MT Newswires"
+          "title": "AI infrastructure: Is it time to trade in the Mag 7 for the Air 7?",
+          "url": "https://finance.yahoo.com/video/ai-infrastructure-is-it-time-to-trade-in-the-mag-7-for-the-air-7-192456740.html",
+          "source": "Yahoo Finance Video"
         },
         {
-          "title": "Uber And DoorDash Earnings On Deck. Why Both Stocks Are Struggling This Year.",
-          "url": "https://www.investors.com/news/technology/uber-stock-doordash-stock-q1-earnings-preview/?src=A00220&yptr=yahoo",
+          "title": "Dow Jones Futures Rise; Trump Hits Hormuz Pause; AMD, Lumentum, Arista Lead AI Earnings Movers",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-hormuz-pause-amd-lumentum-arista-earnings/?src=A00220&yptr=yahoo",
           "source": "Investor's Business Daily"
         }
       ]
@@ -808,43 +808,43 @@
       "ticker": "AMZN",
       "name": "Amazon",
       "category": "stocks",
-      "price": 275.119995,
-      "price_display": "275.12",
-      "change_pct": 1.13,
-      "change_abs": 3.07,
-      "change_display": "+$3.07",
+      "price": 273.549988,
+      "price_display": "273.55",
+      "change_pct": 0.551,
+      "change_abs": 1.5,
+      "change_display": "+$1.50",
       "key_levels": {
         "support": [
-          269.33,
-          266.61
+          269.81,
+          262.34
         ],
         "resistance": [
-          274.77,
-          277.49
+          277.29,
+          284.76
         ]
       },
-      "distance_52w_high_pct": -0.36,
-      "distance_52w_low_pct": 49.64,
-      "past": "AMZN advanced to $275.12 (+$3.07) on the Cramer AI-tailwind tag and broad cyclical bid; transport-sector weakness was the lone offset.",
-      "why": "AWS still owns the cloud-capex leverage trade, and retail margins benefit directly from any oil-driven freight relief \u2014 it's a two-engine setup today.",
-      "watch": "DoorDash earnings tomorrow read across to AMZN's logistics narrative. Q2 AWS guide remains the key \u2014 anything above 20% growth reignites the breakout.",
-      "narrative_last_updated": "2026-05-05T16:21:25Z",
+      "distance_52w_high_pct": -1.8,
+      "distance_52w_low_pct": 48.79,
+      "past": "AMZN added 0.55% to 273.55. AWS commentary continues to be the bull case; retail margins the slow-burn upside.",
+      "why": "AMZN's AWS growth is re-accelerating off the trough; the retail business is finally compounding margin gains rather than chasing top-line. Best two-engine setup.",
+      "watch": "Next AWS revenue update is the catalyst. Above 278 and the chart targets 285; loss of 269 invites a test of 260 as bot-flow profit-takes.",
+      "narrative_last_updated": "2026-05-06T06:56:27Z",
       "material_change": true,
       "headlines": [
         {
-          "title": "Why the transport sector is seeing a sea of red",
-          "url": "https://finance.yahoo.com/video/why-the-transport-sector-is-seeing-a-sea-of-red-204043592.html",
-          "source": "Yahoo Finance Video"
+          "title": "2026 Chase Freedom bonus categories: Get 5% back on Amazon, Chase Travel, and more in Q2",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/chase-freedom-categories-210916213.html",
+          "source": "Yahoo Personal Finance"
         },
         {
-          "title": "Jim Cramer Says AI Spending Is No Bubble As Alphabet, Amazon, Apple Surge, While Microsoft And Meta Face Pressure",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/jim-cramer-says-ai-spending-153134017.html",
-          "source": "Benzinga"
+          "title": "Price checks surge as Amazon expands price history to one year",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/price-checks-surge-amazon-expands-061114754.html",
+          "source": "Retail Insight Network"
         },
         {
-          "title": "MAGS Is Up 181% Since Launch, but 2026 Reveals Its Hidden Weakness",
-          "url": "https://247wallst.com/investing/2026/05/05/mags-is-up-181-since-launch-but-2026-reveals-its-hidden-weakness/",
-          "source": "24/7 Wall St."
+          "title": "Magnificent Seven, Markets, and Mailbag with CEO Tom Gardner",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-markets-mailbag-ceo-022435628.html",
+          "source": "Motley Fool"
         }
       ]
     }
