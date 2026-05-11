@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Don't index live/real-time view (intentionally non-canonical per docs/11)
+Disallow: /asset/*/live
+
+# Don't index API responses
+Disallow: /api/
+
+Sitemap: https://pill.finance/sitemap.xml
