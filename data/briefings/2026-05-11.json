@@ -19,8 +19,8 @@
     "headline": "Trump rejects Iran peace proposal over Strait of Hormuz demands; oil surges past $99, US CPI Tuesday looms as next catalyst."
   },
   "assets": {
-    "EURUSD": {
-      "slug": "EURUSD",
+    "eur-usd": {
+      "slug": "eur-usd",
       "ticker": "EURUSD",
       "display_name": "",
       "category": "fx",
@@ -60,8 +60,8 @@
         }
       ]
     },
-    "GBPUSD": {
-      "slug": "GBPUSD",
+    "gbp-usd": {
+      "slug": "gbp-usd",
       "ticker": "GBPUSD",
       "display_name": "",
       "category": "fx",
@@ -101,8 +101,8 @@
         }
       ]
     },
-    "USDJPY": {
-      "slug": "USDJPY",
+    "usd-jpy": {
+      "slug": "usd-jpy",
       "ticker": "USDJPY",
       "display_name": "",
       "category": "fx",
@@ -142,8 +142,8 @@
         }
       ]
     },
-    "AUDUSD": {
-      "slug": "AUDUSD",
+    "aud-usd": {
+      "slug": "aud-usd",
       "ticker": "AUDUSD",
       "display_name": "",
       "category": "fx",
@@ -183,8 +183,8 @@
         }
       ]
     },
-    "XAUUSD": {
-      "slug": "XAUUSD",
+    "gold": {
+      "slug": "gold",
       "ticker": "XAUUSD",
       "display_name": "",
       "category": "commodities",
@@ -224,8 +224,8 @@
         }
       ]
     },
-    "XAGUSD": {
-      "slug": "XAGUSD",
+    "silver": {
+      "slug": "silver",
       "ticker": "XAGUSD",
       "display_name": "",
       "category": "commodities",
@@ -265,8 +265,8 @@
         }
       ]
     },
-    "USOIL": {
-      "slug": "USOIL",
+    "crude-oil": {
+      "slug": "crude-oil",
       "ticker": "USOIL",
       "display_name": "",
       "category": "commodities",
@@ -306,8 +306,8 @@
         }
       ]
     },
-    "US500": {
-      "slug": "US500",
+    "sp-500": {
+      "slug": "sp-500",
       "ticker": "US500",
       "display_name": "",
       "category": "indices",
@@ -347,8 +347,8 @@
         }
       ]
     },
-    "NAS100": {
-      "slug": "NAS100",
+    "nasdaq-100": {
+      "slug": "nasdaq-100",
       "ticker": "NAS100",
       "display_name": "",
       "category": "indices",
@@ -388,8 +388,8 @@
         }
       ]
     },
-    "US30": {
-      "slug": "US30",
+    "dow-jones": {
+      "slug": "dow-jones",
       "ticker": "US30",
       "display_name": "",
       "category": "indices",
@@ -429,9 +429,9 @@
         }
       ]
     },
-    "BTC": {
-      "slug": "BTC",
-      "ticker": "BTC",
+    "bitcoin": {
+      "slug": "bitcoin",
+      "ticker": "BTCUSD",
       "display_name": "",
       "category": "crypto",
       "price": 80707.12,
@@ -470,9 +470,9 @@
         }
       ]
     },
-    "ETH": {
-      "slug": "ETH",
-      "ticker": "ETH",
+    "ethereum": {
+      "slug": "ethereum",
+      "ticker": "ETHUSD",
       "display_name": "",
       "category": "crypto",
       "price": 2329.75,
@@ -511,8 +511,8 @@
         }
       ]
     },
-    "NVDA": {
-      "slug": "NVDA",
+    "nvda": {
+      "slug": "nvda",
       "ticker": "NVDA",
       "display_name": "",
       "category": "stocks",
@@ -552,8 +552,8 @@
         }
       ]
     },
-    "TSLA": {
-      "slug": "TSLA",
+    "tsla": {
+      "slug": "tsla",
       "ticker": "TSLA",
       "display_name": "",
       "category": "stocks",
@@ -593,8 +593,8 @@
         }
       ]
     },
-    "AAPL": {
-      "slug": "AAPL",
+    "aapl": {
+      "slug": "aapl",
       "ticker": "AAPL",
       "display_name": "",
       "category": "stocks",
@@ -634,8 +634,8 @@
         }
       ]
     },
-    "MSFT": {
-      "slug": "MSFT",
+    "msft": {
+      "slug": "msft",
       "ticker": "MSFT",
       "display_name": "",
       "category": "stocks",
@@ -675,8 +675,8 @@
         }
       ]
     },
-    "META": {
-      "slug": "META",
+    "meta": {
+      "slug": "meta",
       "ticker": "META",
       "display_name": "",
       "category": "stocks",
@@ -716,8 +716,8 @@
         }
       ]
     },
-    "GOOGL": {
-      "slug": "GOOGL",
+    "googl": {
+      "slug": "googl",
       "ticker": "GOOGL",
       "display_name": "",
       "category": "stocks",
@@ -757,8 +757,8 @@
         }
       ]
     },
-    "AMZN": {
-      "slug": "AMZN",
+    "amzn": {
+      "slug": "amzn",
       "ticker": "AMZN",
       "display_name": "",
       "category": "stocks",
