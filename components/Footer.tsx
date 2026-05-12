@@ -10,4 +10,12 @@ export default function Footer() {
         </div>
         <div className="right">
           <Link href="/privacy">Privacy</Link>
-          <span c
+          <span className="footer-sep">|</span>
+          <Link href="/terms">Terms</Link>
+          <span className="footer-sep">|</span>
+          indicative prices | not investment advice | (c) {year}
+        </div>
+      </div>
+    </footer>
+  );
+}

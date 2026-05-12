@@ -27,4 +27,10 @@ export default function Header({ briefing }: Props) {
         <nav className="app-nav">
           <Link href="/" className="active">HOME</Link>
           <Link href="/how-it-works">METHOD</Link>
-          <Link href="/about">ABOUT
+          <Link href="/about">ABOUT</Link>
+          <AccountMenu />
+        </nav>
+      </div>
+    </header>
+  );
+}
