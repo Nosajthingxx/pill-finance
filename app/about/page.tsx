@@ -38,16 +38,6 @@ export default function AboutPage() {
         you can absorb in minutes.
       </p>
 
-      <h2>Who Is Behind It</h2>
-      <p>
-        pill.finance was founded by{' '}
-        <Link href="/author/selim-onay">Selim Onay</Link>, a forex broker
-        operations expert and co-founder of FXHelpDesk. With deep experience in
-        the brokerage industry and market microstructure, Selim built
-        pill.finance to bridge the gap between raw market data and the
-        intelligence traders actually need.
-      </p>
-
       <h2>Our Approach</h2>
       <p>
         We combine AI-driven analysis with human-curated asset selection. Every
