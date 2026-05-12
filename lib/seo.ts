@@ -75,7 +75,7 @@ export function newsArticleSchema(
   return {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: `${asset.displayName} Briefing — ${date}`,
+    headline: `${asset.displayName} Briefing -- ${date}`,
     datePublished: briefing.sections[0]?.timestamp_utc ?? `${date}T03:30:00Z`,
     dateModified: lastSection?.timestamp_utc ?? `${date}T03:30:00Z`,
     author: {

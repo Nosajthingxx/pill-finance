@@ -7,7 +7,7 @@ import '../routes.css';
 export const metadata: Metadata = {
   title: 'Daily Digest',
   description:
-    'All 19 assets in one page. Past, why, watch — the full daily briefing.',
+    'All 19 assets in one page. Past, why, watch -- the full daily briefing.',
   alternates: { canonical: 'https://pill.finance/digest' },
 };
 

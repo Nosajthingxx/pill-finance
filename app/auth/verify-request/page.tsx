@@ -20,7 +20,7 @@ export default function VerifyRequestPage() {
           <ul>
             <li>Check your spam / promotions folder</li>
             <li>The link expires after 24 hours</li>
-            <li>Wait a few seconds — email can take up to a minute</li>
+            <li>Wait a few seconds -- email can take up to a minute</li>
           </ul>
         </div>
         <a href="/login" className="auth-link">← Try a different email</a>

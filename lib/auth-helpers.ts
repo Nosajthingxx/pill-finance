@@ -35,7 +35,7 @@ export async function requireUserId(): Promise<string> {
 }
 
 /**
- * Soft check — returns userId or null, no redirect. Useful for Server Components
+ * Soft check -- returns userId or null, no redirect. Useful for Server Components
  * that render different UI for logged-in vs anonymous users.
  */
 export async function getUserId(): Promise<string | null> {

@@ -15,7 +15,7 @@ export async function addAssetRequestForUser(userId: string, ticker: string) {
   const normalized = ticker.trim().toUpperCase();
   if (!normalized) throw new Error('Ticker is required');
   if (!/^[A-Z0-9.\-]{1,12}$/.test(normalized)) {
-    throw new Error('Ticker must be 1–12 chars, letters/numbers/dot/dash only');
+    throw new Error('Ticker must be 1-12 chars, letters/numbers/dot/dash only');
   }
   await db
     .insert(assetRequests)
@@ -35,7 +35,7 @@ export async function removeAssetRequestForUser(userId: string, ticker: string) 
     );
 }
 
-/** Public leaderboard — top voted tickers across all users. No userId scope needed. */
+/** Public leaderboard -- top voted tickers across all users. No userId scope needed. */
 export async function getAssetRequestLeaderboard(limit: number = 20) {
   return await db
     .select({

@@ -34,7 +34,7 @@ export async function GET() {
       if (!asset || !ab || ab.sections.length === 0) continue;
 
       const lastSection = ab.sections[ab.sections.length - 1];
-      const title = `${asset.displayName} — ${date}`;
+      const title = `${asset.displayName} -- ${date}`;
       const link = `${SITE}/asset/${slug}/${date}`;
       const pubDate = new Date(lastSection.timestamp_utc).toUTCString();
       const description = escapeXml(lastSection.past.slice(0, 300));

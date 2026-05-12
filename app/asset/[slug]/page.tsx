@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     || `Daily briefing for ${meta.commonName}. What happened, why it matters, what to watch.`;
 
   return {
-    title: `${meta.displayName} — pill.finance`,
+    title: `${meta.displayName} -- pill.finance`,
     description,
     alternates: { canonical: `https://pill.finance/asset/${slug}` },
     openGraph: {
-      title: `${meta.displayName} — pill.finance`,
+      title: `${meta.displayName} -- pill.finance`,
       description,
       url: `https://pill.finance/asset/${slug}`,
     },
@@ -51,7 +51,7 @@ export default async function AssetHubPage({ params }: PageProps) {
   const dir = asset?.change_pct == null ? '' : asset.change_pct >= 0 ? 'up' : 'down';
   const sign = asset?.change_pct != null && asset.change_pct >= 0 ? '+' : '';
   const changeText = asset?.change_pct == null
-    ? '—'
+    ? '--'
     : `${sign}${asset.change_pct.toFixed(2)}%`;
 
   // Collect all headlines from all sections
@@ -78,7 +78,7 @@ export default async function AssetHubPage({ params }: PageProps) {
             <span className="name-big">{meta.displayName}</span>
           </div>
           <div className="price-block">
-            <div className="price-big">{asset?.price_display || '—'}</div>
+            <div className="price-big">{asset?.price_display || '--'}</div>
             <div className={`change-big ${dir}`}>{changeText}</div>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default async function LearnAssetPage({ params }: Props) {
       </div>
 
       <div className="page-hero">
-        <h1>// LEARN · {asset.ticker}</h1>
+        <h1>// LEARN | {asset.ticker}</h1>
         <p className="headline">
           What is <span className="accent">{asset.commonName}</span>?
         </p>

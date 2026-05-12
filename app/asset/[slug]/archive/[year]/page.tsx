@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!meta) return {};
 
   return {
-    title: `${meta.shortName} Archive — ${year}`,
+    title: `${meta.shortName} Archive -- ${year}`,
     description: `${meta.commonName} briefings from ${year}.`,
     alternates: { canonical: `https://pill.finance/asset/${slug}/archive/${year}` },
   };

@@ -1,4 +1,4 @@
-// Portfolio P/L engine — pure functions, no DB calls.
+// Portfolio P/L engine -- pure functions, no DB calls.
 // Takes a list of transactions, returns position state and totals.
 // See docs/13-user-system-and-portfolio.md "P/L engine" for the algorithm spec.
 
@@ -52,7 +52,7 @@ export type ValidationResult = ValidationOk | ValidationError;
 
 /**
  * Check whether `next` is a valid transaction given the user's PRIOR transactions
- * (in chronological order). Does not enforce uniqueness — that's a DB concern.
+ * (in chronological order). Does not enforce uniqueness -- that's a DB concern.
  *
  * Rules (per spec):
  *  - buy: must not be applied to a short position (use short_close instead)

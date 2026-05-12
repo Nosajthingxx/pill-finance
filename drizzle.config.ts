@@ -1,4 +1,4 @@
-// Drizzle Kit config — drives `npm run db:generate`, `db:migrate`, `db:studio`.
+// Drizzle Kit config -- drives `npm run db:generate`, `db:migrate`, `db:studio`.
 // Reads DB connection from POSTGRES_URL (set in Vercel Postgres dashboard
 // and pulled to .env.local via `vercel env pull`).
 

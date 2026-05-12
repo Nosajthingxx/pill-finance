@@ -59,7 +59,7 @@ export default function TransactionForm({
           <option value="" disabled>Choose an asset</option>
           {ASSETS.map((a) => (
             <option key={a.slug} value={a.slug}>
-              {a.shortName} — {a.commonName}
+              {a.shortName} -- {a.commonName}
             </option>
           ))}
         </select>
@@ -76,7 +76,7 @@ export default function TransactionForm({
           required
         >
           {SIDE_OPTIONS.map((o) => (
-            <option key={o.value} value={o.value}>{o.label} — {o.hint}</option>
+            <option key={o.value} value={o.value}>{o.label} -- {o.hint}</option>
           ))}
         </select>
         {fieldErr('side') && <div className="tx-fielderr">{fieldErr('side')}</div>}

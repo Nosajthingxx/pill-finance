@@ -1,4 +1,4 @@
-// User DB queries — scoped helpers same pattern as transactions / asset-requests.
+// User DB queries -- scoped helpers same pattern as transactions / asset-requests.
 
 import { db, users } from '@/db';
 import { and, eq, lt } from 'drizzle-orm';

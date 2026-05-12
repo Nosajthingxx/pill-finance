@@ -1,4 +1,4 @@
-// Edge-compatible Auth.js config — used by middleware (Edge runtime).
+// Edge-compatible Auth.js config -- used by middleware (Edge runtime).
 // Pure config only, no DB adapter (the adapter pulls in Node.js dependencies).
 // See auth.ts for the full Node.js-runtime config.
 

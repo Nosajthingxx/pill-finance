@@ -1,4 +1,4 @@
-// GET /api/v1/digest/[date] — full day briefing JSON for a specific date.
+// GET /api/v1/digest/[date] -- full day briefing JSON for a specific date.
 
 import { NextResponse } from 'next/server';
 import { readBriefing, isValidDate } from '@/lib/briefings';

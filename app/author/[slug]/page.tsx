@@ -19,7 +19,7 @@ const AUTHORS: Record<string, {
     bio: [
       'Selim Onay is the founder of pill.finance, building skim-and-go market intelligence for traders and investors who want signal without noise.',
       'With deep experience in forex broker operations, Selim understands the infrastructure that powers retail trading. He co-founded FXHelpDesk, providing operational support and consulting services to forex brokerages worldwide.',
-      'pill.finance is his latest venture: a twice-daily briefing covering 19 assets across FX, commodities, indices, crypto, and stocks. The goal is simple — tell you what happened, why it matters, and what to watch, in 10 minutes flat.',
+      'pill.finance is his latest venture: a twice-daily briefing covering 19 assets across FX, commodities, indices, crypto, and stocks. The goal is simple -- tell you what happened, why it matters, and what to watch, in 10 minutes flat.',
     ],
     links: [
       { label: 'pill.finance', href: 'https://pill.finance' },
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!author) return { title: 'Not Found' };
   return {
     title: author.name,
-    description: `${author.name} — ${author.role} of pill.finance.`,
+    description: `${author.name} -- ${author.role} of pill.finance.`,
     alternates: { canonical: `https://pill.finance/author/${slug}` },
   };
 }

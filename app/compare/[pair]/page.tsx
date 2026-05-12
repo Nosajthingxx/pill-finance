@@ -65,7 +65,7 @@ export default async function ComparePairPage({ params }: Props) {
   const abB = briefing?.assets[parsed.slugB];
 
   function renderChange(changePct: number | null | undefined) {
-    if (changePct == null) return '—';
+    if (changePct == null) return '--';
     const dir = changePct >= 0 ? 'up' : 'down';
     const arrow = changePct >= 0 ? '▲' : '▼';
     const sign = changePct >= 0 ? '+' : '';
@@ -83,7 +83,7 @@ export default async function ComparePairPage({ params }: Props) {
           <div className="panel-ticker">{meta.ticker}</div>
         </Link>
         <div className="panel-name">{meta.displayName}</div>
-        <div className="panel-price">{ab?.price_display || '—'}</div>
+        <div className="panel-price">{ab?.price_display || '--'}</div>
         <div className={`panel-change`}>{renderChange(ab?.change_pct)}</div>
         {latestSection && (
           <>

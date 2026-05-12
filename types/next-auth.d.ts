@@ -1,4 +1,4 @@
-// Module augmentation for next-auth — adds user.id to the session type
+// Module augmentation for next-auth -- adds user.id to the session type
 // so TypeScript knows about it in Server Components and Server Actions.
 
 import 'next-auth';

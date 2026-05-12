@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!meta) return {};
 
   return {
-    title: `${meta.shortName} — ${date}`,
+    title: `${meta.shortName} -- ${date}`,
     description: `${meta.commonName} briefing for ${date}. What happened, why it matters, what to watch.`,
     alternates: { canonical: `https://pill.finance/asset/${slug}/${date}` },
     openGraph: {
-      title: `${meta.shortName} — ${date} · pill.finance`,
+      title: `${meta.shortName} -- ${date} | pill.finance`,
       description: `${meta.commonName} briefing for ${date}.`,
       url: `https://pill.finance/asset/${slug}/${date}`,
     },
@@ -56,7 +56,7 @@ export default async function AssetDatePage({ params }: PageProps) {
   const dir = asset.change_pct == null ? '' : asset.change_pct >= 0 ? 'up' : 'down';
   const sign = asset.change_pct != null && asset.change_pct >= 0 ? '+' : '';
   const changeText = asset.change_pct == null
-    ? '—'
+    ? '--'
     : `${sign}${asset.change_pct.toFixed(2)}%`;
 
   // Determine prev/next dates
@@ -91,7 +91,7 @@ export default async function AssetDatePage({ params }: PageProps) {
             <span className="name-big">{meta.displayName}</span>
           </div>
           <div className="price-block">
-            <div className="price-big">{asset.price_display || '—'}</div>
+            <div className="price-big">{asset.price_display || '--'}</div>
             <div className={`change-big ${dir}`}>{changeText}</div>
           </div>
         </div>

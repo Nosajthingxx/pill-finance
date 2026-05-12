@@ -1,7 +1,7 @@
 'use server';
 
 // Server Actions for portfolio mutations. Every action:
-//   1. Calls requireUserId() — single auth chokepoint
+//   1. Calls requireUserId() -- single auth chokepoint
 //   2. Validates input with Zod
 //   3. For transactions: runs validateTransaction() to reject nonsensical entries
 //   4. Calls a scoped lib/db/* helper

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="app">
       <div className="footer-inner">
         <div className="left">
-          pill<span className="lime">.</span>finance · briefings refresh 06:30 / 19:00 TRT · Mon–Fri
+          pill<span className="lime">.</span>finance | briefings refresh 06:30 / 19:00 TRT | Mon-Fri
         </div>
         <div className="right">
           <Link href="/privacy">Privacy</Link>

@@ -10,7 +10,7 @@ export default function Header({ briefing }: Props) {
   const lastSlot = briefing?.updates?.[briefing.updates.length - 1];
   const labelTime = lastSlot
     ? lastSlot.timestamp_trt.replace(/^\d{4}-\d{2}-\d{2} /, '').replace(' TRT', ' TRT')
-    : '—';
+    : '--';
 
   return (
     <header className="app">

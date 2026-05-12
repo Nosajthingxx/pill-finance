@@ -1,4 +1,4 @@
-// Edge middleware — runs on every request to protect /portfolio and /account.
+// Edge middleware -- runs on every request to protect /portfolio and /account.
 // Uses the edge-safe authConfig from auth.config.ts (no DB imports).
 
 import NextAuth from 'next-auth';

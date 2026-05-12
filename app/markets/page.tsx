@@ -76,7 +76,7 @@ export default async function MarketsPage() {
               const arrow = ab?.change_pct == null ? '' : ab.change_pct >= 0 ? '▲' : '▼';
               const sign = ab?.change_pct != null && ab.change_pct >= 0 ? '+' : '';
               const change = ab?.change_pct == null
-                ? '—'
+                ? '--'
                 : `${arrow} ${sign}${ab.change_pct.toFixed(2)}%`;
               const teaser = ab?.sections?.[0]?.past || 'Awaiting first refresh.';
 
@@ -92,7 +92,7 @@ export default async function MarketsPage() {
                     <span className="read-arrow" aria-hidden="true">→</span>
                   </div>
                   <span className="name">{meta.displayName}</span>
-                  <span className="price">{ab?.price_display || '—'}</span>
+                  <span className="price">{ab?.price_display || '--'}</span>
                   <span className={`change ${dir}`}>{change}</span>
                   <div className="briefing-teaser">{teaser}</div>
                 </Link>

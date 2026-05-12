@@ -1,4 +1,4 @@
-// GET /api/v1/asset/[slug] — latest briefing data for a single asset.
+// GET /api/v1/asset/[slug] -- latest briefing data for a single asset.
 
 import { NextResponse } from 'next/server';
 import { isValidSlug, getAsset } from '@/lib/slugs';

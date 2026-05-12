@@ -1,5 +1,5 @@
 // Next.js native sitemap generation.
-// Returns MetadataRoute.Sitemap — Next.js auto-serves at /sitemap.xml.
+// Returns MetadataRoute.Sitemap -- Next.js auto-serves at /sitemap.xml.
 
 import type { MetadataRoute } from 'next';
 import { ALL_SLUGS, ASSETS } from '@/lib/slugs';

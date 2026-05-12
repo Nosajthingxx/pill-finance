@@ -1,4 +1,4 @@
-// Full Auth.js v5 config — Node.js runtime only.
+// Full Auth.js v5 config -- Node.js runtime only.
 // Wraps the edge-safe config in auth.config.ts with the Drizzle adapter and
 // the Resend magic-link provider.
 
@@ -20,7 +20,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     Resend({
       apiKey: process.env.AUTH_RESEND_KEY,
       from: process.env.AUTH_EMAIL_FROM || 'onboarding@resend.dev',
-      // Custom email template — text-only for V1, keep it simple
+      // Custom email template -- text-only for V1, keep it simple
       async sendVerificationRequest({ identifier: email, url, provider }) {
         const { host } = new URL(url);
         const res = await fetch('https://api.resend.com/emails', {

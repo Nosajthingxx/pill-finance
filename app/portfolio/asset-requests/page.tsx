@@ -72,7 +72,7 @@ export default async function AssetRequestsPage() {
             Top voted tickers across all users. Already-supported tickers are hidden.
           </p>
           {leaderboard.length === 0 ? (
-            <p className="portfolio-muted ar-empty">No requests yet — be first.</p>
+            <p className="portfolio-muted ar-empty">No requests yet -- be first.</p>
           ) : (
             <ol className="ar-leaderboard">
               {leaderboard

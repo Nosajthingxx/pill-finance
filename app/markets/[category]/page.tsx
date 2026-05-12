@@ -59,7 +59,7 @@ export default async function CategoryPage({ params }: Props) {
       <div className="page-hero">
         <h1>// {cat.label}</h1>
         <p className="headline">
-          {CATEGORY_TITLES[cat.key]} — <span className="accent">{cat.countLabel.toLowerCase()}</span>
+          {CATEGORY_TITLES[cat.key]} -- <span className="accent">{cat.countLabel.toLowerCase()}</span>
         </p>
         <p className="sub">
           {briefing
@@ -89,7 +89,7 @@ export default async function CategoryPage({ params }: Props) {
           const arrow = ab?.change_pct == null ? '' : ab.change_pct >= 0 ? '▲' : '▼';
           const sign = ab?.change_pct != null && ab.change_pct >= 0 ? '+' : '';
           const change = ab?.change_pct == null
-            ? '—'
+            ? '--'
             : `${arrow} ${sign}${ab.change_pct.toFixed(2)}%`;
           const teaser = ab?.sections?.[0]?.past || 'Awaiting first refresh.';
 
@@ -105,7 +105,7 @@ export default async function CategoryPage({ params }: Props) {
                 <span className="read-arrow" aria-hidden="true">→</span>
               </div>
               <span className="name">{meta.displayName}</span>
-              <span className="price">{ab?.price_display || '—'}</span>
+              <span className="price">{ab?.price_display || '--'}</span>
               <span className={`change ${dir}`}>{change}</span>
               <div className="briefing-teaser">{teaser}</div>
             </Link>

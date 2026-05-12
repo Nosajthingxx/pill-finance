@@ -5,7 +5,7 @@
 import type { AssetCategory } from './types';
 
 export interface AssetMeta {
-  /** URL slug — locked, never changes. Used as the path segment under /asset/ */
+  /** URL slug -- locked, never changes. Used as the path segment under /asset/ */
   slug: string;
   /** Broker / market ticker symbol (display-only, used in H1 and content) */
   ticker: string;
@@ -17,7 +17,7 @@ export interface AssetMeta {
   commonName: string;
   category: AssetCategory;
   /**
-   * Disambiguation note — what THIS slug specifically covers.
+   * Disambiguation note -- what THIS slug specifically covers.
    * Future variants (futures, ETFs, alternative pairs) get NEW slugs;
    * never overload these.
    */
@@ -25,27 +25,27 @@ export interface AssetMeta {
 }
 
 export const ASSETS: AssetMeta[] = [
-  // FX — broker tickers win on search volume in this category
+  // FX -- broker tickers win on search volume in this category
   { slug: 'eur-usd', ticker: 'EURUSD', displayName: 'Euro / US Dollar',     shortName: 'EUR/USD', commonName: 'EUR/USD',     category: 'fx',          disambiguation: 'Spot EUR/USD' },
   { slug: 'gbp-usd', ticker: 'GBPUSD', displayName: 'British Pound / US Dollar', shortName: 'GBP/USD', commonName: 'GBP/USD', category: 'fx',          disambiguation: 'Spot GBP/USD' },
   { slug: 'usd-jpy', ticker: 'USDJPY', displayName: 'US Dollar / Japanese Yen',  shortName: 'USD/JPY', commonName: 'USD/JPY', category: 'fx',          disambiguation: 'Spot USD/JPY' },
   { slug: 'aud-usd', ticker: 'AUDUSD', displayName: 'Australian Dollar / US Dollar', shortName: 'AUD/USD', commonName: 'AUD/USD', category: 'fx',      disambiguation: 'Spot AUD/USD' },
 
-  // Commodities — consumer names dominate search
+  // Commodities -- consumer names dominate search
   { slug: 'gold',       ticker: 'XAUUSD', displayName: 'Gold (XAU/USD)',        shortName: 'Gold',   commonName: 'Gold',       category: 'commodities', disambiguation: 'Spot gold (XAU/USD CFD). Not gold futures, not GLD ETF.' },
   { slug: 'silver',     ticker: 'XAGUSD', displayName: 'Silver (XAG/USD)',      shortName: 'Silver', commonName: 'Silver',     category: 'commodities', disambiguation: 'Spot silver (XAG/USD CFD). Not silver futures.' },
   { slug: 'crude-oil',  ticker: 'USOIL',  displayName: 'Crude Oil (WTI)',       shortName: 'Crude',  commonName: 'Crude Oil',  category: 'commodities', disambiguation: 'WTI spot CFD (USOIL). Not Brent, not futures.' },
 
-  // Indices — consumer benchmark names dominate search
+  // Indices -- consumer benchmark names dominate search
   { slug: 'sp-500',     ticker: 'US500',  displayName: 'S&P 500',               shortName: 'S&P 500', commonName: 'S&P 500',   category: 'indices',     disambiguation: 'Cash S&P 500 CFD (US500). Not /ES futures.' },
   { slug: 'nasdaq-100', ticker: 'NAS100', displayName: 'Nasdaq 100',            shortName: 'Nasdaq',  commonName: 'Nasdaq 100', category: 'indices',     disambiguation: 'Cash Nasdaq 100 CFD (NAS100). Not /NQ futures.' },
   { slug: 'dow-jones',  ticker: 'US30',   displayName: 'Dow Jones (DJIA)',      shortName: 'Dow',     commonName: 'Dow Jones', category: 'indices',     disambiguation: 'Cash Dow Jones Industrial Average CFD (US30).' },
 
-  // Crypto — consumer names dominate search
+  // Crypto -- consumer names dominate search
   { slug: 'bitcoin',    ticker: 'BTCUSD', displayName: 'Bitcoin',               shortName: 'BTC',    commonName: 'Bitcoin',   category: 'crypto',      disambiguation: 'BTC/USD spot. Not bitcoin futures, not GBTC.' },
   { slug: 'ethereum',   ticker: 'ETHUSD', displayName: 'Ethereum',              shortName: 'ETH',    commonName: 'Ethereum',  category: 'crypto',      disambiguation: 'ETH/USD spot. Not ETH futures.' },
 
-  // Stocks — ticker IS the consumer search term, so ticker = slug
+  // Stocks -- ticker IS the consumer search term, so ticker = slug
   { slug: 'nvda',  ticker: 'NVDA',  displayName: 'NVIDIA Corporation',     shortName: 'NVDA',  commonName: 'NVIDIA',  category: 'stocks', disambiguation: 'NVDA common shares.' },
   { slug: 'tsla',  ticker: 'TSLA',  displayName: 'Tesla, Inc.',            shortName: 'TSLA',  commonName: 'Tesla',   category: 'stocks', disambiguation: 'TSLA common shares.' },
   { slug: 'aapl',  ticker: 'AAPL',  displayName: 'Apple Inc.',             shortName: 'AAPL',  commonName: 'Apple',   category: 'stocks', disambiguation: 'AAPL common shares.' },
@@ -55,7 +55,7 @@ export const ASSETS: AssetMeta[] = [
   { slug: 'amzn',  ticker: 'AMZN',  displayName: 'Amazon.com, Inc.',       shortName: 'AMZN',  commonName: 'Amazon',  category: 'stocks', disambiguation: 'AMZN common shares.' },
 ];
 
-/** Lookup by slug — O(1) via the indexed map. */
+/** Lookup by slug -- O(1) via the indexed map. */
 const BY_SLUG: Record<string, AssetMeta> = Object.fromEntries(ASSETS.map(a => [a.slug, a]));
 
 export function getAsset(slug: string): AssetMeta | undefined {
@@ -66,7 +66,7 @@ export function isValidSlug(slug: string): boolean {
   return slug in BY_SLUG;
 }
 
-/** All slugs in display order — drives generateStaticParams */
+/** All slugs in display order -- drives generateStaticParams */
 export const ALL_SLUGS: string[] = ASSETS.map(a => a.slug);
 
 export interface CategoryMeta {

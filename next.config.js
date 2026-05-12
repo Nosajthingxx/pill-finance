@@ -6,7 +6,7 @@ const nextConfig = {
   // Strict React mode
   reactStrictMode: true,
 
-  // Generate sitemap.xml and robots.txt via app routes — not via this config
+  // Generate sitemap.xml and robots.txt via app routes -- not via this config
   // (we control them as code in app/sitemap.ts etc.)
 
   // 301 redirects enforcing canonical forms

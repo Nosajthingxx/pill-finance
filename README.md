@@ -1,4 +1,4 @@
-# pill.finance — Next.js implementation
+# pill.finance -- Next.js implementation
 
 This is the Next.js SSG implementation of the URL architecture locked in `../docs/11-url-architecture.md`. It supersedes the static `../index.html` once cutover happens (per `../docs/12-nextjs-migration-plan.md`).
 
@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-Visit http://localhost:3000 — should show the homepage with placeholder data for all 19 assets.
+Visit http://localhost:3000 -- should show the homepage with placeholder data for all 19 assets.
 
 ## Structure (current state, Phase 1)
 

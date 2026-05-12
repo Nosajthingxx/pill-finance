@@ -1,4 +1,4 @@
-// Daily cron — hard-deletes users that soft-deleted more than 30 days ago.
+// Daily cron -- hard-deletes users that soft-deleted more than 30 days ago.
 // Configure in vercel.json:
 //   { "crons": [{ "path": "/api/cron/purge-deleted-users", "schedule": "0 3 * * *" }] }
 //

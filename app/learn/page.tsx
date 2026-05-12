@@ -34,7 +34,7 @@ export default function LearnPage() {
           <Link href="/learn/glossary">
             <div className="learn-title">Trading Glossary</div>
             <div className="learn-sub">
-              Pip, spread, leverage, margin, and more — essential trading terms defined
+              Pip, spread, leverage, margin, and more -- essential trading terms defined
             </div>
           </Link>
         </div>

@@ -29,7 +29,7 @@ export default function ComparePage() {
       <div className="page-hero">
         <h1>// COMPARE ASSETS</h1>
         <p className="headline">
-          <span className="accent">{pairs.length} pairs</span> — pick any two
+          <span className="accent">{pairs.length} pairs</span> -- pick any two
         </p>
         <p className="sub">
           Side-by-side briefings for every possible combination of 19 assets

@@ -1,4 +1,4 @@
-// GET /api/v1/asset/[slug]/[date] — historical briefing data for an asset on a specific date.
+// GET /api/v1/asset/[slug]/[date] -- historical briefing data for an asset on a specific date.
 
 import { NextResponse } from 'next/server';
 import { isValidSlug, getAsset } from '@/lib/slugs';

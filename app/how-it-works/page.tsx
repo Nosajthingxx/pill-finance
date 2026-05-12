@@ -37,15 +37,15 @@ export default function HowItWorksPage() {
       </p>
       <ul>
         <li>
-          <strong style={{ color: 'var(--blue)' }}>Past</strong> — What
+          <strong style={{ color: 'var(--blue)' }}>Past</strong> -- What
           happened since the last update. Price action, volume, key moves.
         </li>
         <li>
-          <strong style={{ color: 'var(--amber)' }}>Why</strong> — The drivers
+          <strong style={{ color: 'var(--amber)' }}>Why</strong> -- The drivers
           behind the move. Macro events, earnings, policy shifts, flows.
         </li>
         <li>
-          <strong style={{ color: 'var(--lime)' }}>Watch</strong> — What comes
+          <strong style={{ color: 'var(--lime)' }}>Watch</strong> -- What comes
           next. Key levels, upcoming catalysts, and scenarios to monitor.
         </li>
       </ul>

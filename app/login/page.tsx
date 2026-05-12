@@ -27,7 +27,7 @@ export default function LoginPage({
           </p>
         )}
         <p className="auth-fineprint">
-          New here? Just enter your email — we'll create your account when you click the link.
+          New here? Just enter your email -- we'll create your account when you click the link.
         </p>
       </div>
     </div>

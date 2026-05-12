@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { date } = await params;
   return {
-    title: `Daily Digest — ${date}`,
+    title: `Daily Digest -- ${date}`,
     description: `Full market digest for ${date}. All 19 assets: past, why, watch.`,
     alternates: { canonical: `https://pill.finance/digest/${date}` },
   };
@@ -53,7 +53,7 @@ export default async function DigestDatePage({ params }: Props) {
           Market briefing for <span className="accent">{date}</span>
         </p>
         <p className="sub">
-          19 assets · {briefing.updates.length} update{briefing.updates.length !== 1 ? 's' : ''} ·
+          19 assets | {briefing.updates.length} update{briefing.updates.length !== 1 ? 's' : ''} |
           Market {briefing.market_status}
         </p>
       </div>
@@ -104,17 +104,17 @@ export default async function DigestDatePage({ params }: Props) {
               const arrow = ab.change_pct == null ? '' : ab.change_pct >= 0 ? '▲' : '▼';
               const sign = ab.change_pct != null && ab.change_pct >= 0 ? '+' : '';
               const change = ab.change_pct == null
-                ? '—'
+                ? '--'
                 : `${arrow} ${sign}${ab.change_pct.toFixed(2)}%`;
 
               return (
                 <div key={slug} className="digest-asset">
                   <div className="digest-asset-header">
                     <Link href={`/asset/${slug}`} className="ticker-link">
-                      {meta.ticker} — {meta.displayName}
+                      {meta.ticker} -- {meta.displayName}
                     </Link>
                     <span className="price-change">
-                      {ab.price_display || '—'}
+                      {ab.price_display || '--'}
                       {' '}
                       <span className={dir}>{change}</span>
                     </span>

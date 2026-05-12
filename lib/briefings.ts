@@ -1,5 +1,5 @@
 // Typed JSON readers for per-day briefing files.
-// Used by every Server Component that needs briefing data — homepage,
+// Used by every Server Component that needs briefing data -- homepage,
 // asset hubs, day archives, digests, sitemaps, RSS feeds, API routes.
 //
 // All reads happen at build time (SSG) or in API route handlers. Never on the client.
@@ -25,7 +25,7 @@ export const readLatestPointer = cache(async (): Promise<LatestPointer | null> =
     const raw = await fs.readFile(path.join(DATA_DIR, 'latest.json'), 'utf-8');
     return JSON.parse(raw) as LatestPointer;
   } catch (err) {
-    // First run before any briefings exist — fail soft.
+    // First run before any briefings exist -- fail soft.
     return null;
   }
 });
@@ -41,7 +41,7 @@ export const readBriefing = cache(async (date: string): Promise<DayBriefing | nu
   }
 });
 
-/** Read the latest briefing — combines pointer + per-day file. */
+/** Read the latest briefing -- combines pointer + per-day file. */
 export async function readLatestBriefing(): Promise<DayBriefing | null> {
   const ptr = await readLatestPointer();
   if (!ptr) return null;

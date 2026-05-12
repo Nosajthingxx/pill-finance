@@ -25,7 +25,7 @@ export default function PrivacyPage() {
       <ul>
         <li>
           <strong>Email address.</strong> Required to log you in (we send you a one-click sign-in
-          link). We never store your password — there is no password.
+          link). We never store your password -- there is no password.
         </li>
         <li>
           <strong>Display name (optional).</strong> Only if you fill it in on your account page.

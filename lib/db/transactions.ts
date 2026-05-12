@@ -18,7 +18,7 @@ export async function createTransactionForUser(
   return row;
 }
 
-/** Fetch a single transaction, scoped by userId — null if not found or not owned. */
+/** Fetch a single transaction, scoped by userId -- null if not found or not owned. */
 export async function getTransactionByIdForUser(
   userId: string,
   txId: string
@@ -45,7 +45,7 @@ export async function getAllTransactionsForUser(
     .orderBy(asc(transactions.transactionDate), asc(transactions.createdAt));
 }
 
-/** Most recent transactions first — for the transaction history page. */
+/** Most recent transactions first -- for the transaction history page. */
 export async function getRecentTransactionsForUser(
   userId: string,
   limit: number = 100

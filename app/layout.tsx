@@ -8,11 +8,11 @@ import { readLatestBriefing } from '@/lib/briefings';
 export const metadata: Metadata = {
   metadataBase: new URL('https://pill.finance'),
   title: {
-    default: 'pill.finance — skim-and-go market intelligence',
-    template: '%s · pill.finance',
+    default: 'pill.finance -- skim-and-go market intelligence',
+    template: '%s | pill.finance',
   },
   description:
-    'What happened, why it matters, what to watch. 19 assets across FX, commodities, indices, crypto, and stocks. Twice daily, Monday–Friday. 10 minutes flat.',
+    'What happened, why it matters, what to watch. 19 assets across FX, commodities, indices, crypto, and stocks. Twice daily, Monday-Friday. 10 minutes flat.',
   applicationName: 'pill.finance',
   authors: [{ name: 'Selim Onay' }],
   creator: 'Selim Onay',
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'pill.finance',
-    title: 'pill.finance — skim-and-go market intelligence',
+    title: 'pill.finance -- skim-and-go market intelligence',
     description:
-      'One click per asset. Past, why, watch. Twice daily, Monday–Friday.',
+      'One click per asset. Past, why, watch. Twice daily, Monday-Friday.',
     url: 'https://pill.finance',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'pill.finance — skim-and-go market intelligence',
+    title: 'pill.finance -- skim-and-go market intelligence',
     description:
-      'One click per asset. Past, why, watch. Twice daily, Monday–Friday.',
+      'One click per asset. Past, why, watch. Twice daily, Monday-Friday.',
   },
   robots: {
     index: true,

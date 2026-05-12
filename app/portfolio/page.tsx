@@ -1,4 +1,4 @@
-// /portfolio — temporary basic dashboard.
+// /portfolio -- temporary basic dashboard.
 // Phase 5 replaces this with the real version (P/L totals, allocation, winners/losers).
 
 import Link from 'next/link';
