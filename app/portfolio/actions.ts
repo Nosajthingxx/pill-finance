@@ -47,7 +47,7 @@ function parseTransactionForm(formData: FormData) {
 export async function createTransactionAction(
   _prev: ActionResult | null,
   formData: FormData
-): Promise<ActionResult<{ id: string }>> {
+): Promise<ActionResult> {
   const userId = await requireUserId();
   const parsed = parseTransactionForm(formData);
   if (!parsed.success) {
