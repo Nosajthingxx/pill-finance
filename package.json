@@ -1,6 +1,6 @@
 {
   "name": "pill-finance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "pill.finance — skim-and-go market intelligence. Next.js SSG implementation of docs/11-url-architecture.md",
   "scripts": {
