@@ -1,56 +1,61 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description:
-    'How pill.finance handles your data: what we collect, why, and how to delete it.',
+  description: 'Privacy policy for pill.finance. No tracking, no data sales, no unnecessary cookies.',
 };
 
 export default function PrivacyPage() {
   return (
-    <div className="portfolio-page portfolio-page-narrow legal-page">
-      <div className="portfolio-eyebrow">PILL.FINANCE</div>
-      <h1 className="portfolio-title">Privacy Policy</h1>
-      <p className="legal-meta">Last updated: 12 May 2026</p>
+    <div className="static-page">
+      <h1>Privacy Policy</h1>
+      <p className="subtitle">Last updated: 10 May 2026</p>
 
+      <h2>Overview</h2>
       <p>
-        pill.finance is a market-briefing site. Most of it is anonymous reading. If you create
-        an account to use the portfolio tracker, this page explains what we collect and what
-        rights you have.
+        pill.finance is committed to protecting your privacy. This policy
+        explains what data we collect, how we use it, and your rights.
       </p>
 
-      <h2>What we collect</h2>
-      <p>From people who create an account:</p>
-      <ul>
-        <li>
-          <strong>Email address.</strong> Required to log you in (we send you a one-click sign-in
-          link). We never store your password -- there is no password.
-        </li>
-        <li>
-          <strong>Display name (optional).</strong> Only if you fill it in on your account page.
-        </li>
-        <li>
-          <strong>Portfolio data you enter.</strong> Transactions you record (asset, side, quantity,
-          price, date, optional note) and tickers you request through the asset-request voting page.
-        </li>
-        <li>
-          <strong>Session cookies.</strong> A signed cookie that tells our server you're logged in.
-          No third-party trackers.
-        </li>
-      </ul>
+      <h2>Data We Collect</h2>
+      <p>
+        We collect minimal data necessary to operate the site. This includes
+        basic server-side analytics such as page views and referrer information.
+        We do not collect personal information, email addresses, or any form of
+        user-identifiable data unless you voluntarily contact us.
+      </p>
 
-      <h2>Why we collect it</h2>
-      <ul>
-        <li>To authenticate you and let you access your portfolio across sessions.</li>
-        <li>To compute and show your P/L.</li>
-        <li>
-          To aggregate asset-request votes (in counted, anonymous form) so we know what to add next.
-        </li>
-      </ul>
+      <h2>Cookies</h2>
+      <p>
+        pill.finance uses only essential cookies required for basic site
+        functionality. We do not use advertising cookies, tracking pixels, or
+        third-party analytics that profile individual users.
+      </p>
 
-      <h2>Who we share with</h2>
-      <p>Three vendors, and nobody else:</p>
-      <ul>
-        <li>
-       
+      <h2>Third-Party Services</h2>
+      <p>
+        The site may use basic, privacy-respecting analytics to understand
+        aggregate traffic patterns. No data is shared with third parties for
+        advertising or profiling purposes.
+      </p>
+
+      <h2>Data Sales</h2>
+      <p>
+        We do not sell, rent, or trade any user data to third parties. Period.
+      </p>
+
+      <h2>Your Rights</h2>
+      <p>
+        You may request information about any data we hold related to your
+        visit, or request its deletion. Contact us at{' '}
+        <a href="mailto:hello@pill.finance">hello@pill.finance</a>.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        We may update this policy from time to time. Material changes will be
+        noted on this page with an updated revision date.
+      </p>
+    </div>
+  );
+}
