@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
@@ -6,8 +8,6 @@ export default function Footer() {
         <div className="left">
           pill<span className="lime">.</span>finance · briefings refresh 06:30 / 19:00 TRT · Mon–Fri
         </div>
-        <div className="right">indicative prices · not investment advice · © {year}</div>
-      </div>
-    </footer>
-  );
-}
+        <div className="right">
+          <Link href="/privacy">Privacy</Link>
+          <span c

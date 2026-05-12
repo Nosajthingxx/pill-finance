@@ -1,24 +1,36 @@
 {
   "name": "pill-finance",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "private": true,
-  "description": "pill.finance — skim-and-go market intelligence. Next.js SSG implementation of docs/11-url-architecture.md",
+  "description": "pill.finance - skim-and-go market intelligence",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "next-auth": "5.0.0-beta.20",
+    "@auth/drizzle-adapter": "^1.4.2",
+    "drizzle-orm": "^0.33.0",
+    "@vercel/postgres": "^0.10.0",
+    "resend": "^4.0.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "typescript": "5.5.3"
+    "typescript": "5.5.3",
+    "drizzle-kit": "^0.24.2",
+    "dotenv": "^16.4.5"
   }
 }

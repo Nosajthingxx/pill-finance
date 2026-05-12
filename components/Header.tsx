@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { DayBriefing } from '@/lib/types';
+import AccountMenu from '@/components/auth/AccountMenu';
 
 interface Props {
   briefing: DayBriefing | null;
@@ -26,9 +27,4 @@ export default function Header({ briefing }: Props) {
         <nav className="app-nav">
           <Link href="/" className="active">HOME</Link>
           <Link href="/how-it-works">METHOD</Link>
-          <Link href="/about">ABOUT</Link>
-        </nav>
-      </div>
-    </header>
-  );
-}
+          <Link href="/about">ABOUT
