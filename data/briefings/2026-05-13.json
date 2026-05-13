@@ -1,0 +1,803 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T17:33:46Z",
+  "generated_at_trt": "2026-05-13 20:33 TRT",
+  "last_updated_at": "2026-05-13T17:33:46Z",
+  "run_type": "pm_hybrid",
+  "market_status": "open",
+  "macro_context": {
+    "dxy": 98.495,
+    "us10y_yield": 4.477,
+    "vix": 17.98,
+    "headline": "PPI surged 1.4% MoM -- hottest since March 2022 -- but S&P 500 hit new ATH as tech and AI momentum overrode inflation fears ahead of Trump-Xi summit."
+  },
+  "updates": [
+    {
+      "slot": "pm",
+      "timestamp_utc": "2026-05-13T17:33:46Z",
+      "timestamp_trt": "2026-05-13 20:33 TRT",
+      "anchor": "2033-trt"
+    }
+  ],
+  "assets": {
+    "eur-usd": {
+      "ticker": "EURUSD",
+      "display_name": "Euro / US Dollar",
+      "category": "fx",
+      "price": 1.1712,
+      "price_display": "1.1712",
+      "change_pct": -0.3,
+      "change_abs": -0.0035,
+      "change_display": "-35 pips",
+      "distance_52w_high_pct": -2.59,
+      "distance_52w_low_pct": 5.13,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "EUR/USD slipped to 1.1712 as the dollar caught a bid on a scorching PPI print -- wholesale inflation jumped 1.4% MoM, the hottest since March 2022.",
+          "why": "The PPI surprise pushes back Fed cut expectations, but the real test is whether the Trump-Xi summit in South Korea produces any trade de-escalation that could undercut the greenback.",
+          "watch": "Trump-Xi face-to-face tomorrow -- any tariff rollback language sends DXY lower and EUR higher; a breakdown re-opens 1.1650.",
+          "headlines": [
+            {
+              "title": "US dollar rises as inflation jumps; Trump-Xi talks begin",
+              "url": "https://finance.yahoo.com/news/dollar-one-week-high-middle-121543862.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "The Euro\u2019s Next Move Will Make or Break FIDI\u2019s 2026 Returns",
+              "url": "https://finance.yahoo.com/m/951c03aa-5532-3a1f-aacd-56a9591b4c80/the-euro%E2%80%99s-next-move-will.html",
+              "source": "24/7 Wall St."
+            },
+            {
+              "title": "Dollar Slides on Stock Strength and Weak Consumer Sentiment",
+              "url": "https://finance.yahoo.com/m/1ebac6b3-a8cc-340f-9598-0a2daad6cd7e/dollar-slides-on-stock.html",
+              "source": "Barchart"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "gbp-usd": {
+      "ticker": "GBPUSD",
+      "display_name": "British Pound / US Dollar",
+      "category": "fx",
+      "price": 1.3517,
+      "price_display": "1.3517",
+      "change_pct": -0.55,
+      "change_abs": -0.0075,
+      "change_display": "-75 pips",
+      "distance_52w_high_pct": -2.38,
+      "distance_52w_low_pct": 3.88,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Cable dropped to 1.3517, giving back 75 pips as the dollar firmed post-PPI. UK had no major data to counter the move.",
+          "why": "Sterling is caught between a hawkish BoE stance and broad dollar strength; the pair is trading on US macro, not UK fundamentals right now.",
+          "watch": "UK employment data due Thursday -- a soft labor market reading could accelerate GBP weakness toward 1.3450.",
+          "headlines": [
+            {
+              "title": "U.K. PM Starmer Is in Danger. Why the Timing of His Exit Matters for Markets.",
+              "url": "https://finance.yahoo.com/m/32c73408-1ffc-3c74-9272-9eb494eb1e0b/u.k.-pm-starmer-is-in-danger..html",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "U.K.\u2019s Starmer Fights for Job as Leadership Crisis Spills Into Markets",
+              "url": "https://finance.yahoo.com/m/e5bd992b-8069-3939-9ceb-c5497e423ff6/u.k.%E2%80%99s-starmer-fights-for-job.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Yen Spikes to 10-Week High and Sparks Intervention Chatter",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/yen-spikes-10-week-high-090728234.html",
+              "source": "Bloomberg"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "usd-jpy": {
+      "ticker": "USDJPY",
+      "display_name": "US Dollar / Japanese Yen",
+      "category": "fx",
+      "price": 157.853,
+      "price_display": "157.85",
+      "change_pct": 0.86,
+      "change_abs": 1.345,
+      "change_display": "+134 pips",
+      "distance_52w_high_pct": -1.77,
+      "distance_52w_low_pct": 11.06,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Dollar-yen pushed to 157.85, gaining nearly 40 pips as US yields climbed on the hot PPI. The 10Y hit 4.48%.",
+          "why": "Rising US yields widen the rate differential further, but the pair is nearing levels where BoJ verbal intervention historically begins -- watch for Tokyo commentary.",
+          "watch": "Japan GDP prelim due Thursday; a weak print could paradoxically strengthen yen if it triggers BoJ caution on further tightening.",
+          "headlines": [
+            {
+              "title": "Where to diversify your portfolio if oil prices climb even higher",
+              "url": "https://finance.yahoo.com/video/where-diversify-portfolio-oil-prices-173000014.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Gabelli Dividend & Income Trust Continues Monthly Distributions, Declares Distributions of $0.15 Per Share, Reaffirms Annualized Distribution of $1.80 Per Share",
+              "url": "https://finance.yahoo.com/news/gabelli-dividend-income-trust-continues-172700610.html",
+              "source": "GlobeNewswire"
+            },
+            {
+              "title": "Eczema cream recalled for being potentially life-threatening. See brand",
+              "url": "https://finance.yahoo.com/m/621abf1a-a7a3-35ce-8d8f-601c36e340c9/eczema-cream-recalled-for.html",
+              "source": "USA TODAY"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "aud-usd": {
+      "ticker": "AUDUSD",
+      "display_name": "Australian Dollar / US Dollar",
+      "category": "fx",
+      "price": 0.7266,
+      "price_display": "0.7266",
+      "change_pct": 0.43,
+      "change_abs": 0.0031,
+      "change_display": "+31 pips",
+      "distance_52w_high_pct": -0.15,
+      "distance_52w_low_pct": 14.01,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Aussie edged up to 0.7266, shrugging off dollar strength as copper and iron ore held firm on China stimulus hopes ahead of the Trump-Xi meeting.",
+          "why": "AUD is trading as a China proxy -- any positive trade signals from the summit would disproportionately benefit the Aussie given Australia's commodity export exposure.",
+          "watch": "China industrial production and retail sales data due Friday -- those numbers will confirm or deny the recovery narrative supporting AUD.",
+          "headlines": [
+            {
+              "title": "US dollar rises as inflation jumps; Trump-Xi talks begin",
+              "url": "https://finance.yahoo.com/news/dollar-one-week-high-middle-121543862.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "The Dollar is Now Lower Than When the Iran War Began",
+              "url": "https://finance.yahoo.com/m/79e02fe2-b4a8-3d01-bada-02f24b2a59c3/the-dollar-is-now-lower-than.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Dollar softens as Middle East ceasefire holds",
+              "url": "https://finance.yahoo.com/news/yen-steady-dollar-firms-middle-011132956.html",
+              "source": "Reuters"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "gold": {
+      "ticker": "XAUUSD",
+      "display_name": "Gold (XAU/USD)",
+      "category": "commodities",
+      "price": 4707.6,
+      "price_display": "4,707.60",
+      "change_pct": -0.27,
+      "change_abs": -12.8,
+      "change_display": "$-12.80",
+      "distance_52w_high_pct": -15.73,
+      "distance_52w_low_pct": 50.64,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Gold held near $4,708, essentially flat despite a surging dollar and rising yields -- a notable show of resilience.",
+          "why": "The inflation backdrop is gold's friend even as yields rise; real rates matter more than nominal, and PPI running hot keeps the stagflation hedge bid alive.",
+          "watch": "CPI follow-through tomorrow -- if core comes in above 3.5%, gold likely breaks $4,750; a downside surprise could see profit-taking to $4,650.",
+          "headlines": [
+            {
+              "title": "If You Want To Know Where Bitcoin Is Headed Next, Watch The Price Of Copper",
+              "url": "https://finance.yahoo.com/news/want-know-where-bitcoin-headed-162944261.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "i-80 Gold Reports Q1 2026 Results: Full Earnings Call Transcript",
+              "url": "https://finance.yahoo.com/news/80-gold-reports-q1-2026-160132884.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Semiconductor ETFs are booming, but they're not the only ones",
+              "url": "https://finance.yahoo.com/video/semiconductor-etfs-are-booming-but-theyre-not-the-only-ones-153547870.html",
+              "source": "Yahoo Finance Video"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "silver": {
+      "ticker": "XAGUSD",
+      "display_name": "Silver (XAG/USD)",
+      "category": "commodities",
+      "price": 89.795,
+      "price_display": "89.80",
+      "change_pct": 11.69,
+      "change_abs": 9.4,
+      "change_display": "$+9.40",
+      "distance_52w_high_pct": -25.97,
+      "distance_52w_low_pct": 181.4,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Silver surged nearly 12% to $89.80, massively outperforming gold. Industrial demand narrative is accelerating with AI data center buildout.",
+          "why": "The gold-silver ratio is compressing fast -- silver's dual role as industrial metal and monetary asset is finally being repriced as semiconductor and solar demand projections get revised up.",
+          "watch": "Watch the $90 psychological level -- a clean break opens the path to triple digits; rejection here could trigger a sharp mean-reversion given how extended the move is.",
+          "headlines": [
+            {
+              "title": "Visionary Reports Wide Intersections of Copper and Gold at Pt. Leamington Deposit with Mineralization in Every Hole at the New Kraken Zone",
+              "url": "https://finance.yahoo.com/news/visionary-reports-wide-intersections-copper-123000625.html",
+              "source": "TMX Newsfile"
+            },
+            {
+              "title": "Goldcliff Expands Surface Sampling to Advance Drill Targeting at Kettle Valley Gold-Silver Project",
+              "url": "https://finance.yahoo.com/news/goldcliff-expands-surface-sampling-advance-123000179.html",
+              "source": "ACCESS Newswire"
+            },
+            {
+              "title": "Everlert, Inc. (OTC: EVLI), Operating as American Gold & Copper Inc., Announces Closing of Transformative Reverse Merger with South American Gold, Copper, and Silver Project",
+              "url": "https://finance.yahoo.com/news/everlert-inc-otc-evli-operating-120000105.html",
+              "source": "GlobeNewswire"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "crude-oil": {
+      "ticker": "USOIL",
+      "display_name": "Crude Oil (WTI)",
+      "category": "commodities",
+      "price": 101.89,
+      "price_display": "101.89",
+      "change_pct": 6.78,
+      "change_abs": 6.47,
+      "change_display": "$+6.47",
+      "distance_52w_high_pct": -14.72,
+      "distance_52w_low_pct": 85.32,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "WTI crude jumped 6.8% to $101.89 as OPEC cut its 2026 demand growth forecast but geopolitical risk premium surged on Iran tensions and Strait of Hormuz concerns.",
+          "why": "The supply story dominates demand worries -- Strait of Hormuz shipping lane fears are adding $5-8 of risk premium, and any escalation takes oil toward $110.",
+          "watch": "EIA crude inventories Wednesday -- a large draw would confirm tight supply; Trump-Xi summit could ease Iran tensions if discussed, capping upside.",
+          "headlines": [
+            {
+              "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
+              "url": "https://finance.yahoo.com/news/exchange-traded-funds-us-equities-170927865.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "Higher Oil Prices Fuel Long-Term Outlook For This Energy Stock",
+              "url": "https://finance.yahoo.com/m/613ff865-3ec3-35bc-a21a-7db85ae2ed52/higher-oil-prices-fuel.html",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "title": "OPEC Lowers 2026 Global Oil Demand Growth Forecast, Lifts 2027 Outlook",
+              "url": "https://finance.yahoo.com/news/opec-lowers-2026-global-oil-165454588.html",
+              "source": "MT Newswires"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "sp-500": {
+      "ticker": "US500",
+      "display_name": "S&P 500",
+      "category": "indices",
+      "price": 7446.52,
+      "price_display": "7,446.5",
+      "change_pct": 1.11,
+      "change_abs": 81.4,
+      "change_display": "$+81.40",
+      "distance_52w_high_pct": -0.06,
+      "distance_52w_low_pct": 29.11,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "S&P 500 rose 1.1% to a new intraday all-time high at 7,447 as tech enthusiasm overwhelmed a scorching PPI print that showed wholesale inflation at 6% YoY.",
+          "why": "The market is choosing to look through inflation to the AI capex cycle -- Nvidia, Micron, and semis leading tells you this is a growth bet, not a macro bet.",
+          "watch": "CPI tomorrow is the make-or-break -- if core stays elevated, the rates repricing could finally dent equity multiples; but tech momentum may power through.",
+          "headlines": [
+            {
+              "title": "Sony Music Publishing Lands Iconic Song Catalog In Major Blackstone Deal",
+              "url": "https://finance.yahoo.com/news/sony-music-publishing-lands-iconic-170911527.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "3 Reasons MAS is Risky and 1 Stock to Buy Instead",
+              "url": "https://finance.yahoo.com/news/3-reasons-mas-risky-1-170055011.html",
+              "source": "StockStory"
+            },
+            {
+              "title": "3 Reasons to Sell SYY and 1 Stock to Buy Instead",
+              "url": "https://finance.yahoo.com/news/3-reasons-sell-syy-1-164455356.html",
+              "source": "StockStory"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "nasdaq-100": {
+      "ticker": "NAS100",
+      "display_name": "Nasdaq 100",
+      "category": "indices",
+      "price": 29371.594,
+      "price_display": "29,371.6",
+      "change_pct": 2.7,
+      "change_abs": 772.424,
+      "change_display": "$+772.42",
+      "distance_52w_high_pct": -0.06,
+      "distance_52w_low_pct": 41.36,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Nasdaq 100 gained 2.7% to 29,372 as semiconductor stocks exploded higher -- SMH ETF up 2%, with Nvidia leading the charge on AI demand optimism.",
+          "why": "The second wave of AI infrastructure spend is being priced in; Alibaba's AI revenue boom despite margin compression shows the TAM is expanding globally.",
+          "watch": "Nvidia's price action at $230 resistance is key -- a breakout likely pulls the entire index higher; CPI miss could trigger a rotation out of growth.",
+          "headlines": [
+            {
+              "title": "AI boom might actually be tame compared to the dot-com bubble",
+              "url": "https://finance.yahoo.com/video/ai-boom-might-actually-be-tame-compared-to-the-dot-com-bubble-145804186.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Stocks Nosedive on Hot PPI Inflation Report",
+              "url": "https://finance.yahoo.com/m/6af62214-a1aa-3024-8be6-7fd7cebc8e6c/stocks-nosedive-on-hot-ppi.html",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Drop As April Inflation Runs Hotter Than Expected\u2014 Zoominfo, Gitlab In Focus (UPDATED)",
+              "url": "https://finance.yahoo.com/news/stock-market-today-p-500-120116843.html",
+              "source": "Benzinga"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "dow-jones": {
+      "ticker": "US30",
+      "display_name": "Dow Jones (DJIA)",
+      "category": "indices",
+      "price": 49622.7,
+      "price_display": "49,622.7",
+      "change_pct": -0.58,
+      "change_abs": -287.89,
+      "change_display": "$-287.89",
+      "distance_52w_high_pct": -1.76,
+      "distance_52w_low_pct": 19.99,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Dow dropped 0.6% to 49,623, lagging badly as the index's old-economy tilt missed the tech rally. Value stocks sold off on inflation fears.",
+          "why": "Hot PPI hits Dow components hardest -- industrials, financials, and consumer staples face margin pressure from input cost inflation that tech largely avoids.",
+          "watch": "Ford and GM rallied on EV optimism, but the broader Dow needs CPI relief tomorrow to stop the rotation into Nasdaq names.",
+          "headlines": [
+            {
+              "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
+              "url": "https://finance.yahoo.com/news/exchange-traded-funds-us-equities-170927865.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "US Equity Indexes Mixed as Hot Producer Prices Push Dow Jones Industrial Average Lower",
+              "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-hot-161618954.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "S&P 500, Nasdaq Head Back to Record Levels",
+              "url": "https://finance.yahoo.com/m/fc2f3626-cd40-3d02-b415-8d53077e39e0/s%26p-500%2C-nasdaq-head-back-to.html",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "bitcoin": {
+      "ticker": "BTCUSD",
+      "display_name": "Bitcoin",
+      "category": "crypto",
+      "price": 79308.88,
+      "price_display": "79,309",
+      "change_pct": -1.68,
+      "change_abs": -1355.49,
+      "change_display": "-1,355",
+      "distance_52w_high_pct": -37.16,
+      "distance_52w_low_pct": 32.02,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Bitcoin pulled back 1.7% to $79,309 despite broad risk-on in equities. Crypto is diverging from its usual tech-beta behavior.",
+          "why": "The correlation break is telling -- BTC may be repricing as an inflation hedge rather than a risk asset, but conviction is low with the Trump-Xi summit adding uncertainty.",
+          "watch": "The $80K level is pivotal -- losing it opens $75K; reclaiming it with volume would signal the dip is buyable. Watch ETF flow data for institutional positioning.",
+          "headlines": [
+            {
+              "title": "Where to diversify your portfolio if oil prices climb even higher",
+              "url": "https://finance.yahoo.com/video/where-diversify-portfolio-oil-prices-173000014.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Gabelli Dividend & Income Trust Continues Monthly Distributions, Declares Distributions of $0.15 Per Share, Reaffirms Annualized Distribution of $1.80 Per Share",
+              "url": "https://finance.yahoo.com/news/gabelli-dividend-income-trust-continues-172700610.html",
+              "source": "GlobeNewswire"
+            },
+            {
+              "title": "Eczema cream recalled for being potentially life-threatening. See brand",
+              "url": "https://finance.yahoo.com/m/621abf1a-a7a3-35ce-8d8f-601c36e340c9/eczema-cream-recalled-for.html",
+              "source": "USA TODAY"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "ethereum": {
+      "ticker": "ETHUSD",
+      "display_name": "Ethereum",
+      "category": "crypto",
+      "price": 2255.09,
+      "price_display": "2,255",
+      "change_pct": -3.08,
+      "change_abs": -71.6373,
+      "change_display": "-72",
+      "distance_52w_high_pct": -54.48,
+      "distance_52w_low_pct": 28.96,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Ethereum dropped 3.1% to $2,255, underperforming Bitcoin. The ETH/BTC ratio continues to compress as capital rotates to BTC dominance plays.",
+          "why": "Layer-2 scaling is cannibalizing mainnet fee revenue, making the ETH investment case harder to articulate while BTC benefits from simpler store-of-value narrative.",
+          "watch": "ETH needs to hold $2,200 support or risk accelerating to $2,100. Any positive Pectra upgrade news could reverse the trend.",
+          "headlines": [
+            {
+              "title": "Where to diversify your portfolio if oil prices climb even higher",
+              "url": "https://finance.yahoo.com/video/where-diversify-portfolio-oil-prices-173000014.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Gabelli Dividend & Income Trust Continues Monthly Distributions, Declares Distributions of $0.15 Per Share, Reaffirms Annualized Distribution of $1.80 Per Share",
+              "url": "https://finance.yahoo.com/news/gabelli-dividend-income-trust-continues-172700610.html",
+              "source": "GlobeNewswire"
+            },
+            {
+              "title": "Eczema cream recalled for being potentially life-threatening. See brand",
+              "url": "https://finance.yahoo.com/m/621abf1a-a7a3-35ce-8d8f-601c36e340c9/eczema-cream-recalled-for.html",
+              "source": "USA TODAY"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "nvda": {
+      "ticker": "NVDA",
+      "display_name": "NVIDIA Corporation",
+      "category": "stocks",
+      "price": 226.6,
+      "price_display": "226.60",
+      "change_pct": 9.03,
+      "change_abs": 18.77,
+      "change_display": "$+18.77",
+      "distance_52w_high_pct": -0.54,
+      "distance_52w_low_pct": 75.44,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Nvidia surged 9% to $226.60, its best day in weeks, as AI infrastructure demand signals intensified. Semiconductor ETFs hit record highs.",
+          "why": "The second wave AI thesis is going mainstream -- data center capex projections keep getting revised up, and Nvidia remains the picks-and-shovels monopoly play.",
+          "watch": "Approaching the $230 resistance level from pre-correction highs. A breakout on volume confirms the trend; earnings guidance season for cloud customers will be the next catalyst.",
+          "headlines": [
+            {
+              "title": "Why the Second Wave of AI Will Mint More Millionaires Than the First -- and the Stocks to Own",
+              "url": "https://finance.yahoo.com/m/d87d6a7f-4d12-3e29-b208-1392809065e7/why-the-second-wave-of-ai.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Alibaba's AI Business Is Booming, But Its Profits Basically Disappeared",
+              "url": "https://finance.yahoo.com/m/0d4ec8a4-2ae1-3c52-91e2-db1a895b678b/alibaba%27s-ai-business-is.html",
+              "source": "Moby"
+            },
+            {
+              "title": "Sector Update: Tech",
+              "url": "https://finance.yahoo.com/news/sector-tech-171056704.html",
+              "source": "MT Newswires"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "tsla": {
+      "ticker": "TSLA",
+      "display_name": "Tesla, Inc.",
+      "category": "stocks",
+      "price": 447.89,
+      "price_display": "447.89",
+      "change_pct": 12.33,
+      "change_abs": 49.16,
+      "change_display": "$+49.16",
+      "distance_52w_high_pct": -10.21,
+      "distance_52w_low_pct": 63.94,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Tesla rocketed 12.3% to $447.89, leading the S&P 500 as EV stocks broadly rallied. Lucid and NIO also jumped 9% and 7% respectively.",
+          "why": "The EV sector is catching a bid from two angles -- Ford's strong results legitimize the space, and Trump's China trip raises hopes for reduced EV tariff barriers.",
+          "watch": "Tesla China sales data this week is the near-term catalyst. The stock needs to hold above $430 to confirm the breakout from its recent range.",
+          "headlines": [
+            {
+              "title": "Lucid Jumps 9%, NIO Rallies 7%, Tesla Rises 4% as EV Stocks Get Charged Up",
+              "url": "https://finance.yahoo.com/m/b429ebe4-d7ba-3b0d-94ed-5729800027a5/lucid-jumps-9%25%2C-nio-rallies.html",
+              "source": "24/7 Wall St."
+            },
+            {
+              "title": "Why Ford Stock Soared Today",
+              "url": "https://finance.yahoo.com/m/6ed00f9a-286c-36c6-8545-cc78612eeb12/why-ford-stock-soared-today.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Ford Stock Is Today\u2019s Best Performer in S&P 500. Other Car Makers Also Move Higher.",
+              "url": "https://finance.yahoo.com/m/aa0eee9d-2300-3b3f-abee-6b746d3292ad/ford-stock-is-today%E2%80%99s-best.html",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "aapl": {
+      "ticker": "AAPL",
+      "display_name": "Apple Inc.",
+      "category": "stocks",
+      "price": 300.21,
+      "price_display": "300.21",
+      "change_pct": 4.42,
+      "change_abs": 12.7,
+      "change_display": "$+12.70",
+      "distance_52w_high_pct": -0.05,
+      "distance_52w_low_pct": 55.18,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Apple climbed 4.4% to $300.21, crossing the $300 level for the first time as the broader tech rally lifted all boats.",
+          "why": "The Trump-Xi summit is particularly relevant for Apple given its massive China manufacturing exposure -- any tariff de-escalation is a direct margin tailwind.",
+          "watch": "The $300 round number is now support -- holding above it would be bullish. WWDC AI announcements in June are the next company-specific catalyst.",
+          "headlines": [
+            {
+              "title": "Soaring iPhone Sales Have Supercharged This Under-the-Radar Stock That's Outperforming Apple. Buy It Before It Soars Another 59%",
+              "url": "https://finance.yahoo.com/m/c87a70b1-1f80-37cd-bd9e-62f95e0f5ddf/soaring-iphone-sales-have.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Trump Lands In China With $16 Trillion Of CEO Power \u2014 And One Big Ask For Xi",
+              "url": "https://finance.yahoo.com/news/trump-lands-china-16-trillion-161415279.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Is Himax Technologies, Inc. (HIMX) A Good Stock To Buy Now?",
+              "url": "https://finance.yahoo.com/news/himax-technologies-inc-himx-good-160401892.html",
+              "source": "Insider Monkey"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "msft": {
+      "ticker": "MSFT",
+      "display_name": "Microsoft Corporation",
+      "category": "stocks",
+      "price": 404.0,
+      "price_display": "404.00",
+      "change_pct": -2.41,
+      "change_abs": -9.96,
+      "change_display": "$-9.96",
+      "distance_52w_high_pct": -27.27,
+      "distance_52w_low_pct": 13.39,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Microsoft fell 2.4% to $404, bucking the tech rally. The Musk-OpenAI trial testimony from CEO Nadella added uncertainty around the AI partnership structure.",
+          "why": "The OpenAI revenue-sharing cap discussion is creating overhang -- if OpenAI restructures its profit-sharing, Microsoft's AI economics could change materially.",
+          "watch": "Watch for trial developments this week. A resolution or clarity on the OpenAI structure removes a key uncertainty; continued drama could push MSFT below $400 support.",
+          "headlines": [
+            {
+              "title": "Why Nvidia Bulls Are Suddenly Watching Nebius Ahead Of NVDA Earnings",
+              "url": "https://finance.yahoo.com/news/why-nvidia-bulls-suddenly-watching-170707473.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "3 Unstoppable Stocks to Buy and Hold, Regardless of What Happens in the Stock Market in 2026",
+              "url": "https://finance.yahoo.com/m/a36499a1-f87c-329d-bbf7-00d4337f2f08/3-unstoppable-stocks-to-buy.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Anthropic debuts Claude for Small Business as it continues its enterprise software push",
+              "url": "https://finance.yahoo.com/news/anthropic-debuts-claude-for-small-business-as-it-continues-its-enterprise-software-push-160500355.html",
+              "source": "Yahoo Finance"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "meta": {
+      "ticker": "META",
+      "display_name": "Meta Platforms, Inc.",
+      "category": "stocks",
+      "price": 614.98,
+      "price_display": "614.98",
+      "change_pct": 0.34,
+      "change_abs": 2.1,
+      "change_display": "$+2.10",
+      "distance_52w_high_pct": -22.77,
+      "distance_52w_low_pct": 18.21,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Meta edged up 0.3% to $614.98, underperforming the Nasdaq. AI-related layoff concerns and internal tensions dampened sentiment.",
+          "why": "Meta's AI pivot is generating revenue growth but the workforce restructuring signals suggest margins are under more pressure than the headline numbers show.",
+          "watch": "The $620 resistance has capped three rallies this month. A break above on strong volume would target $650; failure keeps the stock range-bound.",
+          "headlines": [
+            {
+              "title": "Why Nvidia Bulls Are Suddenly Watching Nebius Ahead Of NVDA Earnings",
+              "url": "https://finance.yahoo.com/news/why-nvidia-bulls-suddenly-watching-170707473.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "More Job Cuts on the Way at Meta Platforms, Inc. (META) amid AI Pivot for Efficiency and Growth",
+              "url": "https://finance.yahoo.com/news/more-job-cuts-way-meta-170234760.html",
+              "source": "Insider Monkey"
+            },
+            {
+              "title": "Why One Brazil Fund Opened an $11 Million Position in MercadoLibre Despite a Steep One-Year Stock Drop",
+              "url": "https://finance.yahoo.com/m/55070965-eb85-3445-9930-bee5e427eb20/why-one-brazil-fund-opened-an.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "googl": {
+      "ticker": "GOOGL",
+      "display_name": "Alphabet Inc. (Class A)",
+      "category": "stocks",
+      "price": 401.38,
+      "price_display": "401.38",
+      "change_pct": 0.84,
+      "change_abs": 3.34,
+      "change_display": "$+3.34",
+      "distance_52w_high_pct": -0.22,
+      "distance_52w_low_pct": 151.48,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Alphabet gained 0.8% to $401.38, modestly outperforming. Anthropic partnership news provided a small boost to the AI narrative.",
+          "why": "Google's cloud and AI positioning keeps improving, but antitrust overhang remains the structural discount that limits multiple expansion.",
+          "watch": "Google I/O announcements are the upcoming catalyst. Any Gemini product breakthroughs could re-rate the stock; antitrust ruling timeline is the key risk to monitor.",
+          "headlines": [
+            {
+              "title": "Alphabet Inc. (GOOGL) Poised to Usurp Nvidia as Valuable Company on AI Boom",
+              "url": "https://finance.yahoo.com/news/alphabet-inc-googl-poised-usurp-170147337.html",
+              "source": "Insider Monkey"
+            },
+            {
+              "title": "3 Top Stocks That Look Like Bargains Today",
+              "url": "https://finance.yahoo.com/m/e1de473f-0d6a-3739-ace8-a272ae821da3/3-top-stocks-that-look-like.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Assessing Alphabet (GOOGL) After A Powerful Share Price Run And Mixed Valuation Signals",
+              "url": "https://finance.yahoo.com/news/assessing-alphabet-googl-powerful-share-161248880.html",
+              "source": "Simply Wall St."
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    },
+    "amzn": {
+      "ticker": "AMZN",
+      "display_name": "Amazon.com, Inc.",
+      "category": "stocks",
+      "price": 269.36,
+      "price_display": "269.36",
+      "change_pct": -2.05,
+      "change_abs": -5.63,
+      "change_display": "$-5.63",
+      "distance_52w_high_pct": -3.3,
+      "distance_52w_low_pct": 37.43,
+      "sections": [
+        {
+          "anchor": "2033-trt",
+          "slot": "pm",
+          "timestamp_utc": "2026-05-13T17:33:46Z",
+          "timestamp_trt": "2026-05-13 20:33 TRT",
+          "past": "Amazon fell 2.1% to $269.36 as the hot PPI print raised concerns about consumer spending power. AWS growth narrative took a backseat.",
+          "why": "Amazon is caught between its AI/cloud growth story and its consumer retail exposure -- rising wholesale prices signal margin pressure on the e-commerce side.",
+          "watch": "The $265 support level from April's consolidation is the line in the sand. Watch for any retail sales data Thursday to gauge consumer health.",
+          "headlines": [
+            {
+              "title": "Amazon vs. Walmart: AI Is Reshaping the Retail Battlefield",
+              "url": "https://finance.yahoo.com/m/79fba3ce-74b0-3a69-a438-71ce86bc55e3/amazon-vs.-walmart%3A-ai-is.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "3 Top Stocks That Look Like Bargains Today",
+              "url": "https://finance.yahoo.com/m/e1de473f-0d6a-3739-ace8-a272ae821da3/3-top-stocks-that-look-like.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Why Alibaba's Earnings Report May Spell Trouble for Amazon",
+              "url": "https://finance.yahoo.com/m/fcddd30d-1d39-31b3-a571-74738466b2d5/why-alibaba%27s-earnings-report.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ],
+      "material_change": true
+    }
+  }
+}
