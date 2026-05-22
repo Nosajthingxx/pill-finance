@@ -1,14 +1,14 @@
 {
   "date": "2026-05-22",
-  "generated_at": "2026-05-22T10:31:35Z",
-  "last_updated_at": "2026-05-22T10:31:35Z",
+  "generated_at": "2026-05-22T10:33:01Z",
+  "last_updated_at": "2026-05-22T10:33:01Z",
   "market_status": "open",
   "updates": [
     {
-      "slot": "pm",
-      "timestamp_utc": "2026-05-22T10:31:35Z",
-      "timestamp_trt": "2026-05-22 13:31 TRT",
-      "anchor": "1331-trt"
+      "slot": "am",
+      "timestamp_utc": "2026-05-22T10:33:01Z",
+      "timestamp_trt": "2026-05-22 13:33 TRT",
+      "anchor": "1333-trt"
     }
   ],
   "assets": {
@@ -17,32 +17,32 @@
       "ticker": "EURUSD",
       "display_name": "Euro / US Dollar",
       "category": "fx",
-      "price": 1.1606,
+      "price": 1.160631,
       "price_display": "1.1606",
-      "change_pct": -0.16,
+      "change_pct": -0.164,
       "change_abs": -0.001902,
       "change_display": "-19 pips",
       "key_levels": {
         "support": [
-          1.1554,
-          1.1472
+          1.1542,
+          1.1477
         ],
         "resistance": [
-          1.1691,
-          1.1773
+          1.1671,
+          1.1736
         ]
       },
       "distance_52w_high_pct": -3.47,
       "distance_52w_low_pct": 3.38,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "EUR/USD slid to 1.1606, down 19 pips, as the WSJ Dollar Index ticked +0.02% to 95.80 and US 10Y yields held the 4.59% line \u2014 yield gap, not growth, drove the move.",
-          "why": "The euro is short rate support: ECB is at the dovish end of its path while AP says an Iran-war energy shock will weigh on EZ growth and lift inflation. That is stagflation, not euro strength.",
-          "watch": "1.1554 is the line. A clean break opens 1.1472 (April low). Hold there and a U.S.-Iran de-escalation headline can squeeze it back to 1.1691 fast.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "EUR/USD slipped 16 pips to 1.1606 as US 10-year yields climbed to 4.59%, pulling DXY back from session lows ahead of FOMC minutes.",
+          "why": "The Fed-rate-cut path is being walked back — Treasury yields up, dollar firming — while ECB's energy-shock inflation outlook keeps EUR constrained on the upside.",
+          "watch": "Fed minutes at 21:00 TRT. Patient language or any cut-pricing reset → 1.1650 break. Hawkish surprise opens 1.1550 retest into the weekend.",
           "headlines": [
             {
               "title": "The WSJ Dollar Index Rises 0.02% to 95.80",
@@ -68,32 +68,32 @@
       "ticker": "GBPUSD",
       "display_name": "British Pound / US Dollar",
       "category": "fx",
-      "price": 1.3428,
+      "price": 1.342769,
       "price_display": "1.3428",
-      "change_pct": -0.05,
+      "change_pct": -0.047,
       "change_abs": -0.000631,
       "change_display": "-6 pips",
       "key_levels": {
         "support": [
-          1.338,
-          1.33
+          1.3334,
+          1.324
         ],
         "resistance": [
-          1.35,
-          1.358
+          1.3522,
+          1.3616
         ]
       },
       "distance_52w_high_pct": -3.03,
       "distance_52w_low_pct": 3.2,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "Cable held 1.3428, off just 7 pips, but UK 30Y gilts hit a 28-year high yield as the City braces for a Burnham challenge to Starmer \u2014 a political-risk premium, not a growth premium.",
-          "why": "Deutsche Bank sees room for further EUR/GBP rally \u2014 translation: sterling is the weakest link in G10 right now, hedging political tail-risk while the dollar wobbles on Iran.",
-          "watch": "1.3380 is the floor; a break opens 1.3300 and triggers the next leg of the gilt selloff. Resistance at 1.3500 needs a Labour reshuffle headline to flip it.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Cable held flat at 1.3428 — UK gilt yields stayed elevated near 28-year highs as Burnham leadership rumours kept sterling beta pressured.",
+          "why": "Deutsche Bank sees room for EUR/GBP to extend higher — UK political risk is reasserting itself as the dominant idiosyncratic factor over central bank divergence.",
+          "watch": "Fed minutes tonight set the broader USD tone. Break below 1.3380 opens 1.3300; 1.3500 caps any relief rally on dovish surprises.",
           "headlines": [
             {
               "title": "Deutsche Bank sees room for a further rally in EUR/GBP",
@@ -119,32 +119,32 @@
       "ticker": "USDJPY",
       "display_name": "US Dollar / Japanese Yen",
       "category": "fx",
-      "price": 159.096,
+      "price": 159.095001,
       "price_display": "159.10",
       "change_pct": 0.13,
-      "change_abs": 0.207993,
+      "change_abs": 0.207001,
       "change_display": "+21 pips",
       "key_levels": {
         "support": [
-          158.5,
-          157.8
+          158.25,
+          157.4
         ],
         "resistance": [
-          160.0,
-          161.2
+          159.94,
+          160.79
         ]
       },
       "distance_52w_high_pct": -1.0,
       "distance_52w_low_pct": 11.94,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "USD/JPY ground higher to 159.10, up 21 pips, as US yields held a one-year high \u2014 the BoJ-to-Fed yield gap keeps yen carry intact even as the broader dollar plunges elsewhere.",
-          "why": "Barron's flagged the paradox: dollar is missing the relief rally, yet still outshining yen and euro into the Iran crisis. Yield is the only thing the yen cannot import.",
-          "watch": "160.00 is the MoF intervention line \u2014 every prior touch since 2024 drew verbal warnings. A break above without comment is the cleanest signal Tokyo has dropped the defence.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "USD/JPY climbed 21 pips to 159.10 as the US 10-year yield hit 4.59%, widening rate differentials and squeezing yen carry positioning toward MoF intervention zones.",
+          "why": "BoJ's slow normalisation cannot keep pace with re-priced Fed expectations — the 160 line acts as a magnet but also a verbal-intervention trigger.",
+          "watch": "Fed minutes hawkish tone tests 160; dovish lean unwinds toward 158.20 support. Watch for MoF chatter above 159.50.",
           "headlines": [
             {
               "title": "Why a Plunging Dollar Is Missing Out on the Relief Rally",
@@ -157,7 +157,7 @@
               "source": "The Wall Street Journal"
             },
             {
-              "title": "The Dollar Isn\u2019t Done. Why It\u2019s Outshining Rivals Amid Iran Crisis.",
+              "title": "The Dollar Isn’t Done. Why It’s Outshining Rivals Amid Iran Crisis.",
               "url": "https://www.barrons.com/articles/dollar-euro-yen-iran-ff6f881b?siteid=yhoof2&yptr=yahoo",
               "source": "Barrons.com"
             }
@@ -170,32 +170,32 @@
       "ticker": "AUDUSD",
       "display_name": "Australian Dollar / US Dollar",
       "category": "fx",
-      "price": 0.7133,
+      "price": 0.713267,
       "price_display": "0.7133",
-      "change_pct": -0.24,
+      "change_pct": -0.243,
       "change_abs": -0.001734,
       "change_display": "-17 pips",
       "key_levels": {
         "support": [
-          0.71,
-          0.705
+          0.7066,
+          0.6999
         ],
         "resistance": [
-          0.718,
-          0.724
+          0.7199,
+          0.7266
         ]
       },
       "distance_52w_high_pct": -1.99,
       "distance_52w_low_pct": 11.91,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "AUD/USD eased to 0.7133, down 17 pips, even as the dollar broadly softens \u2014 Reuters notes the buck is now LOWER than when the Iran war began, but Aussie hasn't capitalised.",
-          "why": "Aussie is caught between iron-ore demand worry from China and the risk-on impulse from a possible Iran de-escalation. Commodity-FX usually leads in this setup, but copper isn't confirming.",
-          "watch": "0.7100 is the pivot. Hold and a confirmed Iran ceasefire opens 0.7200 quickly. Lose it and AUD becomes the proxy short for a soft-China narrative back to 0.7050.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "AUD/USD lost 17 pips to 0.7133 — Aussie failed to ride crude oil's $1.80 rally as broader risk-off positioning into Fed minutes capped commodity FX.",
+          "why": "Without a China stimulus catalyst, the iron-ore-yuan correlation has gone quiet — yields differential dominates Aussie pricing right now.",
+          "watch": "0.7100 is the critical pivot. Loss opens 0.7050 (2026 low); Fed dovish surprise revives 0.7180 retest.",
           "headlines": [
             {
               "title": "The Dollar is Now Lower Than When the Iran War Began",
@@ -223,30 +223,30 @@
       "category": "commodities",
       "price": 4533.5,
       "price_display": "4,533.50",
-      "change_pct": -0.14,
+      "change_pct": -0.139,
       "change_abs": -6.299805,
-      "change_display": "-6.30",
+      "change_display": "-$6.30",
       "key_levels": {
         "support": [
-          4500.0,
-          4420.0
+          4472.0,
+          4411.0
         ],
         "resistance": [
-          4620.0,
-          4700.0
+          4595.0,
+          4656.0
         ]
       },
       "distance_52w_high_pct": -18.84,
       "distance_52w_low_pct": 39.82,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "Gold drifted to $4,533, down $6 (-0.14%), holding as Yahoo notes the metal is 'waiting on signs of peace or further escalation' \u2014 bid into the weekend, but the war premium is leaking.",
-          "why": "With DXY at 99.28 and real yields stuck at 4.59%, gold should be heavier. That it isn't tells you central-bank and Asian retail demand are still absorbing every Western ETF outflow.",
-          "watch": "$4,500 is the line that matters. A clean break drags silver and miners with it; hold it and any Hormuz flare-up retests $4,620. Watch the London PM fix for institutional positioning.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Gold consolidated near $4,533 — down $6 on the session — as traders held positioning 18% below the September all-time high, awaiting Fed minutes and Iran clarity.",
+          "why": "Rising real yields would normally cap gold, but Middle East risk premium and central-bank buying keep dip-buyers active above $4,500.",
+          "watch": "$4,500 is the floor pivot. Hawkish Fed minutes plus an Iran de-escalation headline could trigger a flush toward $4,400 tonight.",
           "headlines": [
             {
               "title": "Gold prices today, Thursday, May 21: Gold prices are holding, waiting on signs of peace or further escalation",
@@ -259,7 +259,7 @@
               "source": "Motley Fool"
             },
             {
-              "title": "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' \u2014 What Changed The Billionaire's Mind On Crypto?",
+              "title": "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' — What Changed The Billionaire's Mind On Crypto?",
               "url": "https://finance.yahoo.com/markets/crypto/articles/mark-cuban-sold-most-bitcoin-032832809.html",
               "source": "Benzinga"
             }
@@ -272,32 +272,32 @@
       "ticker": "XAGUSD",
       "display_name": "Silver (XAG/USD)",
       "category": "commodities",
-      "price": 76.485,
+      "price": 76.485001,
       "price_display": "76.49",
-      "change_pct": 0.09,
+      "change_pct": 0.093,
       "change_abs": 0.070999,
-      "change_display": "+0.07",
+      "change_display": "+$0.07",
       "key_levels": {
         "support": [
-          74.0,
-          70.0
+          72.77,
+          69.06
         ],
         "resistance": [
-          78.0,
-          82.0
+          80.2,
+          83.91
         ]
       },
       "distance_52w_high_pct": -36.95,
       "distance_52w_low_pct": 134.19,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "Silver edged up to $76.49, +$0.07, but the ratio against gold remains stretched \u2014 Motley Fool's piece on a 35% iShares Silver ETF plunge captures the sentiment damage from the post-spike air pocket.",
-          "why": "Industrial demand from solar and the AI build-out is the only story holding the floor; speculative longs that drove the squeeze have already capitulated. This is now a value-buyer market, not momentum.",
-          "watch": "$74.00 is the floor where physical hands stepped in last month. A break opens $70. Reclaim $78 and you get a fast move to $82 on short-covering.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Silver held $76.49 (+9 cents) — sentiment dented by the iShares SLV ETF's 35% plunge headline that ratted retail flows.",
+          "why": "HSBC and UBS recently reset 2026 silver targets lower on industrial-demand softness — gold-silver ratio at 59 still favours the yellow metal here.",
+          "watch": "$75 support is critical — loss opens $72. Reclaim of $80 needed to flip technical momentum back constructive.",
           "headlines": [
             {
               "title": "Silver prices today, Thursday, May 21, 2026: Moving lower this morning",
@@ -310,7 +310,7 @@
               "source": "Motley Fool"
             },
             {
-              "title": "Eloro Targets Major Resource Growth at Bolivia\u2019s Iska Iska Project",
+              "title": "Eloro Targets Major Resource Growth at Bolivia’s Iska Iska Project",
               "url": "https://finance.yahoo.com/video/eloro-targets-major-growth-bolivia-160932705.html",
               "source": "Proactive"
             }
@@ -323,32 +323,32 @@
       "ticker": "USOIL",
       "display_name": "Crude Oil (WTI)",
       "category": "commodities",
-      "price": 98.18,
-      "price_display": "98.18",
-      "change_pct": 1.9,
-      "change_abs": 1.830002,
-      "change_display": "+1.83",
+      "price": 98.150002,
+      "price_display": "98.15",
+      "change_pct": 1.868,
+      "change_abs": 1.800003,
+      "change_display": "+$1.80",
       "key_levels": {
         "support": [
-          95.0,
-          90.0
+          92.22,
+          86.29
         ],
         "resistance": [
-          100.0,
-          105.0
+          104.08,
+          110.01
         ]
       },
-      "distance_52w_high_pct": -17.83,
-      "distance_52w_low_pct": 78.57,
+      "distance_52w_high_pct": -17.85,
+      "distance_52w_low_pct": 78.52,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "WTI ripped +1.90% to $98.18 intraday before fading, as an Iranian news agency flagged the US and Iran may be 'hours' from a deal \u2014 every headline is whipping a $4-6 range.",
-          "why": "The market is paying war premium one minute and ceasefire discount the next. Bond markets, per Yahoo, are 'not so subtly telling the Fed rates aren't high enough' \u2014 energy is the swing input.",
-          "watch": "Announcement risk: a confirmed US-Iran deal cracks $95 and opens $90. No deal by Asia open and $100 prints on the next Hormuz tanker headline. OPEC+ is staying quiet for now.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "WTI jumped $1.80 to $98.15 (+1.87%) — Iran tensions resurfacing overnight extended the Middle East risk premium into US sessions.",
+          "why": "Hormuz disruption risk keeps a $5–$7 geopolitical bid baked into crude, masking softer demand signals from US shale output and global PMIs.",
+          "watch": "$100 psychological resistance — clean break invites $105 (52w high $119). Any ceasefire headline could flush back to $94 support.",
           "headlines": [
             {
               "title": "Oil prices are hard-pressing consumers at bottom of K-shaped economy",
@@ -374,32 +374,32 @@
       "ticker": "US500",
       "display_name": "S&P 500",
       "category": "indices",
-      "price": 7445.7202,
+      "price": 7445.720215,
       "price_display": "7,445.7",
-      "change_pct": 0.17,
+      "change_pct": 0.172,
       "change_abs": 12.75,
-      "change_display": "+12.8",
+      "change_display": "+$12.8",
       "key_levels": {
         "support": [
-          7400.0,
-          7350.0
+          7369.0,
+          7293.0
         ],
         "resistance": [
-          7500.0,
-          7560.0
+          7522.0,
+          7599.0
         ]
       },
       "distance_52w_high_pct": -0.95,
       "distance_52w_low_pct": 29.1,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "S&P 500 added +0.17% to 7,445.72 as Yahoo reports 'stocks climb on US-Iran diplomacy hopes' \u2014 but Walmart's cautious guide on gas-price pressure shows the consumer is the wobble underneath.",
-          "why": "Strong-season tailwinds are wrapping up just as Nvidia's Q1 print becomes the next binary catalyst. Bond yields at 4.59% mean any earnings disappointment gets multiple-compression on top of the miss.",
-          "watch": "Nvidia earnings overnight. Beat-and-raise sustains 7,500; in-line with cautious guide drags the tape to 7,350 and tests the 50-day. Iran headline risk is the wild card before the bell.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "S&P 500 edged up 12 points to 7,446 (+0.17%) — narrow leadership, with breadth deteriorating into tonight's NVDA earnings and Fed minutes double-catalyst.",
+          "why": "Index hugging record territory while 10-year yields at 4.59% compress equity multiples — the entire risk path now hinges on tonight's two events.",
+          "watch": "NVDA after-close plus Fed minutes 21:00 TRT. Bullish double-tap → 7,500 breakout. Either disappoints → 7,350 gap-fill scenario.",
           "headlines": [
             {
               "title": "Stocks climb on US-Iran diplomacy hopes as strong season season wraps",
@@ -425,32 +425,32 @@
       "ticker": "NAS100",
       "display_name": "Nasdaq 100",
       "category": "indices",
-      "price": 29357.2695,
+      "price": 29357.269531,
       "price_display": "29,357.3",
-      "change_pct": 0.2,
+      "change_pct": 0.203,
       "change_abs": 59.570312,
-      "change_display": "+59.6",
+      "change_display": "+$59.6",
       "key_levels": {
         "support": [
-          29100.0,
-          28900.0
+          28885.0,
+          28413.0
         ],
         "resistance": [
-          29800.0,
-          30200.0
+          29829.0,
+          30301.0
         ]
       },
       "distance_52w_high_pct": -1.08,
       "distance_52w_low_pct": 41.29,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "Nasdaq 100 nudged +0.20% to 29,357 as futures climbed on Trump's $2B quantum bet \u2014 semi names led, but the move is narrow: RKLB, IBM, RGTI doing the lifting, mega-caps mixed.",
-          "why": "The tape is pricing Nvidia perfection before the print and a peace dividend on top. That is two big assumptions stacked \u2014 if either crack, this is the index that overshoots the unwind.",
-          "watch": "Nvidia post-close is the only catalyst that matters. A buyback-driven Apple-style move (per Yahoo's framing of NVDA's $80B buyback) takes the index to 29,800 fast; a miss opens 28,900.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Nasdaq 100 ticked up 60 points to 29,357 — mega-cap AI names held bid despite NVDA's -1.8% pre-print de-risking flush.",
+          "why": "Leadership is concentrated in five names — NVDA CFO Kress's $20B CPU revenue commentary and Vera Rubin guide have raised the bar for the print.",
+          "watch": "NVDA earnings sets entire complex direction. Beat-and-raise opens 29,800; gross-margin miss could trigger 28,800 unwind.",
           "headlines": [
             {
               "title": "Nasdaq, S&P 500, Dow Futures Climb As Trump's $2B Quantum Computing Bet Outweighs Iran Jitters: RKLB, IBM, RGTI, NIO In Focus",
@@ -476,32 +476,32 @@
       "ticker": "US30",
       "display_name": "Dow Jones (DJIA)",
       "category": "indices",
-      "price": 50285.6602,
+      "price": 50285.660156,
       "price_display": "50,285.7",
-      "change_pct": 0.55,
+      "change_pct": 0.553,
       "change_abs": 276.308594,
-      "change_display": "+276.3",
+      "change_display": "+$276.3",
       "key_levels": {
         "support": [
-          50000.0,
-          49600.0
+          49766.0,
+          49247.0
         ],
         "resistance": [
-          50500.0,
-          51000.0
+          50805.0,
+          51325.0
         ]
       },
       "distance_52w_high_pct": -0.45,
       "distance_52w_low_pct": 21.6,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "Dow jumped +0.55% to 50,286, outperforming the S&P as cyclicals and energy caught a bid on the U.S.-Iran de-escalation narrative \u2014 defensives lagged, value rotated in.",
-          "why": "When the Dow leads Nasdaq, you are usually pricing a soft-landing rotation. Alphabet's mooted Dow inclusion in June adds index-flow tailwind separately from the macro tape.",
-          "watch": "50,500 is the prior swing high; break it and trend-followers add. A failed Iran headline plus a cautious Nvidia print breaks 50,000 and forces the rotation back into Treasuries.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Dow led the indices +278 points to 50,286 (+0.55%) — cyclicals and financials caught a bid from higher long-end yields.",
+          "why": "Rotation from growth into value is the 'yields-up, less rate-sensitive' trade — banks and energy carrying the index while tech digests NVDA risk.",
+          "watch": "50,000 round number now acts as support. Hawkish Fed minutes reinforces value rotation toward 50,800 resistance.",
           "headlines": [
             {
               "title": "Stocks climb on US-Iran diplomacy hopes as strong season season wraps",
@@ -527,32 +527,32 @@
       "ticker": "BTCUSD",
       "display_name": "Bitcoin",
       "category": "crypto",
-      "price": 77248.8516,
+      "price": 77248.851562,
       "price_display": "77,249",
-      "change_pct": -0.37,
+      "change_pct": -0.374,
       "change_abs": -290.320312,
-      "change_display": "-290",
+      "change_display": "-$290",
       "key_levels": {
         "support": [
-          75000.0,
-          72500.0
+          75400.0,
+          73600.0
         ],
         "resistance": [
-          80000.0,
-          82500.0
+          79100.0,
+          80900.0
         ]
       },
       "distance_52w_high_pct": -38.79,
       "distance_52w_low_pct": 28.59,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "BTC slipped to $77,249, down 0.37%, holding the $77K shelf into the weekend \u2014 futures are calm but Yahoo flags BTC and ETH are now moving in lockstep, a sign macro-beta is back in control.",
-          "why": "Fannie Mae's new crypto mortgage program (covered by 24/7 Wall St.) is the kind of structural-demand catalyst that gets ignored in a chop tape. The $200K collateral floor matters more than the headline.",
-          "watch": "$75,000 is the trader line \u2014 a flush there triggers the leverage washout some analysts have called for. Hold $77K through Asia and the next resistance is $82,500.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Bitcoin slipped to $77,249 (-0.37%) — earlier-week $584M long liquidations kept positioning cautious; BTC dominance lifted to 58.1%.",
+          "why": "BTC's correlation with high-beta tech keeps it pinned to NVDA's tape. Mark Cuban's 'sold most of his Bitcoin' headline added sentiment overhang.",
+          "watch": "$75,000 critical defence — break exposes $72,000 gap. NVDA print plus Fed minutes tonight is the binary catalyst combo.",
           "headlines": [
             {
               "title": "Bitcoin and ethereum prices today, Thursday, May 21, 2026: Bitcoin and ethereum prices following a similar path",
@@ -560,7 +560,7 @@
               "source": "Yahoo Personal Finance"
             },
             {
-              "title": "Fannie Mae\u2019s New Crypto Mortgage Program Explained: The $200,000 Collateral Problem",
+              "title": "Fannie Mae’s New Crypto Mortgage Program Explained: The $200,000 Collateral Problem",
               "url": "https://247wallst.com/personal-finance/2026/05/22/fannie-maes-new-crypto-mortgage-program-explained-the-200000-collateral-problem/",
               "source": "24/7 Wall St."
             },
@@ -578,32 +578,32 @@
       "ticker": "ETHUSD",
       "display_name": "Ethereum",
       "category": "crypto",
-      "price": 2121.77,
+      "price": 2121.77002,
       "price_display": "2,122",
-      "change_pct": -0.45,
+      "change_pct": -0.452,
       "change_abs": -9.640625,
-      "change_display": "-10",
+      "change_display": "-$10",
       "key_levels": {
         "support": [
-          2050.0,
-          1900.0
+          2055.0,
+          1989.0
         ],
         "resistance": [
-          2200.0,
-          2350.0
+          2188.0,
+          2255.0
         ]
       },
       "distance_52w_high_pct": -57.17,
       "distance_52w_low_pct": 21.34,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "ETH eased to $2,122, down 0.45%, tracking BTC point-for-point \u2014 the WSJ piece on weird ETFs (UFO and Midnight-Bitcoin funds) tells you the product side is hot even as spot drifts.",
-          "why": "ETH still has no independent narrative this week \u2014 no L2 catalyst, no ETF-flow surprise. It is purely a BTC beta until the next protocol headline lands.",
-          "watch": "$2,050 is the pivot. Lose it and the move accelerates to $1,900. Hold and a BTC bounce drags ETH back through $2,200 on minimal volume.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Ethereum slid to $2,122 (-0.45%) — underperforming Bitcoin as DeFi flows softened post-Verus bridge exploit and TVL contracted.",
+          "why": "ETH's tech-stock proxy status amplifies macro risk — without a fresh L2 catalyst, the ratio drift to BTC accelerates with dominance.",
+          "watch": "$2,100 support cluster. Loss invites $1,950 (52w-low test); risk-on Fed minutes could trigger a reflexive bounce.",
           "headlines": [
             {
               "title": "Bitcoin and ethereum prices today, Thursday, May 21, 2026: Bitcoin and ethereum prices following a similar path",
@@ -629,32 +629,32 @@
       "ticker": "NVDA",
       "display_name": "NVIDIA Corporation",
       "category": "stocks",
-      "price": 219.51,
+      "price": 219.509995,
       "price_display": "219.51",
-      "change_pct": -1.77,
+      "change_pct": -1.772,
       "change_abs": -3.960007,
-      "change_display": "-3.96",
+      "change_display": "-$3.96",
       "key_levels": {
         "support": [
-          215.0,
-          200.0
+          211.17,
+          202.83
         ],
         "resistance": [
-          225.0,
-          235.0
+          227.85,
+          236.19
         ]
       },
       "distance_52w_high_pct": -7.2,
       "distance_52w_low_pct": 69.95,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "NVDA dropped -1.77% to $219.51 into its Q1 print \u2014 Yahoo's coverage flagged a Yahoo Finance Video calling the stock 'mispriced' with Wall Street underestimating earnings power. CFO Kress pre-announced $20B in CPU revenue.",
-          "why": "This earnings print is the single highest-stakes binary catalyst of the season. CFO commentary on Blackwell and Vera Rubin's 'trillion-dollar future' has set the bar so high the whisper number is what matters.",
-          "watch": "Post-close numbers. An $80B buyback announcement (per the Yahoo piece comparing to Apple's move) is the upside surprise that holds $230. Anything softer than 'accelerating into growth' opens $200.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "NVDA shed 1.77% to $219.51 — heavy pre-earnings de-risking after Yahoo Finance flagged the stock as 'mispriced' from both directions.",
+          "why": "CFO Kress's $20B CPU revenue comment and Vera Rubin platform commentary set a high bar — gross-margin tone is the key swing variable tonight.",
+          "watch": "Earnings tonight after close. Beat plus raise plus 73%+ GM → opens $230. Miss on GM or weak guide → $210 gap-fill likely.",
           "headlines": [
             {
               "title": "Why Nvidia's stock is mispriced, and Wall Street is underestimating its earnings power",
@@ -680,32 +680,32 @@
       "ticker": "TSLA",
       "display_name": "Tesla, Inc.",
       "category": "stocks",
-      "price": 417.85,
+      "price": 417.850006,
       "price_display": "417.85",
-      "change_pct": 0.14,
+      "change_pct": 0.141,
       "change_abs": 0.589996,
-      "change_display": "+0.59",
+      "change_display": "+$0.59",
       "key_levels": {
         "support": [
-          400.0,
-          385.0
+          399.92,
+          381.99
         ],
         "resistance": [
-          430.0,
-          445.0
+          435.78,
+          453.71
         ]
       },
       "distance_52w_high_pct": -16.23,
       "distance_52w_low_pct": 52.94,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "TSLA edged up +0.14% to $417.85 \u2014 Stocktwits noted shares rose premarket despite Model Y recalls, with retail expecting Musk to reward holders in the upcoming 'overpriced' SpaceX IPO allocation.",
-          "why": "Tesla's story is now half SpaceX-IPO exposure (Musk's unusually large voting share matters here) and half EV-margin watch. The car business is a sideshow this quarter.",
-          "watch": "Any concrete Tesla-holder allocation news on the SpaceX deal pops the stock to $440. Without it, the Model Y recall headlines start to bite and $400 becomes the test.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Tesla closed flat at $417.85 — failed to capitalise on Newsom's $1B California EV/AI announcement as US Model Y price hike signalled demand softness.",
+          "why": "Auto unit margins are compressing; the narrative is shifting to robotaxi and Optimus — but neither produces near-term free cash flow proof.",
+          "watch": "$415 multi-week pivot — break opens $400. Fed dovishness plus broader risk-on could re-test $430 resistance.",
           "headlines": [
             {
               "title": "Why SpaceX's IPO could be the biggest market opportunity in history",
@@ -718,7 +718,7 @@
               "source": "Yahoo Finance Video"
             },
             {
-              "title": "TSLA Stock Rises Premarket Despite Model Y Recalls \u2014 Retail Expects Musk To Reward Tesla Holders In 'Overpriced' IPO",
+              "title": "TSLA Stock Rises Premarket Despite Model Y Recalls — Retail Expects Musk To Reward Tesla Holders In 'Overpriced' IPO",
               "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-model-y-recalls-tesla-holders-reward-overpriced-ipo/cZgR5aKReoE",
               "source": "Stocktwits"
             }
@@ -731,32 +731,32 @@
       "ticker": "AAPL",
       "display_name": "Apple Inc.",
       "category": "stocks",
-      "price": 304.99,
+      "price": 304.98999,
       "price_display": "304.99",
-      "change_pct": 0.91,
+      "change_pct": 0.907,
       "change_abs": 2.73999,
-      "change_display": "+2.74",
+      "change_display": "+$2.74",
       "key_levels": {
         "support": [
-          300.0,
-          295.0
+          299.29,
+          293.59
         ],
         "resistance": [
-          310.0,
-          325.0
+          310.69,
+          316.39
         ]
       },
       "distance_52w_high_pct": -0.18,
       "distance_52w_low_pct": 57.65,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "AAPL climbed +0.91% to $304.99 on Nvidia-halo flows \u2014 Yahoo framed Nvidia's $80B buyback and bigger dividend as potentially 'unleashing an Apple-like stock move' for the chipmaker.",
-          "why": "Apple is the buyback playbook every mega-cap is trying to copy. With cash flow stable, the multiple is the only variable \u2014 and a Nvidia-driven sector rally is the easiest way to expand it.",
-          "watch": "$310 is the breakout level last tested in March. A clean close above with Nvidia confirming the AI capex cycle opens $325. Disappointment drops AAPL to $295 on multiple compression.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Apple outperformed +0.91% to $304.99 — WSJ piece on 'hit products from imperfect chips' highlighted Apple's margin moat.",
+          "why": "Apple is becoming the defensive mega-cap of choice — China iPhone-17 discount strategy supports volumes without damaging gross margin.",
+          "watch": "$310 first resistance, $300 round-number support. Fed dovish plus an NVDA beat would unlock breakout above $310.",
           "headlines": [
             {
               "title": "Nvidia earnings: They're accelerating into growth, not slowing down",
@@ -782,32 +782,32 @@
       "ticker": "MSFT",
       "display_name": "Microsoft Corporation",
       "category": "stocks",
-      "price": 419.09,
+      "price": 419.089996,
       "price_display": "419.09",
-      "change_pct": -0.47,
+      "change_pct": -0.468,
       "change_abs": -1.970001,
-      "change_display": "-1.97",
+      "change_display": "-$1.97",
       "key_levels": {
         "support": [
-          415.0,
-          405.0
+          408.08,
+          397.07
         ],
         "resistance": [
-          425.0,
-          432.0
+          430.1,
+          441.11
         ]
       },
       "distance_52w_high_pct": -24.55,
       "distance_52w_low_pct": 17.63,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "MSFT slipped -0.47% to $419.09 as a GitHub security scare made the rounds \u2014 hackers claim access to internal systems and threaten to leak stolen source code, per Yahoo.",
-          "why": "MSFT is the second-derivative play on the AI capex cycle, but Bill Ackman dumping Alphabet to add to AI exposure is a Wall-Street-favourite tailwind. The GitHub headline is a sentiment dent, not a fundamental break.",
-          "watch": "Investigation tone matters: confirmed source-code leak gets a -3% gap. A clean denial plus a Nvidia beat re-anchors $425 and opens $432. Watch GitHub status pages overnight.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Microsoft slipped to $419.09 (-0.47%) — Kenya Azure setback headline questioned the Africa expansion economics and dented sentiment.",
+          "why": "The mega-cap AI hyperscaler trade is fragmenting — Azure capex narrative needs NVDA's blessing tonight to stay intact for buyers.",
+          "watch": "NVDA's print is MSFT's tape too. Strong AI guide reignites $425 break attempt; weak guide opens $410 gap risk.",
           "headlines": [
             {
               "title": "Billionaire Bill Ackman Just Dumped Alphabet Stock to Buy These Two AI Stocks. Should Investors Follow Suit?",
@@ -833,32 +833,32 @@
       "ticker": "META",
       "display_name": "Meta Platforms, Inc.",
       "category": "stocks",
-      "price": 607.38,
+      "price": 607.380005,
       "price_display": "607.38",
-      "change_pct": 0.38,
+      "change_pct": 0.383,
       "change_abs": 2.320007,
-      "change_display": "+2.32",
+      "change_display": "+$2.32",
       "key_levels": {
         "support": [
-          600.0,
-          585.0
+          594.04,
+          580.7
         ],
         "resistance": [
-          615.0,
-          625.0
+          620.72,
+          634.06
         ]
       },
       "distance_52w_high_pct": -23.72,
       "distance_52w_low_pct": 16.75,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "META rose +0.38% to $607.38 on a $125M Broadcom-Meta AI-chip headline \u2014 confirms the in-house silicon roadmap, the exact narrative justifying current capex levels.",
-          "why": "The Broadcom news answers the 'is this capex actually producing chip independence' question that has been pressuring the multiple. Combined with the 'not a cost-cutting exercise' AI-layoff framing, the operating-leverage story is back.",
-          "watch": "$610 is the breakout. Above it with a Nvidia beat as confirmation, Meta retests $625. Below and a soft Nvidia print would test $595 first, then the 50-day at $585.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Meta gained $2.33 to $607.38 (+0.38%) — digital-ad spend resilience headlines offset broader mega-cap caution into the close.",
+          "why": "Cheapest of the Mag-7 by P/E narrative is gaining traction — Reality Labs losses no longer scaring incremental buyers.",
+          "watch": "$610 caps near-term — reclaim opens $620. Fed minutes dovish plus continued ad-spend bullishness is the combo trigger.",
           "headlines": [
             {
               "title": "'Not a cost-cutting exercise': How tech CEOs are framing AI-driven layoffs",
@@ -884,32 +884,32 @@
       "ticker": "GOOGL",
       "display_name": "Alphabet Inc. (Class A)",
       "category": "stocks",
-      "price": 387.66,
+      "price": 387.660004,
       "price_display": "387.66",
-      "change_pct": -0.32,
+      "change_pct": -0.321,
       "change_abs": -1.25,
-      "change_display": "-1.25",
+      "change_display": "-$1.25",
       "key_levels": {
         "support": [
-          385.0,
-          375.0
+          377.73,
+          367.79
         ],
         "resistance": [
-          395.0,
-          405.0
+          397.59,
+          407.53
         ]
       },
       "distance_52w_high_pct": -5.13,
       "distance_52w_low_pct": 139.3,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "GOOGL fell -0.32% to $387.66 on Bill Ackman's exit (he sold his entire Alphabet position to add AI exposure) \u2014 but the $5T-club + Dow-inclusion thesis still has analysts predicting a June move.",
-          "why": "Ackman's exit is a sentiment hit on a name where ad-revenue resilience and the search-monetisation question were already the active debates. Dow inclusion in June is the offsetting structural flow.",
-          "watch": "$385 is the line where the Ackman headline gets digested. Hold it through Nvidia and the Dow-inclusion bid takes GOOGL back to $400. Lose $385 and the air pocket is $375.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Alphabet fell 0.32% to $387.66 — Druckenmiller-dumps-Alphabet headline plus Bank of America forecast reset weighed on positioning.",
+          "why": "GOOGL is the controversial Mag-7 right now — search-AI cannibalisation fear versus Gemini upside debate is splitting institutional flows.",
+          "watch": "$385 must hold; loss opens $375. BofA forecast event near-term and Fed minutes tonight drive the next 24h direction.",
           "headlines": [
             {
               "title": "Why SpaceX's IPO could be the biggest market opportunity in history",
@@ -935,32 +935,32 @@
       "ticker": "AMZN",
       "display_name": "Amazon.com, Inc.",
       "category": "stocks",
-      "price": 268.46,
+      "price": 268.459991,
       "price_display": "268.46",
-      "change_pct": 1.3,
+      "change_pct": 1.302,
       "change_abs": 3.449982,
-      "change_display": "+3.45",
+      "change_display": "+$3.45",
       "key_levels": {
         "support": [
-          262.0,
-          255.0
+          262.03,
+          255.6
         ],
         "resistance": [
-          272.0,
-          280.0
+          274.89,
+          281.32
         ]
       },
       "distance_52w_high_pct": -3.63,
       "distance_52w_low_pct": 36.97,
       "sections": [
         {
-          "anchor": "1331-trt",
-          "slot": "pm",
-          "timestamp_utc": "2026-05-22T10:31:35Z",
-          "timestamp_trt": "2026-05-22 13:31 TRT",
-          "past": "AMZN added +1.30% to $268.46 \u2014 Investor's Business Daily noted Amazon and Credo are leading AI stocks in buy areas as Dow futures rise, even as Walmart's cautious consumer guide drags retail peers.",
-          "why": "AMZN is the consumer-vs-AI hedge in one ticker. Walmart's stretched-consumer warning is bearish for retail; AWS capacity expansion is bullish for cloud. AMZN gets credit for the latter and discount for the former.",
-          "watch": "$272 is the breakout high last tested in early May. A clean close with a Nvidia beat opens $280. A consumer-driven leg lower in retail (Target earnings ahead) tests $262.",
+          "anchor": "1333-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-22T10:33:01Z",
+          "timestamp_trt": "2026-05-22 13:33 TRT",
+          "past": "Amazon led Mag-7 gainers +1.30% to $268.46 — US Bancorp card-deal announcement plus Cramer 'fan' callout drove buying flows.",
+          "why": "AWS demand staying robust plus the payments narrative gives AMZN catalyst diversity others lack heading into the NVDA print risk event.",
+          "watch": "$270 round-number test — clean break opens $278. NVDA AI guide spillover key — a strong print extends the rally.",
           "headlines": [
             {
               "title": "Is Walmart stock beginning to crack under stretched consumers?",
@@ -983,10 +983,10 @@
     }
   },
   "macro_context": {
-    "dxy": 99.28,
+    "dxy": 99.283997,
     "us10y": 4.586,
-    "vix": 17.05,
-    "btc_dominance_pct": null,
-    "headline": "US-Iran diplomacy hopes drive risk-on as oil unwinds war premium; dollar plunges broadly while US 10Y holds 4.59% \u2014 Nvidia print is the next binary catalyst."
+    "vix": 17.049999,
+    "btc_dominance_pct": 58.13,
+    "headline": "Fed minutes tonight at 21:00 TRT and NVDA earnings after the close dominate — US 10-year yields back at 4.59% as markets walk back 2026 cut bets."
   }
 }
