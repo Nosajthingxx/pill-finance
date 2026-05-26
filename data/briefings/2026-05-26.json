@@ -1,0 +1,1182 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T05:48:29Z",
+  "last_updated_at": "2026-05-26T05:48:29Z",
+  "market_status": "open",
+  "updates": [
+    {
+      "slot": "am",
+      "timestamp_utc": "2026-05-26T05:48:29Z",
+      "timestamp_trt": "2026-05-26 08:48 TRT",
+      "anchor": "0848-trt"
+    }
+  ],
+  "assets": {
+    "eur-usd": {
+      "slug": "eur-usd",
+      "ticker": "EURUSD",
+      "display_name": "Euro / US Dollar",
+      "category": "fx",
+      "price": 1.163332,
+      "price_display": "1.1633",
+      "change_pct": -0.08,
+      "change_abs": -0.000894,
+      "change_display": "-9 pips",
+      "key_levels": {
+        "support": [
+          1.158,
+          1.15
+        ],
+        "resistance": [
+          1.168,
+          1.175
+        ]
+      },
+      "distance_52w_high_pct": -3.25,
+      "distance_52w_low_pct": 2.3,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "EUR/USD held the 1.16 handle, drifting lower by single-digit pips as broad dollar softness from US-Iran Hormuz deal optimism barely moved the needle.",
+          "why": "DXY at 99.10 reflects risk-on dollar selling, but the euro is a passive beneficiary — no ECB story of its own to push it through resistance.",
+          "watch": "1.1680 caps any rally; loss of 1.1580 opens 1.1500. EZ confidence data tomorrow is the next macro pulse.",
+          "headlines": [
+            {
+              "title": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "The WSJ Dollar Index Rises 0.02% to 95.80",
+              "url": "https://finance.yahoo.com/m/e2386b6d-97e1-3741-bd11-0a4f9b21df16/the-wsj-dollar-index-rises.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Treasury Yields Lose Steam But Still Rise on Hopes of Hormuz Deal",
+              "url": "https://finance.yahoo.com/m/cdf23e1c-006e-3a09-9ad9-20c1ce9419ef/treasury-yields-lose-steam.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Energy shock from Iran war to weigh on Europe's growth, boost inflation",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/energy-shock-iran-war-weigh-095939681.html",
+              "source": "Associated Press"
+            },
+            {
+              "title": "High Energy Prices Are Weighing on the EU Economy. Sell the Euro Here.",
+              "url": "https://finance.yahoo.com/m/484dbb3e-007a-337b-8d41-3d3c61834852/high-energy-prices-are.html",
+              "source": "Barchart"
+            }
+          ]
+        }
+      ]
+    },
+    "gbp-usd": {
+      "slug": "gbp-usd",
+      "ticker": "GBPUSD",
+      "display_name": "British Pound / US Dollar",
+      "category": "fx",
+      "price": 1.3478,
+      "price_display": "1.3478",
+      "change_pct": -0.03,
+      "change_abs": -0.000363,
+      "change_display": "-4 pips",
+      "key_levels": {
+        "support": [
+          1.342,
+          1.335
+        ],
+        "resistance": [
+          1.352,
+          1.36
+        ]
+      },
+      "distance_52w_high_pct": -2.66,
+      "distance_52w_low_pct": 3.58,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "Cable churned near 1.3478, effectively flat, with sterling unable to extract gains from the weaker dollar tape.",
+          "why": "UK fiscal worries — gilt market still digesting Labour leadership noise — are capping every upside attempt despite the global risk-on backdrop.",
+          "watch": "1.3520 resistance has held three sessions; 1.3420 support is the line that confirms UK-specific weakness.",
+          "headlines": [
+            {
+              "title": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Deutsche Bank sees room for a further rally in EUR/GBP",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/deutsche-bank-sees-room-further-103036763.html",
+              "source": "Investing.com"
+            },
+            {
+              "title": "Gilts Slump in Anticipation of Burnham Challenge to Starmer",
+              "url": "https://finance.yahoo.com/economy/policy/articles/gilts-slump-investors-brace-burnham-083359389.html",
+              "source": "Bloomberg"
+            },
+            {
+              "title": "U.K. PM Starmer Is in Danger. Why the Timing of His Exit Matters for Markets.",
+              "url": "https://finance.yahoo.com/m/32c73408-1ffc-3c74-9272-9eb494eb1e0b/u.k.-pm-starmer-is-in-danger..html",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "U.K.’s Starmer Fights for Job as Leadership Crisis Spills Into Markets",
+              "url": "https://finance.yahoo.com/m/e5bd992b-8069-3939-9ceb-c5497e423ff6/u.k.%E2%80%99s-starmer-fights-for-job.html",
+              "source": "The Wall Street Journal"
+            }
+          ]
+        }
+      ]
+    },
+    "usd-jpy": {
+      "slug": "usd-jpy",
+      "ticker": "USDJPY",
+      "display_name": "US Dollar / Japanese Yen",
+      "category": "fx",
+      "price": 158.992004,
+      "price_display": "158.99",
+      "change_pct": 0.03,
+      "change_abs": 0.046005,
+      "change_display": "+5 pips",
+      "key_levels": {
+        "support": [
+          158.5,
+          157.8
+        ],
+        "resistance": [
+          160.0,
+          161.5
+        ]
+      },
+      "distance_52w_high_pct": -1.06,
+      "distance_52w_low_pct": 11.42,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "USD/JPY printed 158.99, pinned near 159 despite broad dollar softness — the yen got no relief from the risk-on move.",
+          "why": "BoJ-Fed rate differential still wide; with risk-on returning, JPY funding flows are dominating any dollar-weakness narrative.",
+          "watch": "160 is the MoF intervention zone Tokyo has defended twice; a clean break invites verbal warnings then action.",
+          "headlines": [
+            {
+              "title": "Dollar finds footing on wavering hopes for a peace deal ",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-wobbles-markets-cling-hopes-011952735.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Trinseo Takes Next Step to Implement Restructuring Support Agreement and Strengthen Financial Foundation",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/trinseo-takes-next-step-implement-054100298.html",
+              "source": "Business Wire"
+            },
+            {
+              "title": "3 European Dividend Stocks With Yields Up To 5.6%",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-european-dividend-stocks-yields-053138978.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Santos Bets on LNG and Alaska Oil to Drive Cash Flow Surge",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/santos-bets-lng-alaska-oil-053000553.html",
+              "source": "Oilprice.com"
+            },
+            {
+              "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/onward-medical-reports-first-quarter-053000880.html",
+              "source": "GlobeNewswire"
+            }
+          ]
+        }
+      ]
+    },
+    "aud-usd": {
+      "slug": "aud-usd",
+      "ticker": "AUDUSD",
+      "display_name": "Australian Dollar / US Dollar",
+      "category": "fx",
+      "price": 0.71623,
+      "price_display": "0.7162",
+      "change_pct": 0.07,
+      "change_abs": 0.00051,
+      "change_display": "+5 pips",
+      "key_levels": {
+        "support": [
+          0.71,
+          0.705
+        ],
+        "resistance": [
+          0.72,
+          0.725
+        ]
+      },
+      "distance_52w_high_pct": -1.58,
+      "distance_52w_low_pct": 12.38,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "AUD/USD ticked up 5 pips to 0.7162 on the risk-on tape, but the move was muted versus the broader commodity complex.",
+          "why": "Aussie usually leads risk-on rallies, but with oil cratering -4.7% the commodity-currency premium got partially neutralized.",
+          "watch": "0.7200 round-number resistance, 0.7100 support. China April industrial data Friday is the next domestic catalyst.",
+          "headlines": [
+            {
+              "title": "Real Money Flows + Fed Pause + Seasonal Timing: The AUD Setup Traders Are Watching!",
+              "url": "https://finance.yahoo.com/m/7b0a81f6-9c39-398d-a232-7abacf9b9522/real-money-flows-%2B-fed-pause.html",
+              "source": "Barchart"
+            },
+            {
+              "title": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "BC-US-Foreign Exchange",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/bc-us-foreign-exchange-140031962.html",
+              "source": "Associated Press"
+            },
+            {
+              "title": "The Dollar is Now Lower Than When the Iran War Began",
+              "url": "https://finance.yahoo.com/m/79e02fe2-b4a8-3d01-bada-02f24b2a59c3/the-dollar-is-now-lower-than.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Why is the Australian Dollar Rallying?",
+              "url": "https://finance.yahoo.com/m/b7c37348-3c74-373f-b4d9-c892a1fa8513/why-is-the-australian-dollar.html",
+              "source": "Barchart"
+            }
+          ]
+        }
+      ]
+    },
+    "gold": {
+      "slug": "gold",
+      "ticker": "XAUUSD",
+      "display_name": "Gold (XAU/USD)",
+      "category": "commodities",
+      "price": 4533.200195,
+      "price_display": "4,533.20",
+      "change_pct": 0.27,
+      "change_abs": 12.200195,
+      "change_display": "+$12.20",
+      "key_levels": {
+        "support": [
+          4450,
+          4380
+        ],
+        "resistance": [
+          4600,
+          4700
+        ]
+      },
+      "distance_52w_high_pct": -18.85,
+      "distance_52w_low_pct": 39.81,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "Gold added $12 to $4,533, holding above $4,500 even as Iran de-escalation hopes drained war premium from the complex.",
+          "why": "Real yields capped (US10Y 4.56%) and a weaker dollar are doing the heavy lifting — gold buyers are no longer just hedging Hormuz, they are positioning for Fed cuts.",
+          "watch": "$4,600 is the all-time-high cluster; loss of $4,450 confirms war-premium unwind. Powell speech Thursday is the catalyst.",
+          "headlines": [
+            {
+              "title": "Asian Equities, Oil Prices Mixed as Investors Parse Middle East Developments",
+              "url": "https://finance.yahoo.com/m/789b6ac8-c15d-3a3c-ae3b-34adfc49b6ca/asian-equities%2C-oil-prices.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Contango Silver & Gold Inc (CTGO) Q1 2026 Earnings Call Highlights: Navigating Challenges ...",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/contango-silver-gold-inc-ctgo-010032658.html",
+              "source": "GuruFocus.com"
+            },
+            {
+              "title": "Markets rejoice as deal to reopen Hormuz nears, but U.S. forces conduct ‘self-defense strikes’ on Iranian missile sites and boats laying mines",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/markets-rejoice-deal-reopen-hormuz-004224772.html",
+              "source": "Fortune"
+            },
+            {
+              "title": "A Look At Royal Gold (RGLD) Valuation After Reshaping Its Hod Maden Royalty Exposure",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/look-royal-gold-rgld-valuation-001745786.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Gold Edges Lower as Traders Weigh U.S.-Iran Deal’s Developments",
+              "url": "https://finance.yahoo.com/m/5d1da271-f953-3dd5-b0b5-445fc49c373f/gold-edges-lower-as-traders.html",
+              "source": "The Wall Street Journal"
+            }
+          ]
+        }
+      ]
+    },
+    "silver": {
+      "slug": "silver",
+      "ticker": "XAGUSD",
+      "display_name": "Silver (XAG/USD)",
+      "category": "commodities",
+      "price": 77.050003,
+      "price_display": "77.05",
+      "change_pct": 1.52,
+      "change_abs": 1.157005,
+      "change_display": "+$1.16",
+      "key_levels": {
+        "support": [
+          76.0,
+          74.5
+        ],
+        "resistance": [
+          78.0,
+          80.0
+        ]
+      },
+      "distance_52w_high_pct": -36.48,
+      "distance_52w_low_pct": 135.92,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "Silver outperformed gold sharply, ripping +1.5% to $77.05 — a clean break of the prior consolidation range.",
+          "why": "Industrial demand thesis (solar + EV grid build) is reasserting independent of war premium; gold/silver ratio is compressing fast.",
+          "watch": "$78 breakout opens $80; failure to hold $76 brings the move into question. Watch Comex inventory draws next two sessions.",
+          "headlines": [
+            {
+              "title": "SSR Mining Is Selling Its Interest in the Copler Mine for $1.5 Billion. Is This a Positive Sign for the Mining Stock?",
+              "url": "https://finance.yahoo.com/m/efad871a-f9ee-3ab8-b8bb-48433727b942/ssr-mining-is-selling-its.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "J2 Metals Secures TSXV Approval for Sierra Plata Option Agreement",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/j2-metals-secures-tsxv-approval-123118413.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "GoldHaven Resources Highlights Strategic Tungsten and Indium Exposure at Magno Project",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/goldhaven-resources-highlights-strategic-tungsten-121010303.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "Trailbreaker Resources Prepares to Drill Three Targets and Provides Corporate Update",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/trailbreaker-resources-prepares-drill-three-114500134.html",
+              "source": "NewMediaWire"
+            },
+            {
+              "title": "Arya Resources Reports Broad Gold, Silver and Elevated Scandium Mineralization at the Twin Zone, Wedge Lake Project, Saskatchewan",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/arya-resources-reports-broad-gold-113800064.html",
+              "source": "TMX Newsfile"
+            }
+          ]
+        }
+      ]
+    },
+    "crude-oil": {
+      "slug": "crude-oil",
+      "ticker": "USOIL",
+      "display_name": "Crude Oil (WTI)",
+      "category": "commodities",
+      "price": 92.019997,
+      "price_display": "92.02",
+      "change_pct": -4.74,
+      "change_abs": -4.580002,
+      "change_display": "-$4.58",
+      "key_levels": {
+        "support": [
+          90.0,
+          85.0
+        ],
+        "resistance": [
+          95.0,
+          100.0
+        ]
+      },
+      "distance_52w_high_pct": -22.98,
+      "distance_52w_low_pct": 67.37,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "WTI cratered $4.58 to $92.02 — a -4.7% session — as officials signalled a US-Iran deal to reopen the Strait of Hormuz is imminent.",
+          "why": "The market is unwinding the Hormuz risk premium in real time; positioning was overwhelmingly long, so the squeeze is mechanical, not fundamental.",
+          "watch": "A signed deal accelerates the move toward $85; if talks collapse, $100 returns inside 48h. OPEC+ rhetoric is the wild card.",
+          "headlines": [
+            {
+              "title": "Brent oil gains 2% as US military strikes on Iran add to uncertainty on potential peace deal",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/us-crude-futures-fall-over-221241210.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Asian shares and oil prices are mixed after US launches strikes in southern Iran",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-oil-prices-mixed-043451510.html",
+              "source": "Associated Press"
+            },
+            {
+              "title": "Asian Equities, Oil Prices Mixed as Investors Parse Middle East Developments",
+              "url": "https://finance.yahoo.com/m/789b6ac8-c15d-3a3c-ae3b-34adfc49b6ca/asian-equities%2C-oil-prices.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Asia stocks, oil prices mixed on US-Iran deal uncertainty",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-oil-prices-mixed-031911064.html",
+              "source": "AFP"
+            },
+            {
+              "title": "USO, UCO, BATL, XOM Slip: Oil Dips Below $100 After Trump Says Iran Talks ‘Proceeding Nicely’",
+              "url": "https://finance.yahoo.com/m/093c9d6f-bc59-3efe-8f05-4bbe85c6a5b6/uso%2C-uco%2C-batl%2C-xom-slip%3A-oil.html",
+              "source": "Stocktwits"
+            }
+          ]
+        }
+      ]
+    },
+    "sp-500": {
+      "slug": "sp-500",
+      "ticker": "US500",
+      "display_name": "S&P 500",
+      "category": "indices",
+      "price": 7473.470215,
+      "price_display": "7,473.5",
+      "change_pct": 0.37,
+      "change_abs": 27.75,
+      "change_display": "+$27.75",
+      "key_levels": {
+        "support": [
+          7420,
+          7350
+        ],
+        "resistance": [
+          7500,
+          7600
+        ]
+      },
+      "distance_52w_high_pct": -0.58,
+      "distance_52w_low_pct": 29.58,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "S&P 500 added 27.8 points to 7,473.5 — a fresh record close as the lower-oil + weaker-dollar combo delivered pure risk-on fuel.",
+          "why": "Lower oil compresses input costs, eases CPI prints, and shortens the Fed cut path — a triple tailwind hitting at the same time.",
+          "watch": "7,500 round number is the next magnet; CPI Thursday is the only macro print that can derail the bid.",
+          "headlines": [
+            {
+              "title": "Dow Jones Futures Rise But Pare Gains On Mixed Iran News; Marvell, Dell, Costco Ahead",
+              "url": "https://finance.yahoo.com/m/4b952832-f4b6-35bc-8f16-01ef2790839c/dow-jones-futures-rise-but.html",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "title": "This AI Stock Has Been Called Overvalued for 3 Years. The Bears Keep Losing.",
+              "url": "https://finance.yahoo.com/m/ed612e10-7881-3085-bad3-12f900e2355e/this-ai-stock-has-been-called.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "S&P 500, Nasdaq, Dow Futures Rise On Hopes Of Hormuz Reopening As Trump Teases ‘Great Deal’ With Iran: BB, INFQ, NVTS, ASTS In Focus",
+              "url": "https://finance.yahoo.com/m/9cf8c681-7745-3577-878d-66047ac0c328/s%26p-500%2C-nasdaq%2C-dow-futures.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "The Risk Premium for Holding Stocks Over Bonds Is Vanishing",
+              "url": "https://finance.yahoo.com/m/6040eddc-ef25-3265-a6f1-55b19118a2ab/the-risk-premium-for-holding.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Markets rejoice as deal to reopen Hormuz nears, but U.S. forces conduct ‘self-defense strikes’ on Iranian missile sites and boats laying mines",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/markets-rejoice-deal-reopen-hormuz-004224772.html",
+              "source": "Fortune"
+            }
+          ]
+        }
+      ]
+    },
+    "nasdaq-100": {
+      "slug": "nasdaq-100",
+      "ticker": "NAS100",
+      "display_name": "Nasdaq 100",
+      "category": "indices",
+      "price": 29481.640625,
+      "price_display": "29,481.6",
+      "change_pct": 0.42,
+      "change_abs": 124.371094,
+      "change_display": "+$124.37",
+      "key_levels": {
+        "support": [
+          29250,
+          28900
+        ],
+        "resistance": [
+          29700,
+          30000
+        ]
+      },
+      "distance_52w_high_pct": -0.66,
+      "distance_52w_low_pct": 41.89,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "Nasdaq 100 climbed 124 points to 29,481, mega-cap tech leading the risk-on charge as the rate-sensitive index gobbled the dollar weakness.",
+          "why": "AI capex story uninterrupted by the war scare; lower oil + softer dollar both feed multiple expansion at the long-duration end.",
+          "watch": "29,700 is the next resistance shelf; NVDA earnings late this week are the single largest beta source.",
+          "headlines": [
+            {
+              "title": "The Nasdaq’s AI Fast‑Track Will Reshape Big Tech — The S&P Might Be Ready to Change the Rules, Too",
+              "url": "https://finance.yahoo.com/m/8b2c5d46-c005-34a5-abfe-70331b3b5c59/the-nasdaq%E2%80%99s-ai-fast%E2%80%91track.html",
+              "source": "24/7 Wall St."
+            },
+            {
+              "title": "Oil Tumbles, Stock Futures Rise Amid Hopes for Iran Deal",
+              "url": "https://finance.yahoo.com/m/06ffd790-9ce3-3800-99f3-6d3b2b81050d/oil-tumbles%2C-stock-futures.html",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "Stocks Settle Higher on Iran Peace Hopes and Tech Strength",
+              "url": "https://finance.yahoo.com/m/52a5e0c1-cb41-3814-9e26-a55b3c425faf/stocks-settle-higher-on-iran.html",
+              "source": "Barchart"
+            },
+            {
+              "title": "Top Cryptocurrencies Fall; Bitcoin Drops Below $76,000",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-fall-bitcoin-drops-195825934.html",
+              "source": "MT Newswires"
+            },
+            {
+              "title": "Stocks Climb on US-Iran Peace Hopes and Strength in Chipmakers",
+              "url": "https://finance.yahoo.com/m/7a875c48-9132-3c04-8705-295c430dfee5/stocks-climb-on-us-iran-peace.html",
+              "source": "Barchart"
+            }
+          ]
+        }
+      ]
+    },
+    "dow-jones": {
+      "slug": "dow-jones",
+      "ticker": "US30",
+      "display_name": "Dow Jones (DJIA)",
+      "category": "indices",
+      "price": 50579.699219,
+      "price_display": "50,579.7",
+      "change_pct": 0.58,
+      "change_abs": 294.039062,
+      "change_display": "+$294.04",
+      "key_levels": {
+        "support": [
+          50200,
+          49800
+        ],
+        "resistance": [
+          51000,
+          51500
+        ]
+      },
+      "distance_52w_high_pct": -0.49,
+      "distance_52w_low_pct": 22.31,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "Dow outperformed +0.58% to 50,579, cyclicals catching an aggressive bid as transports and industrials priced in cheaper fuel.",
+          "why": "Energy giving back gains is offset by every other input-cost-sensitive sector rallying — classic rotation, not a defensive bid.",
+          "watch": "51,000 round number; durable-goods data Friday will tell us if the cyclical bid has fundamentals behind it.",
+          "headlines": [
+            {
+              "title": "Dow Jones Futures Rise But Pare Gains On Mixed Iran News; Marvell, Dell, Costco Ahead",
+              "url": "https://finance.yahoo.com/m/4b952832-f4b6-35bc-8f16-01ef2790839c/dow-jones-futures-rise-but.html",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "title": "S&P 500, Nasdaq, Dow Futures Rise On Hopes Of Hormuz Reopening As Trump Teases ‘Great Deal’ With Iran: BB, INFQ, NVTS, ASTS In Focus",
+              "url": "https://finance.yahoo.com/m/9cf8c681-7745-3577-878d-66047ac0c328/s%26p-500%2C-nasdaq%2C-dow-futures.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "Markets rejoice as deal to reopen Hormuz nears, but U.S. forces conduct ‘self-defense strikes’ on Iranian missile sites and boats laying mines",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/markets-rejoice-deal-reopen-hormuz-004224772.html",
+              "source": "Fortune"
+            },
+            {
+              "title": "Oil Prices Drop on Prospect of Iran Deal, but Investors Aren’t Celebrating Yet",
+              "url": "https://finance.yahoo.com/m/ea8ab627-da0b-3d2c-9fe7-cb99988801fe/oil-prices-drop-on-prospect.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
+              "url": "https://finance.yahoo.com/m/948d74a1-82ac-3696-b6a9-5e8fe4293bd4/3-stocks-i%27d-buy-without.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    },
+    "bitcoin": {
+      "slug": "bitcoin",
+      "ticker": "BTCUSD",
+      "display_name": "Bitcoin",
+      "category": "crypto",
+      "price": 76818.992188,
+      "price_display": "76,819",
+      "change_pct": -0.21,
+      "change_abs": -162.132812,
+      "change_display": "-$162",
+      "key_levels": {
+        "support": [
+          75000,
+          72000
+        ],
+        "resistance": [
+          78500,
+          80000
+        ]
+      },
+      "distance_52w_high_pct": -39.13,
+      "distance_52w_low_pct": 27.87,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "BTC slipped $163 to $76,819 despite a roaring risk-on tape — the divergence is the story of the session.",
+          "why": "BTC dominance at 58.2% sets the stage for capital rotation; when stocks rip and BTC fades on the same day, alts usually catch the overflow.",
+          "watch": "$75K is the support line drawn three weeks ago; ETF flow data tomorrow morning shows if institutional bid is still there.",
+          "headlines": [
+            {
+              "title": "Dollar finds footing on wavering hopes for a peace deal ",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-wobbles-markets-cling-hopes-011952735.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Trinseo Takes Next Step to Implement Restructuring Support Agreement and Strengthen Financial Foundation",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/trinseo-takes-next-step-implement-054100298.html",
+              "source": "Business Wire"
+            },
+            {
+              "title": "3 European Dividend Stocks With Yields Up To 5.6%",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-european-dividend-stocks-yields-053138978.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Santos Bets on LNG and Alaska Oil to Drive Cash Flow Surge",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/santos-bets-lng-alaska-oil-053000553.html",
+              "source": "Oilprice.com"
+            },
+            {
+              "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/onward-medical-reports-first-quarter-053000880.html",
+              "source": "GlobeNewswire"
+            }
+          ]
+        }
+      ]
+    },
+    "ethereum": {
+      "slug": "ethereum",
+      "ticker": "ETHUSD",
+      "display_name": "Ethereum",
+      "category": "crypto",
+      "price": 2100.5,
+      "price_display": "2,100",
+      "change_pct": 0.12,
+      "change_abs": 2.506104,
+      "change_display": "+$3",
+      "key_levels": {
+        "support": [
+          2080,
+          2000
+        ],
+        "resistance": [
+          2150,
+          2250
+        ]
+      },
+      "distance_52w_high_pct": -55.83,
+      "distance_52w_low_pct": 20.12,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "ETH held $2,100, refusing to follow BTC lower — flat against the index while majors retreated, a quiet outperformance.",
+          "why": "Capital rotation from peak BTC dominance historically lands in ETH first; today is the classic setup for an ETH/BTC ratio bounce.",
+          "watch": "$2,150 breakout confirms the rotation thesis; failure to hold $2,080 sends it back into the range. Layer-2 fees data is the tell.",
+          "headlines": [
+            {
+              "title": "Dollar finds footing on wavering hopes for a peace deal ",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-wobbles-markets-cling-hopes-011952735.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Trinseo Takes Next Step to Implement Restructuring Support Agreement and Strengthen Financial Foundation",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/trinseo-takes-next-step-implement-054100298.html",
+              "source": "Business Wire"
+            },
+            {
+              "title": "3 European Dividend Stocks With Yields Up To 5.6%",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-european-dividend-stocks-yields-053138978.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Santos Bets on LNG and Alaska Oil to Drive Cash Flow Surge",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/santos-bets-lng-alaska-oil-053000553.html",
+              "source": "Oilprice.com"
+            },
+            {
+              "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/onward-medical-reports-first-quarter-053000880.html",
+              "source": "GlobeNewswire"
+            }
+          ]
+        }
+      ]
+    },
+    "nvda": {
+      "slug": "nvda",
+      "ticker": "NVDA",
+      "display_name": "NVIDIA Corporation",
+      "category": "stocks",
+      "price": 215.330002,
+      "price_display": "215.33",
+      "change_pct": -1.9,
+      "change_abs": -4.179993,
+      "change_display": "-$4.18",
+      "key_levels": {
+        "support": [
+          210,
+          205
+        ],
+        "resistance": [
+          220,
+          225
+        ]
+      },
+      "distance_52w_high_pct": -8.97,
+      "distance_52w_low_pct": 66.72,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "NVDA broke down $4.18 to $215.33, lagging the tech rally as profit-takers used the index strength to lighten crowded longs.",
+          "why": "AI capex narrative is intact, but positioning is the most one-sided in the index — any micro-doubt produces outsized moves like today.",
+          "watch": "$210 is the line that defines whether this is profit-taking or distribution; earnings late this week settle the debate.",
+          "headlines": [
+            {
+              "title": "Before the Next Nvidia-Style Run, Here Are 3 AI Stocks Worth Watching",
+              "url": "https://finance.yahoo.com/m/7255dd78-dd2e-37ee-81f8-36e0180c766c/before-the-next-nvidia-style.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "2 Building Materials Stocks That Are Quietly Becoming Some of the Market's Best Opportunities",
+              "url": "https://finance.yahoo.com/m/669b1a33-30cb-3e7a-8297-1859376ac6dd/2-building-materials-stocks.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Arm’s AGI CPUs Put AI Data Center Growth Story In Focus",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/arm-agi-cpus-put-ai-030956427.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Is Green Thumb Becoming the \"Procter & Gamble of Cannabis\"?",
+              "url": "https://finance.yahoo.com/m/8c179772-1577-3422-a6b2-a6e5875df218/is-green-thumb-becoming-the.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "The 1 AI Stock I'd Put in a Time Capsule and Open in 2036",
+              "url": "https://finance.yahoo.com/m/8d5671da-f5d9-32ef-8b29-345e7e8bc926/the-1-ai-stock-i%27d-put-in-a.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    },
+    "tsla": {
+      "slug": "tsla",
+      "ticker": "TSLA",
+      "display_name": "Tesla, Inc.",
+      "category": "stocks",
+      "price": 426.01001,
+      "price_display": "426.01",
+      "change_pct": 1.95,
+      "change_abs": 8.160004,
+      "change_display": "+$8.16",
+      "key_levels": {
+        "support": [
+          415,
+          405
+        ],
+        "resistance": [
+          430,
+          445
+        ]
+      },
+      "distance_52w_high_pct": -14.6,
+      "distance_52w_low_pct": 55.93,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "TSLA bounced $8.16 to $426.01, +2% — riding the broader risk-on plus a fresh Musk-orbit catalyst flow into the name.",
+          "why": "SpaceX IPO chatter is spilling into TSLA as investors treat Musk-related equities as a single basket trade.",
+          "watch": "$430 is the breakout line; failure to take it sends bulls back to defend $415. Robotaxi miles update is the next data point.",
+          "headlines": [
+            {
+              "title": "As More Global Investors Discover ELEKTROS Inc.’s Vision for Hard Rock Lithium Mining and Advanced EV Patent Technology, the Company Celebrates Growing Worldwide Interest",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/more-global-investors-discover-elektros-003500064.html",
+              "source": "ACCESS Newswire"
+            },
+            {
+              "title": "SpaceX’s IPO Is a Bet Gravity Doesn’t Apply to Elon Musk",
+              "url": "https://finance.yahoo.com/m/49444b4c-c43b-32a8-8c3e-0478424ea15b/spacex%E2%80%99s-ipo-is-a-bet-gravity.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "'On Wall Street, We Are Front Stabbers. In Washington, They're Backstabbers,' Says Anthony Scaramucci. 'Look What They Did To Elon Musk'",
+              "url": "https://finance.yahoo.com/economy/articles/wall-street-front-stabbers-washington-200106341.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Scott Galloway Says 1 In 3 Billionaires Have An Escape Plan, Wants Them To Stop Thinking About Themselves And Mars And Start Fixing Earth",
+              "url": "https://finance.yahoo.com/m/251f7eb4-ea4f-3561-bc81-36686530b636/scott-galloway-says-1-in-3.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "The $2 Trillion Underwriting Case: Inside Chamath’s Blockbuster SpaceX Math",
+              "url": "https://finance.yahoo.com/m/6295cc13-3ee3-35ab-8a0c-0b0a9a3afe4c/the-%242-trillion-underwriting.html",
+              "source": "24/7 Wall St."
+            }
+          ]
+        }
+      ]
+    },
+    "aapl": {
+      "slug": "aapl",
+      "ticker": "AAPL",
+      "display_name": "Apple Inc.",
+      "category": "stocks",
+      "price": 308.820007,
+      "price_display": "308.82",
+      "change_pct": 1.26,
+      "change_abs": 3.830017,
+      "change_display": "+$3.83",
+      "key_levels": {
+        "support": [
+          305,
+          300
+        ],
+        "resistance": [
+          310,
+          315
+        ]
+      },
+      "distance_52w_high_pct": -0.83,
+      "distance_52w_low_pct": 59.63,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "AAPL added $3.83 to $308.82, +1.3% — leading the mega-caps as the most-owned name absorbed the risk-on flows first.",
+          "why": "A weaker dollar lifts foreign-revenue translation directly; Apple has the largest non-USD revenue base of the mega-caps.",
+          "watch": "$310 is the round-number resistance that has held three sessions; iPhone sell-through data later this week is the catalyst.",
+          "headlines": [
+            {
+              "title": "Ferrari bets on generational tech shift with Luce five-seat EV",
+              "url": "https://finance.yahoo.com/video/ferrari-bets-generational-tech-shift-050104998.html",
+              "source": "Reuters Videos"
+            },
+            {
+              "title": "RACE Stock Slips: Ferrari's New EV Supercar Luce Fails To Impress Retail Traders",
+              "url": "https://finance.yahoo.com/m/23d002cd-e0f2-3a74-9198-9d42e2cc6770/race-stock-slips%3A-ferrari%27s.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "Is Nvidia the Most Underrated Dividend Growth Stock to Own?",
+              "url": "https://finance.yahoo.com/m/4c4ce601-5fb5-3874-b1af-335361e83d89/is-nvidia-the-most-underrated.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Litus and UWin Nanotech Enter MOU to Advance Critical Mineral and Rare Earths Recovery - Battery Recycling and Nanotechnology-Based Lithium Extraction Development Projects",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/litus-uwin-nanotech-enter-mou-230800802.html",
+              "source": "GlobeNewswire"
+            },
+            {
+              "title": "Wedbush analyst has bold IMAX stock message for investors",
+              "url": "https://finance.yahoo.com/m/fd5588ad-0c14-30fe-aa09-05d69a50c417/wedbush-analyst-has-bold-imax.html",
+              "source": "TheStreet"
+            }
+          ]
+        }
+      ]
+    },
+    "msft": {
+      "slug": "msft",
+      "ticker": "MSFT",
+      "display_name": "Microsoft Corporation",
+      "category": "stocks",
+      "price": 418.570007,
+      "price_display": "418.57",
+      "change_pct": -0.12,
+      "change_abs": -0.519989,
+      "change_display": "-$0.52",
+      "key_levels": {
+        "support": [
+          415,
+          410
+        ],
+        "resistance": [
+          422,
+          425
+        ]
+      },
+      "distance_52w_high_pct": -24.64,
+      "distance_52w_low_pct": 17.48,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "MSFT printed 418.57, essentially flat-to-down on a strong tech tape — a relative laggard worth noting.",
+          "why": "Azure growth still solid but the valuation premium leaves no room for surprise; the bar is now perfection, not strength.",
+          "watch": "$415 support break would be the first technical warning; OpenAI partnership disclosures the next narrative move.",
+          "headlines": [
+            {
+              "title": "Is Nvidia the Most Underrated Dividend Growth Stock to Own?",
+              "url": "https://finance.yahoo.com/m/4c4ce601-5fb5-3874-b1af-335361e83d89/is-nvidia-the-most-underrated.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Ashton Kutcher Invested In OpenAI Early: $30 Million Bet Could Be Worth Billions At $1.5 Trillion IPO",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ashton-kutcher-invested-openai-early-233058562.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Why Microsoft's Split With OpenAI May Be Great for the Stock in the Long Run",
+              "url": "https://finance.yahoo.com/m/01f34dd7-c932-3c0d-8793-6a6f38b2924d/why-microsoft%27s-split-with.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Billionaire Bill Ackman Just Made a Massive Bet on Microsoft. Here's Why.",
+              "url": "https://finance.yahoo.com/m/719effbc-3186-307d-83de-a6b50a8e1048/billionaire-bill-ackman-just.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Intapp Says AI Is Driving Demand as Celeste Tackles Compliance Risks",
+              "url": "https://finance.yahoo.com/m/b29f07bf-947f-3eb2-b30d-3c7255ad128d/intapp-says-ai-is-driving.html",
+              "source": "MarketBeat"
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "slug": "meta",
+      "ticker": "META",
+      "display_name": "Meta Platforms, Inc.",
+      "category": "stocks",
+      "price": 610.26001,
+      "price_display": "610.26",
+      "change_pct": 0.47,
+      "change_abs": 2.880005,
+      "change_display": "+$2.88",
+      "key_levels": {
+        "support": [
+          605,
+          600
+        ],
+        "resistance": [
+          615,
+          625
+        ]
+      },
+      "distance_52w_high_pct": -23.36,
+      "distance_52w_low_pct": 17.3,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "META added $2.88 to $610.26, +0.47% — in-line with the index, neither leading nor lagging the mega-cap pack.",
+          "why": "Ad-revenue resilience plus AI infrastructure spend are the structural story; today macro is a secondary tailwind.",
+          "watch": "$615 is the breakout from the multi-week range; Reels monetization data in next print is the genuine catalyst.",
+          "headlines": [
+            {
+              "title": "AI just minted 19 new billionaires worth $59 billion",
+              "url": "https://finance.yahoo.com/m/a6ab3325-95a9-36e3-8e6e-2c326694f90f/ai-just-minted-19-new.html",
+              "source": "TheStreet"
+            },
+            {
+              "title": "Santa Clara Lawsuit Tests Meta’s AI Ad Model And Governance Balance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/santa-clara-lawsuit-tests-meta-001843072.html",
+              "source": "Simply Wall St."
+            },
+            {
+              "title": "Bernie Sanders Slams Meta After 8,000 Layoffs And Asks: If Mark  Zuckerberg Will Lay Off 10% Of His Staff, What Will AI Do To American Workers?",
+              "url": "https://finance.yahoo.com/economy/policy/articles/bernie-sanders-slams-meta-8-203046826.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Mark Zuckerberg sends another message to Meta employees",
+              "url": "https://finance.yahoo.com/m/f24654df-81be-38e1-ae2e-13664fa29f65/mark-zuckerberg-sends-another.html",
+              "source": "TheStreet"
+            },
+            {
+              "title": "Missed Out on the Initial AI Rally? These 3 AI Stocks Are Just Getting Started.",
+              "url": "https://finance.yahoo.com/m/8ccd8d9e-25ff-3f55-936c-8f5868d2d416/missed-out-on-the-initial-ai.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    },
+    "googl": {
+      "slug": "googl",
+      "ticker": "GOOGL",
+      "display_name": "Alphabet Inc. (Class A)",
+      "category": "stocks",
+      "price": 382.970001,
+      "price_display": "382.97",
+      "change_pct": -1.21,
+      "change_abs": -4.690002,
+      "change_display": "-$4.69",
+      "key_levels": {
+        "support": [
+          380,
+          370
+        ],
+        "resistance": [
+          388,
+          395
+        ]
+      },
+      "distance_52w_high_pct": -6.27,
+      "distance_52w_low_pct": 136.4,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "GOOGL broke from the mega-cap pack and fell $4.69 to $382.97, -1.2% — clear underperformance.",
+          "why": "DoJ antitrust remedy chatter is weighing despite the favorable macro; the overhang is now company-specific, not sector-wide.",
+          "watch": "$380 is the support line that has held since March; loss of it opens $370 quickly. DoJ filing schedule is the live risk.",
+          "headlines": [
+            {
+              "title": "Why Are MU, SNDK Stocks Surging In Overnight Trading?",
+              "url": "https://finance.yahoo.com/m/6c00c7cc-d466-3f84-b3e2-1ac140754832/why-are-mu%2C-sndk-stocks.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "Billionaire Stanley Druckenmiller Just Dumped Alphabet (Google) and Picked Up 2 Stocks That Are Direct Bets on Agentic AI",
+              "url": "https://finance.yahoo.com/m/71de799c-1f2b-3d98-bfa3-086554736b6b/billionaire-stanley.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "EU plans to fine Google high triple-digit million euro sum, Handelsblatt reports",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/eu-plans-fine-google-high-175921339.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "The One Thing Jim Cramer Demands From Tech-Only Investors Before He’ll Bless the Strategy",
+              "url": "https://finance.yahoo.com/m/6a124bca-2da6-333b-907e-256bf15d74b9/the-one-thing-jim-cramer.html",
+              "source": "24/7 Wall St."
+            },
+            {
+              "title": "Your Chatbot Has a Long Memory. That Isn’t Always a Good Thing.",
+              "url": "https://finance.yahoo.com/m/f3c607e0-c1d5-31d6-a0d6-73925c0d5083/your-chatbot-has-a-long.html",
+              "source": "The Wall Street Journal"
+            }
+          ]
+        }
+      ]
+    },
+    "amzn": {
+      "slug": "amzn",
+      "ticker": "AMZN",
+      "display_name": "Amazon.com, Inc.",
+      "category": "stocks",
+      "price": 266.320007,
+      "price_display": "266.32",
+      "change_pct": -0.8,
+      "change_abs": -2.139984,
+      "change_display": "-$2.14",
+      "key_levels": {
+        "support": [
+          263,
+          258
+        ],
+        "resistance": [
+          270,
+          275
+        ]
+      },
+      "distance_52w_high_pct": -4.39,
+      "distance_52w_low_pct": 35.88,
+      "sections": [
+        {
+          "anchor": "0848-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-26T05:48:29Z",
+          "timestamp_trt": "2026-05-26 08:48 TRT",
+          "past": "AMZN slipped $2.14 to $266.32, -0.8% — the consumer-discretionary name lagged despite the oil tailwind it usually loves.",
+          "why": "AWS competition from Azure and Google has analysts trimming margin estimates; macro tailwind cannot offset the unit-economics worry.",
+          "watch": "$263 support is the line; Prime Day setup commentary in the next few days is the next narrative catalyst.",
+          "headlines": [
+            {
+              "title": "YipitData Looks at Holistic Beauty and Supplements Driving Overall Market Growth",
+              "url": "https://finance.yahoo.com/m/dc6c3d80-efc5-3358-9262-917d5f377b09/yipitdata-looks-at-holistic.html",
+              "source": "WWD"
+            },
+            {
+              "title": "5-star analysts reset Marvell stock price target ahead of earnings",
+              "url": "https://finance.yahoo.com/m/d9bb2004-92c3-36fb-a998-4a734be527fd/5-star-analysts-reset-marvell.html",
+              "source": "TheStreet"
+            },
+            {
+              "title": "In India, You Can Get Milk Delivered Faster Than It Takes to Make Coffee",
+              "url": "https://finance.yahoo.com/m/4db6e404-201a-3d24-b67b-daeda6060820/in-india%2C-you-can-get-milk.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "A Hot IPO Lifts Geothermal Power Companies",
+              "url": "https://finance.yahoo.com/m/98e5aaf8-943f-3af3-acc2-751b7dedef4a/a-hot-ipo-lifts-geothermal.html",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Market Crash: 2 Stocks I'd Buy Without Hesitation",
+              "url": "https://finance.yahoo.com/m/37f68dbf-1dde-3c8f-97dc-d9c886eb715b/market-crash%3A-2-stocks-i%27d.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "macro_context": {
+    "dxy": 99.1,
+    "us10y": 4.56,
+    "vix": 16.59,
+    "btc_dominance_pct": 58.2,
+    "headline": "Global stocks at record highs as crude oil cratered nearly 5% on US-Iran Strait of Hormuz reopening deal optimism; dollar slid against every G10 peer."
+  }
+}
