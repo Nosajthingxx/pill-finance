@@ -1,0 +1,992 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T01:48:16Z",
+  "last_updated_at": "2026-05-28T01:48:16Z",
+  "market_status": "closed",
+  "updates": [
+    {
+      "slot": "am",
+      "timestamp_utc": "2026-05-28T01:48:16Z",
+      "timestamp_trt": "2026-05-28 04:48 TRT",
+      "anchor": "0448-trt"
+    }
+  ],
+  "assets": {
+    "eur-usd": {
+      "slug": "eur-usd",
+      "ticker": "EURUSD",
+      "display_name": "Euro / US Dollar",
+      "category": "fx",
+      "price": 1.16198,
+      "price_display": "1.1620",
+      "change_pct": -0.15,
+      "change_abs": -0.0017,
+      "change_display": "-17 pips",
+      "key_levels": {
+        "support": [
+          1.1566,
+          1.1512
+        ],
+        "resistance": [
+          1.1674,
+          1.1728
+        ]
+      },
+      "distance_52w_high_pct": -3.36,
+      "distance_52w_low_pct": 2.16,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "EUR/USD held 1.1620 in a tight range overnight as DXY sagged to 99.31. The single currency clipped 22 pips off yesterday's AM print despite a broadly soft dollar, capped by month-end rebalancing flows.",
+          "why": "Dollar weakness is reading as risk-on, not euro strength — Iran-ceasefire wobble keeps oil bid, and a hot 3.8% YoY PCE consensus tomorrow pins Fed-cut hopes back. EZ data this week stays soft, so EUR isn't leading.",
+          "watch": "15:30 TRT US GDP revision and 09:00 TRT EZ confidence prints today, but the binary catalyst is Friday's PCE. A 1.1648 break opens 1.1700; failure here drags to 1.1565 ATR support.",
+          "headlines": [
+            {
+              "title": "Treasury Yields, Dollar Recover as U.S.-Iran Deal Fails to Materialize",
+              "url": "https://www.wsj.com/finance/currencies/dollar-little-changed-against-yen-middle-east-conflict-in-focus-3ef9b8e6?siteid=yhoof2&yptr=yahoo",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Dollar Falls as Crude Oil Retreats",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-falls-crude-oil-retreats-144111561.html",
+              "source": "Barchart"
+            },
+            {
+              "title": "Dollar climbs as US strikes on Iran dent ceasefire optimism",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-wobbles-markets-cling-hopes-011952735.html",
+              "source": "Reuters"
+            }
+          ]
+        }
+      ]
+    },
+    "gbp-usd": {
+      "slug": "gbp-usd",
+      "ticker": "GBPUSD",
+      "display_name": "British Pound / US Dollar",
+      "category": "fx",
+      "price": 1.34063,
+      "price_display": "1.3406",
+      "change_pct": -0.36,
+      "change_abs": -0.00491,
+      "change_display": "-49 pips",
+      "key_levels": {
+        "support": [
+          1.3315,
+          1.3223
+        ],
+        "resistance": [
+          1.3498,
+          1.3589
+        ]
+      },
+      "distance_52w_high_pct": -3.18,
+      "distance_52w_low_pct": 3.03,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Cable slipped 49 pips to 1.3406, the worst G10 performer overnight as gilt-yield drift weighed and traders unwound long sterling positioning into month-end. Range was orderly between 1.3395-1.3460 across Asia.",
+          "why": "Deutsche Bank flagged room for further EUR/GBP upside, drawing capital away from sterling. BoE pricing is still leaning to one more cut by Q3; the dollar weakness alone isn't enough to drag GBP higher when the cross is bleeding.",
+          "watch": "No tier-1 UK data today — sterling moves on the EUR/GBP cross and US PCE Friday. Resistance 1.3498 (yesterday's high), support 1.3314 (2σ ATR). Below 1.3380 invites stop-driven flush.",
+          "headlines": [
+            {
+              "title": "Dollar climbs as US strikes on Iran dent ceasefire optimism",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-wobbles-markets-cling-hopes-011952735.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "Deutsche Bank sees room for a further rally in EUR/GBP",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/deutsche-bank-sees-room-further-103036763.html",
+              "source": "Investing.com"
+            }
+          ]
+        }
+      ]
+    },
+    "usd-jpy": {
+      "slug": "usd-jpy",
+      "ticker": "USDJPY",
+      "display_name": "US Dollar / Japanese Yen",
+      "category": "fx",
+      "price": 159.57001,
+      "price_display": "159.57",
+      "change_pct": 0.21,
+      "change_abs": 0.32701,
+      "change_display": "+33 pips",
+      "key_levels": {
+        "support": [
+          159.03,
+          158.48
+        ],
+        "resistance": [
+          160.11,
+          160.66
+        ]
+      },
+      "distance_52w_high_pct": -0.7,
+      "distance_52w_low_pct": 11.83,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "USD/JPY ground 36 pips higher to 159.57, pressing the 159.70 cycle high again as US10Y at 4.48% kept the carry trade firmly bid. Tokyo CPI miss earlier capped the topside but didn't unwind positioning.",
+          "why": "The pair is the cleanest expression of 'high US yields + weak intervention threat' — MoF has yet to verbally escalate even with 160 handle in sight. PCE Friday is the only thing that resets the long-dollar/yen funding trade.",
+          "watch": "Watch the 159.70 cycle high — a daily close above opens 160.50 quickly and forces an MoF response. Downside to 159.03 (ATR support). PCE Friday is the binary; below-consensus drags pair to 158.50.",
+          "headlines": [
+            {
+              "title": "Why a Plunging Dollar Is Missing Out on the Relief Rally",
+              "url": "https://www.barrons.com/articles/dollar-fall-relief-rally-trump-iran-3d0870c3?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "How Markets Reacted to Trump's Iran Post, in Charts",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-23-2026/card/how-markets-reacted-to-trump-s-iran-post-in-charts-Lva9FhNAQBi47Zz4jG4B?siteid=yhoof2&yptr=yahoo",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "The Dollar Isn’t Done. Why It’s Outshining Rivals Amid Iran Crisis.",
+              "url": "https://www.barrons.com/articles/dollar-euro-yen-iran-ff6f881b?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ]
+    },
+    "aud-usd": {
+      "slug": "aud-usd",
+      "ticker": "AUDUSD",
+      "display_name": "Australian Dollar / US Dollar",
+      "category": "fx",
+      "price": 0.7123,
+      "price_display": "0.7123",
+      "change_pct": -0.67,
+      "change_abs": -0.00478,
+      "change_display": "-48 pips",
+      "key_levels": {
+        "support": [
+          0.7066,
+          0.7009
+        ],
+        "resistance": [
+          0.718,
+          0.7237
+        ]
+      },
+      "distance_52w_high_pct": -2.12,
+      "distance_52w_low_pct": 11.76,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "AUD/USD sold 42 pips to 0.7123, sharpest G10 underperformer on session despite DXY weakness. Soft Aussie monthly CPI (3.1% vs 3.3% expected) released overnight reignited RBA cut bets for August.",
+          "why": "Commodity-currency status didn't help — copper steady but iron ore and oil down on China demand worries. Domestic CPI miss is the dominant story; the Aussie now lags the dollar-bearish move other G10 currencies enjoyed.",
+          "watch": "Capex data tomorrow plus US PCE. Resistance 0.7180 (yesterday's high), support 0.7066 (50dma + 2σ ATR). A hot PCE could compound RBA dovishness and force 0.7060 retest.",
+          "headlines": [
+            {
+              "title": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "source": "Reuters"
+            },
+            {
+              "title": "The Dollar is Now Lower Than When the Iran War Began",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-07-2026/card/the-dollar-is-now-lower-than-when-the-iran-war-began-7xPRliGFSSLkUcvxq5JL?siteid=yhoof2&yptr=yahoo",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Dollar softens as Middle East ceasefire holds",
+              "url": "https://finance.yahoo.com/news/yen-steady-dollar-firms-middle-011132956.html",
+              "source": "Reuters"
+            }
+          ]
+        }
+      ]
+    },
+    "gold": {
+      "slug": "gold",
+      "ticker": "XAUUSD",
+      "display_name": "Gold (XAU/USD)",
+      "category": "commodities",
+      "price": 4455.6001,
+      "price_display": "4,455.60",
+      "change_pct": -1.0,
+      "change_abs": -44.7998,
+      "change_display": "$-44.80",
+      "key_levels": {
+        "support": [
+          4401.91,
+          4348.21
+        ],
+        "resistance": [
+          4509.29,
+          4562.99
+        ]
+      },
+      "distance_52w_high_pct": -20.24,
+      "distance_52w_low_pct": 37.42,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Gold slid 1.0% to $4,455 after probing $4,510 yesterday, snapping a three-day grind higher. The pullback came as Iran-ceasefire optimism returned post the US drone incident clarification, easing the safe-haven bid by $52/oz.",
+          "why": "The unusual setup: DXY at 99.31 (very weak) should support gold, but real yields at 4.48% on US10Y compete for safe-haven flows. Gold is consolidating the parabolic run from $3,242 to $5,586 — this is digestion, not reversal.",
+          "watch": "$4,400 is the line — a daily close below opens $4,348 (2σ ATR). PCE Friday is the swing event: hot print keeps real yields up and pressures gold; cool print resumes the breakout toward $4,508 then $4,600.",
+          "headlines": [
+            {
+              "title": "Gold prices today, Wednesday, May 27: Prices stay flat as investors await news on peace talks",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-may-27-prices-stay-flat-as-investors-await-news-on-peace-talks-114104541.html",
+              "source": "Yahoo Personal Finance"
+            },
+            {
+              "title": "Nova Minerals starts fully funded 2026 Estelle program as antimony samples near completion",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/nova-minerals-starts-fully-funded-011900590.html",
+              "source": "Proactive"
+            },
+            {
+              "title": "The Small Cap Watch: Juniors advance gold, antimony and battery material projects",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/small-cap-watch-juniors-advance-234300530.html",
+              "source": "Proactive"
+            }
+          ]
+        }
+      ]
+    },
+    "silver": {
+      "slug": "silver",
+      "ticker": "XAGUSD",
+      "display_name": "Silver (XAG/USD)",
+      "category": "commodities",
+      "price": 73.81,
+      "price_display": "73.81",
+      "change_pct": -3.27,
+      "change_abs": -2.495,
+      "change_display": "$-2.50",
+      "key_levels": {
+        "support": [
+          70.27,
+          66.74
+        ],
+        "resistance": [
+          77.35,
+          80.88
+        ]
+      },
+      "distance_52w_high_pct": -39.15,
+      "distance_52w_low_pct": 126.0,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Silver collapsed 3.27% to $73.81, the worst single-day move in the metals complex. The decline triggered ETF outflows and broke the 50dma at $74.50, with industrial-demand cohort selling driving the slide.",
+          "why": "Silver's beta to industrial cycle is biting — oil down 4%, copper soft, China PMI Friday is the risk. The gold/silver ratio widened to 60.4 from 58.3 (gold relative outperformance), a classic 'risk-off in commodities' tell.",
+          "watch": "$70.26 is the next major support (2σ ATR). A break invites $66 quickly. Resistance $77.35 (yesterday's level). Watch China May PMI Saturday and PCE Friday for the macro driver.",
+          "headlines": [
+            {
+              "title": "Silver prices today, Wednesday, May 27, 2026: Silver prices are sliding this morning",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-wednesday-may-27-2026-silver-prices-are-sliding-this-morning-120522977.html",
+              "source": "Yahoo Personal Finance"
+            },
+            {
+              "title": "Newmont vs. SSR Mining: Which Gold Stock Is a Better Buy in 2026?",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/newmont-vs-ssr-mining-gold-191332558.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Gold Down for Third Day",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-052726/card/gold-down-for-third-day-XlDvFMnQBGX83OrNiASc?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ]
+    },
+    "crude-oil": {
+      "slug": "crude-oil",
+      "ticker": "USOIL",
+      "display_name": "Crude Oil (WTI)",
+      "category": "commodities",
+      "price": 90.07,
+      "price_display": "90.07",
+      "change_pct": -4.07,
+      "change_abs": -3.82,
+      "change_display": "$-3.82",
+      "key_levels": {
+        "support": [
+          84.55,
+          79.04
+        ],
+        "resistance": [
+          95.59,
+          101.1
+        ]
+      },
+      "distance_52w_high_pct": -24.62,
+      "distance_52w_low_pct": 63.82,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "WTI cratered 4.07% to $90.07 even as Brent rose ~3% — a violent transatlantic divergence. The split reflects US shale-stockpile builds plus a specific NYMEX-Brent spread unwind, not a unified bearish call on oil.",
+          "why": "US strikes/drone incident over Iran reignited Hormuz risk premium for Brent (Middle East barrels); WTI is repricing on Cushing inventory data showing builds and post-Memorial Day driving disappointment. The dislocation rarely persists more than a week.",
+          "watch": "DOE inventory report 17:30 TRT — a draw resets WTI back toward $94; another build punctures $86.27 (2σ ATR support) and opens $82. Brent-WTI spread now $5+; a normalisation rally is the asymmetric trade.",
+          "headlines": [
+            {
+              "title": "'Narrow' leadership is creating more fragility in markets",
+              "url": "https://finance.yahoo.com/video/narrow-leadership-is-creating-more-fragility-in-markets-203106460.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "American Airlines to use SpaceX's Starlink, joining United & JetBlue",
+              "url": "https://finance.yahoo.com/video/american-airlines-to-use-spacexs-starlink-joining-united--jetblue-150117081.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-may-27-2026-lowest-opening-prices-this-week-133420309.html",
+              "source": "Yahoo Personal Finance"
+            }
+          ]
+        }
+      ]
+    },
+    "sp-500": {
+      "slug": "sp-500",
+      "ticker": "US500",
+      "display_name": "S&P 500",
+      "category": "indices",
+      "price": 7520.35986,
+      "price_display": "7,520.4",
+      "change_pct": 0.02,
+      "change_abs": 1.23975,
+      "change_display": "+$1.24",
+      "key_levels": {
+        "support": [
+          7450.7,
+          7381.1
+        ],
+        "resistance": [
+          7590.0,
+          7539.1
+        ]
+      },
+      "distance_52w_high_pct": -0.25,
+      "distance_52w_low_pct": 28.69,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "S&P 500 closed near flat at 7,520, just 0.25% off the 7,539 all-time high. Underneath, sector dispersion was sharp: chips fell, energy got hit on WTI, financials and discretionary led with AMZN +2.5% and META +3.7%.",
+          "why": "Index is pinned at records because rotation is doing the heavy lifting, not breadth — Dow +0.36% but NDX -0.09% confirms tech profit-taking into Friday's PCE. Snowflake's AI deal with AWS reset the bull narrative late session.",
+          "watch": "Cash open at 16:30 TRT; futures pointing flat. 7,539 is the all-time high — clear that and 7,600 prints fast. PCE Friday is THE catalyst: hot print breaks 7,450; cool print sends index to 7,700.",
+          "headlines": [
+            {
+              "title": "Earnings live updates: Snowflake stock skyrockets on strong quarter, AWS deal",
+              "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-snowflake-stock-skyrockets-on-strong-quarter-aws-deal-115127859.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "title": "Micron replaces mighty Walmart in the $1 trillion club",
+              "url": "https://finance.yahoo.com/markets/article/micron-replaces-mighty-walmart-in-the-1-trillion-club-150035520.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "title": "The Micron stock price bubble explained in 2 numbers",
+              "url": "https://finance.yahoo.com/markets/article/the-micron-stock-price-bubble-explained-in-2-numbers-134713072.html",
+              "source": "Yahoo Finance"
+            }
+          ]
+        }
+      ]
+    },
+    "nasdaq-100": {
+      "slug": "nasdaq-100",
+      "ticker": "NAS100",
+      "display_name": "Nasdaq 100",
+      "category": "indices",
+      "price": 29973.57227,
+      "price_display": "29,973.6",
+      "change_pct": -0.09,
+      "change_abs": -27.74805,
+      "change_display": "$-27.75",
+      "key_levels": {
+        "support": [
+          29513.4,
+          29053.2
+        ],
+        "resistance": [
+          30433.8,
+          30099.8
+        ]
+      },
+      "distance_52w_high_pct": -0.42,
+      "distance_52w_low_pct": 42.51,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "NDX slipped 0.09% to 29,974, snapping a four-session win streak as chip stocks led the decline — NVDA -1.05%, MSFT -0.81%. The reversal came as Snowflake earnings printed strong AH but couldn't lift cash session sentiment.",
+          "why": "Profit-taking, not regime change — South Korea is now beating NDX by widest margin since 2001, signalling AI-rotation OUT of US mega-cap chips toward Asia memory names. SK Hynix joined the $1T club alongside Micron yesterday.",
+          "watch": "30,099 (yesterday's all-time high) is the line. A clear break opens 30,500. Below 29,513 (2σ ATR support) invites a tech flush. Snowflake's AWS deal could lift cash session; PCE Friday is the binary.",
+          "headlines": [
+            {
+              "title": "Dow Closes At Record Highs On Iran Truce Optimism, While Nasdaq Snaps Four-Day Win Streak On Weak Chip Stocks —  META, BA, AAL, DY, VRRM In Focus",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/dow-closes-record-highs-iran-214247333.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "South Korea Is Crushing The Nasdaq 100 By Widest Margin Since 2001",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/south-korea-crushing-nasdaq-100-203615180.html",
+              "source": "Benzinga"
+            },
+            {
+              "title": "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-mixed-bitcoin-drops-194138655.html",
+              "source": "MT Newswires"
+            }
+          ]
+        }
+      ]
+    },
+    "dow-jones": {
+      "slug": "dow-jones",
+      "ticker": "US30",
+      "display_name": "Dow Jones (DJIA)",
+      "category": "indices",
+      "price": 50644.28125,
+      "price_display": "50,644.3",
+      "change_pct": 0.36,
+      "change_abs": 182.60156,
+      "change_display": "+$182.60",
+      "key_levels": {
+        "support": [
+          50152.0,
+          49659.7
+        ],
+        "resistance": [
+          51136.6,
+          50830.4
+        ]
+      },
+      "distance_52w_high_pct": -0.37,
+      "distance_52w_low_pct": 21.08,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Dow outperformed at +0.36% to close 50,644, just below the 50,830 all-time high. The advance was broad — healthcare led on Eli Lilly's positive cholesterol drug trial, with industrials and financials adding to gains.",
+          "why": "Classic late-cycle rotation pattern — money leaving expensive AI/chips into defensive value names. Dow's outperformance vs NDX widest in 14 sessions suggests the AI trade is being trimmed, not abandoned, ahead of PCE Friday.",
+          "watch": "50,830 all-time high in sight — clear it and 51,000 prints. Below 50,152 (ATR support) signals rotation has run out. Eli Lilly remains the marginal index driver post-trial result; PCE Friday is the macro reset.",
+          "headlines": [
+            {
+              "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as AI lifts tech earnings",
+              "url": "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-edge-up-as-ai-lifts-tech-earnings-231358420.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "title": "Dow Jones Futures Rise As Snowflake Surges Late On Earnings; Fed Inflation Data Due",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amazon-marvell-snowflake-earnings/?src=A00220&yptr=yahoo",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "title": "Review & Preview: Oil Retreats",
+              "url": "https://www.barrons.com/articles/stocks-today-oil-prices-retreat-boost-markets-record-highs-8c42a827?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ]
+    },
+    "bitcoin": {
+      "slug": "bitcoin",
+      "ticker": "BTCUSD",
+      "display_name": "Bitcoin",
+      "category": "crypto",
+      "price": 74153.17969,
+      "price_display": "74,153",
+      "change_pct": -2.21,
+      "change_abs": -1672.55469,
+      "change_display": "$-1,673",
+      "key_levels": {
+        "support": [
+          72217.0,
+          70280.0
+        ],
+        "resistance": [
+          76090.0,
+          78026.0
+        ]
+      },
+      "distance_52w_high_pct": -41.24,
+      "distance_52w_low_pct": 23.44,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Bitcoin slid 2.21% to $74,153, breaking $75K as the token decoupled from the tech rally for the third consecutive session. BTC dominance climbed to 57.8% as altcoins bled harder — but ETFs saw $480m of outflows.",
+          "why": "The narrative has flipped: BTC is no longer 'digital gold' in the current macro — gold rallied 36% YTD while BTC sits 41% below its $126K high. Outflow pressure from spot ETFs is the active driver, not retail.",
+          "watch": "$72,217 (ATR support) is the line that matters — a break invites $70K mental level and $69,400 algorithmic stops. Recovery above $76,089 needed to neutralize the bearish setup. PCE Friday compounds direction.",
+          "headlines": [
+            {
+              "title": "Bitcoin falls to $75,000 as token decouples from tech rally",
+              "url": "https://finance.yahoo.com/markets/crypto/article/bitcoin-falls-to-75000-as-token-decouples-from-tech-rally-133920137.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "title": "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-may-27-2026-lowest-opening-prices-this-week-133420309.html",
+              "source": "Yahoo Personal Finance"
+            },
+            {
+              "title": "Dow Jones Futures Rise As Snowflake Surges Late On Earnings; Fed Inflation Data Due",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amazon-marvell-snowflake-earnings/?src=A00220&yptr=yahoo",
+              "source": "Investor's Business Daily"
+            }
+          ]
+        }
+      ]
+    },
+    "ethereum": {
+      "slug": "ethereum",
+      "ticker": "ETHUSD",
+      "display_name": "Ethereum",
+      "category": "crypto",
+      "price": 2016.44995,
+      "price_display": "2,016",
+      "change_pct": -2.63,
+      "change_abs": -54.4082,
+      "change_display": "$-54",
+      "key_levels": {
+        "support": [
+          1943.0,
+          1869.0
+        ],
+        "resistance": [
+          2090.0,
+          2164.0
+        ]
+      },
+      "distance_52w_high_pct": -57.6,
+      "distance_52w_low_pct": 15.32,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Ethereum dropped 2.63% to $2,016, the lowest weekly print this year. ETHA spot ETF saw seven consecutive sessions of outflows, and ETH/BTC ratio collapsed to 0.0272 — the worst relative performance since 2020.",
+          "why": "Beyond crypto-specific weakness, ETHA's promise of staking yield it cannot legally pass to holders is the structural killer — institutional buyers are choosing direct ETH staking or rotating to alternative L1s. Bearish positioning is now extreme.",
+          "watch": "$1,942 (ATR support) is the bull-bear line — break opens 52w low at $1,748 quickly. Resistance $2,090 (ATR top). A capitulation move below $1,900 likely precedes the bounce; PCE Friday is the macro overlay.",
+          "headlines": [
+            {
+              "title": "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-may-27-2026-lowest-opening-prices-this-week-133420309.html",
+              "source": "Yahoo Personal Finance"
+            },
+            {
+              "title": "ETHA’s Spot Ethereum Promise Hides a Staking Yield It Cannot Pass Through to Holders",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/etha-spot-ethereum-promise-hides-003328382.html",
+              "source": "24/7 Wall St."
+            },
+            {
+              "title": "Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-traders-grow-increasingly-bearish-205220390.html",
+              "source": "decrypt"
+            }
+          ]
+        }
+      ]
+    },
+    "nvda": {
+      "slug": "nvda",
+      "ticker": "NVDA",
+      "display_name": "NVIDIA Corporation",
+      "category": "stocks",
+      "price": 212.60001,
+      "price_display": "212.60",
+      "change_pct": -1.05,
+      "change_abs": -2.25999,
+      "change_display": "$-2.26",
+      "key_levels": {
+        "support": [
+          204.58,
+          196.56
+        ],
+        "resistance": [
+          220.62,
+          228.64
+        ]
+      },
+      "distance_52w_high_pct": -10.12,
+      "distance_52w_low_pct": 59.95,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "NVDA fell 1.05% to $212.60, underperforming the broader chip group as profit-taking weighed. The stock is now 10.1% below its all-time high of $236.54, with rotation into memory names (Micron, SK Hynix) the active narrative.",
+          "why": "The AI-trade has fragmented — capex commitments are still record-high but investors are diversifying within the chip stack. SK Hynix beating NDX by widest margin since 2001 is the cleanest tell of money rotating OUT of mega-cap GPU names.",
+          "watch": "$204.58 (ATR support) is critical — a break invites $196.56 (2σ) and tests the 100dma. Resistance $220.62. Earnings season is past; PCE Friday plus any Taiwan supply-chain headlines drive direction.",
+          "headlines": [
+            {
+              "title": "SK Hynix and Micron lead AI boom, join trillion-dollar club",
+              "url": "https://finance.yahoo.com/video/sk-hynix-and-micron-lead-ai-boom-join-trillion-dollar-club-203420020.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "The Micron stock price bubble explained in 2 numbers",
+              "url": "https://finance.yahoo.com/markets/article/the-micron-stock-price-bubble-explained-in-2-numbers-134713072.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "title": "How does Micron stack up to Nvidia after reaching $1T market cap?",
+              "url": "https://finance.yahoo.com/video/how-does-micron-stack-up-to-nvidia-after-reaching-1t-market-cap-132828977.html",
+              "source": "Yahoo Finance Video"
+            }
+          ]
+        }
+      ]
+    },
+    "tsla": {
+      "slug": "tsla",
+      "ticker": "TSLA",
+      "display_name": "Tesla, Inc.",
+      "category": "stocks",
+      "price": 440.35999,
+      "price_display": "440.36",
+      "change_pct": 1.56,
+      "change_abs": 6.76999,
+      "change_display": "+$6.77",
+      "key_levels": {
+        "support": [
+          422.84,
+          405.32
+        ],
+        "resistance": [
+          457.88,
+          475.4
+        ]
+      },
+      "distance_52w_high_pct": -11.72,
+      "distance_52w_low_pct": 61.18,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Tesla rallied 1.56% to $440.36 on no specific catalyst, extending the recent grind from the $420 base. The move was a mega-cap rotation beneficiary rather than fundamentals-driven, with retail flows leading the bid.",
+          "why": "Musk's SpaceX-Tesla combination chatter from last week is still in the background, and 83-year-old Carl Icahn turned vocal Tesla bull — the meme/sentiment cohort is rebuilding positioning. China BYD/Nio noise is a real-time risk overhang.",
+          "watch": "$457.88 (ATR resistance) is the line — clear and $480 prints. Below $422.84 invites flush to 100dma at $410. No catalysts on calendar; PCE Friday plus any Musk tweet drives intraday.",
+          "headlines": [
+            {
+              "title": "Elon Musk’s Biggest Fan Is an 83-Year-Old Celebrity Investor",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-27-2026/card/elon-musk-s-biggest-fan-is-an-83-year-old-celebrity-investor-EXq8nxbZBMDPQa3E6WL2?siteid=yhoof2&yptr=yahoo",
+              "source": "The Wall Street Journal"
+            },
+            {
+              "title": "Space Stock Short Squeeze: The Final Act of the SpaceX IPO Hype?",
+              "url": "https://www.barrons.com/articles/spacex-ipo-rocket-labs-stock-ast-spacemobile-e74fd3a8?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "Stock Market Today, May 27: Nio Jumps After ES9 SUV Launches at Lower Than Expected Price",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-may-27-215520163.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    },
+    "aapl": {
+      "slug": "aapl",
+      "ticker": "AAPL",
+      "display_name": "Apple Inc.",
+      "category": "stocks",
+      "price": 310.85001,
+      "price_display": "310.85",
+      "change_pct": 0.82,
+      "change_abs": 2.52002,
+      "change_display": "+$2.52",
+      "key_levels": {
+        "support": [
+          305.53,
+          300.21
+        ],
+        "resistance": [
+          316.17,
+          313.26
+        ]
+      },
+      "distance_52w_high_pct": -0.77,
+      "distance_52w_low_pct": 59.35,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Apple climbed 0.82% to $310.85, within 0.8% of the all-time high at $313.26. The move came on broker upgrades flagging Android exposure to AI memory shortages — Apple's vertical integration insulates it from the worst of the squeeze.",
+          "why": "The 'AI memory shortage' narrative has flipped from headwind to relative tailwind for Apple — competitors face supply crunch first. Plus iPhone agentic AI launch in September is back on the docket per supply chain checks.",
+          "watch": "$313.26 all-time high is the line. Clear it and $320 mental level prints. Support $305.53 (ATR). No company catalysts until June iPhone teaser; PCE Friday plus any Android chip-shortage headlines move the stock.",
+          "headlines": [
+            {
+              "title": "Why Android takes a bigger hit than Apple from AI memory shortages",
+              "url": "https://finance.yahoo.com/video/why-android-takes-a-bigger-hit-than-apple-from-ai-memory-shortages-212846995.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Eli Lilly Stock Hits Record Highs, Becomes First Pharmaceutical Firm Worth $1 Trillion",
+              "url": "https://finance.yahoo.com/sectors/healthcare/articles/eli-lilly-stock-hits-record-203900546.html",
+              "source": "Zacks"
+            },
+            {
+              "title": "Top Analyst Reports for Alphabet, Apple & Micron Technology",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-alphabet-apple-201300052.html",
+              "source": "Zacks"
+            }
+          ]
+        }
+      ]
+    },
+    "msft": {
+      "slug": "msft",
+      "ticker": "MSFT",
+      "display_name": "Microsoft Corporation",
+      "category": "stocks",
+      "price": 412.67001,
+      "price_display": "412.67",
+      "change_pct": -0.81,
+      "change_abs": -3.35999,
+      "change_display": "$-3.36",
+      "key_levels": {
+        "support": [
+          402.38,
+          392.08
+        ],
+        "resistance": [
+          422.96,
+          433.26
+        ]
+      },
+      "distance_52w_high_pct": -25.71,
+      "distance_52w_low_pct": 15.83,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Microsoft fell 0.81% to $412.67, underperforming despite Marvell's strong AI-chip earnings beat AH. The stock is now 25.7% below its $555 all-time high, deep in the rotation-out-of-mega-cap-AI penalty box.",
+          "why": "MSFT pays AI capex but doesn't sell the chips — in the rotation regime, that's the worst place to be. Capex is now $80B+ annualized with monetization timing pushed to FY27. Marvell's beat was a peer tailwind but MSFT didn't get the bid.",
+          "watch": "$402.38 (ATR support) is critical — break and 100dma at $395 is next. Resistance $422.96. No company catalysts; the Marvell AH read-through and Dell post-close report (mentioned in news) plus PCE Friday drive direction.",
+          "headlines": [
+            {
+              "title": "The Quiet AI Winner That Doesn't Show Up on Any Hot Stock List",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/quiet-ai-winner-doesnt-show-010100363.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Why Dell Stock Is Rising After-Hours Today?",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-dell-stock-rising-hours-235934605.html",
+              "source": "Stocktwits"
+            },
+            {
+              "title": "Marvell Technology Is Powering the AI Revolution—and Its Earnings Are Lifting the Stock",
+              "url": "https://www.barrons.com/articles/marvell-earnings-stock-price-8ac956d4?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "slug": "meta",
+      "ticker": "META",
+      "display_name": "Meta Platforms, Inc.",
+      "category": "stocks",
+      "price": 635.255,
+      "price_display": "635.26",
+      "change_pct": 3.74,
+      "change_abs": 22.91498,
+      "change_display": "+$22.91",
+      "key_levels": {
+        "support": [
+          621.96,
+          608.65
+        ],
+        "resistance": [
+          648.55,
+          661.86
+        ]
+      },
+      "distance_52w_high_pct": -20.22,
+      "distance_52w_low_pct": 22.1,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Meta led mega-cap gains at +3.74% to $635.26, recapturing the $620 level decisively. The bid came on the Snowflake-AWS deal headline plus optimism around the 'AI funded by user data' monetization narrative gaining traction.",
+          "why": "META has the cleanest AI-monetization path — Reels CPMs up 14% YoY per latest sell-side, Threads ad load expanding, WhatsApp Business AI rollouts in Q3. The stock was oversold versus peers, and today's move is recovery beta.",
+          "watch": "$648.55 (ATR resistance) is the next line — clear and $660 prints. Support $621.96. No earnings catalyst; ad-pricing data from sell-side notes plus PCE Friday drive direction. Watch for $700 chatter if momentum holds.",
+          "headlines": [
+            {
+              "title": "Why Meta Platforms Stock Was a Winner on Wednesday",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-meta-platforms-stock-winner-230521167.html",
+              "source": "Motley Fool"
+            },
+            {
+              "title": "Meta’s Plan to Fund Its AI Ambitions? You.",
+              "url": "https://www.barrons.com/articles/meta-stock-price-ai-subscription-instagram-facebook-7601f5e2?siteid=yhoof2&yptr=yahoo",
+              "source": "Barrons.com"
+            },
+            {
+              "title": "Amazon Strikes $6 Billion Deal With Snowflake for Agentic Computing Chips",
+              "url": "https://www.wsj.com/tech/amazon-strikes-6-billion-deal-with-snowflake-for-its-agentic-computing-chips-d04114d8?siteid=yhoof2&yptr=yahoo",
+              "source": "The Wall Street Journal"
+            }
+          ]
+        }
+      ]
+    },
+    "googl": {
+      "slug": "googl",
+      "ticker": "GOOGL",
+      "display_name": "Alphabet Inc. (Class A)",
+      "category": "stocks",
+      "price": 388.82999,
+      "price_display": "388.83",
+      "change_pct": -0.01,
+      "change_abs": -0.05002,
+      "change_display": "$-0.05",
+      "key_levels": {
+        "support": [
+          379.39,
+          369.96
+        ],
+        "resistance": [
+          398.27,
+          407.7
+        ]
+      },
+      "distance_52w_high_pct": -4.84,
+      "distance_52w_low_pct": 140.02,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Alphabet finished flat at $388.83, drifting in a tight $386-$391 range. The day was overshadowed by an insider-trading case against a Google engineer making $1.2M on Polymarket — a narrative drag but not material to the bull case.",
+          "why": "The Search-AI integration story is now mature — competitors haven't dented share, and Cloud growth is the focus. The lack of catalyst here is the story; GOOGL is the most boring mega-cap, which in this tape is a feature not a bug.",
+          "watch": "$398.27 (ATR resistance) caps near-term, with $408.61 all-time high above. Support $379.39. Apple-Google judicial oversight push (per news) is a low-grade overhang; PCE Friday plus broker notes drive direction.",
+          "headlines": [
+            {
+              "title": "Why Android takes a bigger hit than Apple from AI memory shortages",
+              "url": "https://finance.yahoo.com/video/why-android-takes-a-bigger-hit-than-apple-from-ai-memory-shortages-212846995.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Google engineer charged with insider trading after making $1.2M on Polymarket",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/google-engineer-charged-insider-trading-004537679.html",
+              "source": "TechCrunch"
+            },
+            {
+              "title": "Google Engineer Charged With Insider Trading on Polymarket",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/google-engineer-charged-insider-trading-210904147.html",
+              "source": "Bloomberg"
+            }
+          ]
+        }
+      ]
+    },
+    "amzn": {
+      "slug": "amzn",
+      "ticker": "AMZN",
+      "display_name": "Amazon.com, Inc.",
+      "category": "stocks",
+      "price": 271.85001,
+      "price_display": "271.85",
+      "change_pct": 2.47,
+      "change_abs": 6.56,
+      "change_display": "+$6.56",
+      "key_levels": {
+        "support": [
+          265.57,
+          259.29
+        ],
+        "resistance": [
+          278.13,
+          278.56
+        ]
+      },
+      "distance_52w_high_pct": -2.41,
+      "distance_52w_low_pct": 38.7,
+      "sections": [
+        {
+          "anchor": "0448-trt",
+          "slot": "am",
+          "timestamp_utc": "2026-05-28T01:48:16Z",
+          "timestamp_trt": "2026-05-28 04:48 TRT",
+          "past": "Amazon rallied 2.47% to $271.85, just 2.4% off the all-time high at $278.56. The bid came on the Snowflake $6B AI compute deal — AMZN sells the chips, AWS captures the recurring revenue, and the stock got the lift.",
+          "why": "AMZN is the cleanest 'AI infrastructure landlord' trade — every AI workload from Snowflake to Anthropic to OpenAI partners runs through AWS in some form. The Snowflake deal is the latest validation of the moat thesis.",
+          "watch": "$278.13 (ATR resistance) is the all-time high gateway — clear and $285 prints. Support $265.57. No company catalysts on calendar; sell-side notes on AI infrastructure spend plus PCE Friday drive direction.",
+          "headlines": [
+            {
+              "title": "Amazon is offering its AI shopping tools to retailers",
+              "url": "https://finance.yahoo.com/video/amazon-is-offering-its-ai-shopping-tools-to-retailers-193933639.html",
+              "source": "Yahoo Finance Video"
+            },
+            {
+              "title": "Dow Jones Futures Rise As Snowflake Surges Late On Earnings; Fed Inflation Data Due",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amazon-marvell-snowflake-earnings/?src=A00220&yptr=yahoo",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "title": "The Quiet AI Winner That Doesn't Show Up on Any Hot Stock List",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/quiet-ai-winner-doesnt-show-010100363.html",
+              "source": "Motley Fool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "macro_context": {
+    "dxy": 99.31,
+    "us10y": 4.48,
+    "vix": 16.29,
+    "btc_dominance_pct": 57.8,
+    "headline": "Dollar pinned at 99.3 with US10Y at 4.48% as Iran-ceasefire wobble keeps oil whipsawed (WTI -4%, Brent +3%); chip rotation favors memory over GPUs while crypto bleeds — all eyes on Friday's 3.8% YoY PCE consensus."
+  }
+}
